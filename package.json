@@ -1,15 +1,16 @@
 {
-  "name": "bgmodule",
+  "name": "bgcmodule",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --host 0.0.0.0",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
@@ -43,4 +44,5 @@
     "> 1%",
     "last 2 versions"
   ]
+  
 }
