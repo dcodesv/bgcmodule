@@ -1304,8 +1304,12 @@ export default new Vuex.Store({
                     category:"otros",
                     idProtocolo:1
                 }                
-                
-            ]
+            ],
+            protocols:[
+                {
+                    
+                }
+            ],
         },
         mutations:{
 

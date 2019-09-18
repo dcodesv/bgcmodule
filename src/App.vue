@@ -1,4 +1,4 @@
-<template>
+<template class="bg-gray-300 w-full h-full">
   <div id="app">
     <Lista></Lista>
   </div>
