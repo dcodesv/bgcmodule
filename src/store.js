@@ -16,145 +16,145 @@ export default new Vuex.Store({
             conditions:[ //Json que contiene las Condiciónes
                 {
                     id:1,
-                    name:"Condición Progresiva del Sistema Inmune De Ano. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Ano. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:4 //Se agrego el relacionador de protocolos
                 },//Colocare las Condiciónes en orden correlativo para mantener el orden
             /*    {
                     id:2,
-                    name:"Condición Progresiva del Sistema Inmune De Ano. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Ano. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:1
                 },      */          
                 {
                     id:3,
-                    name:"Condición Progresiva del Sistema Inmune De Boca. Estadio 1 y 2 ",
+                    name:"Condición Progresiva del sistema Inmune de Boca. Estadio 1 y 2 ",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:4,
-                    name:"Condición Progresiva del Sistema Inmune De Boca. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Boca. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },
                 {
                     id:5,
-                    name:"Condición Progresiva del Sistema Inmune De Cabeza. Estadio 1 y 2 ",
+                    name:"Condición Progresiva del sistema Inmune de Cabeza. Estadio 1 y 2 ",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:6,
-                    name:"Condición Progresiva del Sistema Inmune De Cabeza. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Cabeza. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },/*
                 {
                     id:7,
-                    name:"Condición Progresiva del Sistema Inmune De Cara. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Cara. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:1 
                 },*/
                 {
                     id:8,
-                    name:"Condición Progresiva del Sistema Inmune De Cara. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Cara. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:9
                 },/*
                 {
                     id:9,
-                    name:"Condición Progresiva del Sistema Inmune De Cervical. Estadio 1 y 2 ",
+                    name:"Condición Progresiva del sistema Inmune de Cervical. Estadio 1 y 2 ",
                     category:"Estadio 1 y 2",
                     idProtocolo:1 
                 },*/
                 {
                     id:10,
-                    name:"Condición Progresiva del Sistema Inmune De Cervical. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Cervical. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:9
                 },
                 {
                     id:11,
-                    name:"Condición Progresiva del Sistema Inmune De Colon. Estadio 1 y 2  ",
+                    name:"Condición Progresiva del sistema Inmune de Colon. Estadio 1 y 2  ",
                     category:"Estadio 1 y 2",
                     idProtocolo:4 
                 },
                 {
                     id:12,
-                    name:"Condición Progresiva del Sistema Inmune De Colon. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Colon. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:9
                 },
                 {
                     id:13,
-                    name:"Condición Progresiva del Sistema Inmune De Colorectal. Estadio 1 y 2 ",
+                    name:"Condición Progresiva del sistema Inmune de Colorectal. Estadio 1 y 2 ",
                     category:"Estadio 1 y 2",
                     idProtocolo:4 
                 },
                 {
                     id:14,
-                    name:"Condición Progresiva del Sistema Inmune De Colorectal. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Colorectal. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:9
                 },
                 {
                     id:15,
-                    name:"Condición Progresiva del Sistema Inmune De Cuerda Vocal. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Cuerda Vocal. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:16,
-                    name:"Condición Progresiva del Sistema Inmune De Cuerda Vocal. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Cuerda Vocal. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:9
                 },
                 {
                     id:17,
-                    name:"Condición Progresiva del Sistema Inmune De Esófago. Estadio 1 y 2 ",
+                    name:"Condición Progresiva del sistema Inmune de Esófago. Estadio 1 y 2 ",
                     category:"Estadio 1 y 2",
                     idProtocolo:4 
                 },
                 {
                     id:18,
-                    name:"Condición Progresiva del Sistema Inmune De Esófago. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Esófago. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:9
                 },
                 {
                     id:19,
-                    name:"Condición Progresiva del Sistema Inmune De Estomago. Estadio 1 y 2 ",
+                    name:"Condición Progresiva del sistema Inmune de Estomago. Estadio 1 y 2 ",
                     category:"Estadio 1 y 2",
                     idProtocolo:4 
                 },
                 {
                     id:20,
-                    name:"Condición Progresiva del Sistema Inmune De Estomago. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Estomago. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:9
                 },
                 {
                     id:21,
-                    name:"Condición Progresiva del Sistema Inmune De Garganta. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Garganta. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:22,
-                    name:"Condición Progresiva del Sistema Inmune De Garganta. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Garganta. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },
                 {
                     id:23,
-                    name:"Condición Progresiva del Sistema Inmune De Hígado. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Hígado. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:24,
-                    name:"Condición Progresiva del Sistema Inmune De Hígado. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Hígado. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },
@@ -172,157 +172,157 @@ export default new Vuex.Store({
                 },
                 {
                     id:27,
-                    name:"Condición Progresiva del Sistema Inmune De Huesos. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Huesos. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:28,
-                    name:"Condición Progresiva del Sistema Inmune De Huesos. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Huesos. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },
                 {
                     id:29,
-                    name:"Condición Progresiva del Sistema Inmune De Mama Triple Negativo y Metástasis en el Hígado. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Mama Triple Negativo y Metástasis en el Hígado. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:9
                 },
                 {
                     id:30,
-                    name:"Condición Progresiva del Sistema Inmune De Mamas. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Mamas. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:31,
-                    name:"Condición Progresiva del Sistema Inmune De Mamas. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Mamas. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },
                 {
                     id:32,
-                    name:"Condición Progresiva del Sistema Inmune De Ovario. Estadio 3 y 4", //consultar este
+                    name:"Condición Progresiva del sistema Inmune de Ovario. Estadio 3 y 4", //consultar este
                     category:"Estadio 1 y 2",
                     idProtocolo:9 
                 },
                 {
                     id:33,
-                    name:"Condición Progresiva del Sistema Inmune De Páncreas. Estadio 1 y 2", 
+                    name:"Condición Progresiva del sistema Inmune de Páncreas. Estadio 1 y 2", 
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:34,
-                    name:"Condición Progresiva del Sistema Inmune De Páncreas. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Páncreas. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },
                 {
                     id:35,
-                    name:"Condición Progresiva del Sistema Inmune De Papilar de Tiroides. Estadio 1 y 2 ",
+                    name:"Condición Progresiva del sistema Inmune de Papilar de Tiroides. Estadio 1 y 2 ",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:36,
-                    name:"Condición Progresiva del Sistema Inmune De Piel (Mela) . Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Piel (Mela) . Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:37,
-                    name:"Condición Progresiva del Sistema Inmune De Piel (Mela) . Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Piel (Mela) . Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },
                 {
                     id:38,
-                    name:"Condición Progresiva del Sistema Inmune De Próstata con metástasis al hueso. Estadio 3 y 4", //consultar este
+                    name:"Condición Progresiva del sistema Inmune de Próstata con metástasis al hueso. Estadio 3 y 4", //consultar este
                     category:"Estadio 3 y 4",
                     idProtocolo:9
                 },
                 {
                     id:39,
-                    name:"Condición Progresiva del Sistema Inmune De Próstata. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Próstata. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:40,
-                    name:"Condición Progresiva del Sistema Inmune De Próstata. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Próstata. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },
                 {
                     id:41,
-                    name:"Condición Progresiva del Sistema Inmune De Pulmones. Estadio 1 y 2  ",
+                    name:"Condición Progresiva del sistema Inmune de Pulmones. Estadio 1 y 2  ",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:42,
-                    name:"Condición Progresiva del Sistema Inmune De Pulmones. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Pulmones. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:6
                 },
                 {
                     id:43,
-                    name:"Condición Progresiva del Sistema Inmune De Riñones. Estadio 1 y 2 ",
+                    name:"Condición Progresiva del sistema Inmune de Riñones. Estadio 1 y 2 ",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:44,
-                    name:"Condición Progresiva del Sistema Inmune De Riñones. Estadio 3 y 4 ",
+                    name:"Condición Progresiva del sistema Inmune de Riñones. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
                     idProtocolo:6
                 },
                 {
                     id:45,
-                    name:"Condición Progresiva del Sistema Inmune De Rostro (Célula Basal). Estadio 1 y 2", //consultar este
+                    name:"Condición Progresiva del sistema Inmune de Rostro (Célula Basal). Estadio 1 y 2", //consultar este
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:46,
-                    name:"Condición Progresiva del Sistema Inmune De Testículo. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Testículo. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:8
                 },
                 {
                     id:47,
-                    name:"Condición Progresiva del Sistema Inmune De Tiroides. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Tiroides. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:48,
-                    name:"Condición Progresiva del Sistema Inmune De Tiroides. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Tiroides. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },
-                {/*
+                /*{
                     id:49,
-                    name:"Condición Progresiva del Sistema Inmune De Uterino. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Uterino. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:1 
                 },*/
                 {
                     id:50,
-                    name:"Condición Progresiva del Sistema Inmune De Uterino. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Uterino. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:9
                 },
                 {
                     id:51,
-                    name:"Condición Progresiva del Sistema Inmune De Vejiga. Estadio 1 y 2",
+                    name:"Condición Progresiva del sistema Inmune de Vejiga. Estadio 1 y 2",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
                 },
                 {
                     id:52,
-                    name:"Condición Progresiva del Sistema Inmune De Vejiga. Estadio 3 y 4",
+                    name:"Condición Progresiva del sistema Inmune de Vejiga. Estadio 3 y 4",
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },/*                
