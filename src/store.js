@@ -1823,9 +1823,56 @@ export default new Vuex.Store({
 
             ],
             protocols:[
+                //Aqui inicia el protocolo completo
                 {
+                    id:1, //ID del protocolo
+                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
+                    category:'categoria 4', //Categoria del protocolo
                     
-                }
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'12 meses', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'Biogreencell', //Nombre del producto
+                            bottles:20, //Cantidad de botellas
+                            dose:'40ml. 4 veces al día', //Dosis del producto
+                            price:[0.0], //Precio del producto
+                            link:"LinkProductoInidividual" //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop 3 veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[0.0],
+                            link:'linkProductoIndividual'
+                        }//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'Fase 2',
+                        duration:'60 días (mantenimiento)',
+                        //Producto 1
+                        p1:{
+                            name:'Biogreencell',
+                            bottles:3,
+                            dose:'10ml. 2 veces al día',
+                            price:[0.0],
+                            link:"LinkProductoInidividual"
+                        },
+                        //Producto 2
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop 2 veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[0.0],
+                            link:'linkProductoIndividual'
+                        }
+                    },
+                    linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                }//Aqui finaliza el protocolo
             ],
         },
         mutations:{
