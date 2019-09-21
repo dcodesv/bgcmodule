@@ -1838,17 +1838,18 @@ export default new Vuex.Store({
                             name:'Biogreencell', //Nombre del producto
                             bottles:20, //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
-                            price:[0.0], //Precio del producto
-                            link:"LinkProductoInidividual" //Link del producto individual, para comprar individuales por producto
+                            price:[1,120.00], //Precio del producto
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
                         p2:{
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop 3 veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[0.0],
-                            link:'linkProductoIndividual'
-                        }//Finaliza el producto 2
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase1'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
                     phase2:{
@@ -1859,19 +1860,122 @@ export default new Vuex.Store({
                             name:'Biogreencell',
                             bottles:3,
                             dose:'10ml. 2 veces al día',
-                            price:[0.0],
-                            link:"LinkProductoInidividual"
+                            price:[249.00],
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },
                         //Producto 2
                         p2:{
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop 2 veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[0.0],
-                            link:'linkProductoIndividual'
-                        }
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase2'//Se agrego debido a que el combo se compra por fase
+
+                    }
+                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                },//Aqui finaliza el protocolo
+                {
+                    id:2, //ID del protocolo
+                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
+                    category:'categoria 1', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'120 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'Biogreencell', //Nombre del producto
+                            bottles:6, //Cantidad de botellas
+                            dose:'12 ml. 4 veces al día.', //Dosis del producto
+                            price:[359.95], //Precio del producto
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/" //Link del producto individual, para comprar individuales por producto
+                        },                                               
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1-fase1'//Finaliza el producto 2
                     },
-                    linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'Fase 2',
+                        duration:'60 días (mantenimiento)',
+                        //Producto 1
+                        p1:{
+                            name:'Biogreencell',
+                            bottles:3,
+                            dose:'10ml. 2 veces al día',
+                            price:[249.00],
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
+                        },                        
+                        linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1-fase2/'//Se agrego debido a que el combo se compra por fase
+
+                    }
+                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                },//Aqui finaliza el protocolo
+                {
+                    id:5, //ID del protocolo
+                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
+                    category:'categoria 2', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'120 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'Biogreencell', //Nombre del producto
+                            bottles:10, //Cantidad de botellas
+                            dose:'20ml. 4 veces al día', //Dosis del producto
+                            price:[560.95], //Precio del producto
+                            link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2/' //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'WOUND FIXER (Spray – 4oz.)',
+                            bottles:1,
+                            dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
+                            price:[44.95],
+                            link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
+                        },
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-1-2'//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'Fase 2', //Nombre de la fase
+                        duration:'90 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'Biogreencell', //Nombre del producto
+                            bottles:3, //Cantidad de botellas
+                            dose:'10ml. 2 veces al día', //Dosis del producto
+                            price:[249.00], //Precio del producto
+                            link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/' //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'WOUND FIXER (Spray – 4oz.)',
+                            bottles:1,
+                            dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
+                            price:[44.95],
+                            link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
+                        },
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-2-2/'//Finaliza el producto 2
+                    },
+                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
                 }//Aqui finaliza el protocolo
             ],
         },
