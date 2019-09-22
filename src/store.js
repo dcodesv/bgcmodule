@@ -1819,8 +1819,1009 @@ export default new Vuex.Store({
                     name:"Enfermedad Mixta del Tejido Conectivo",
                     category:"otros",
                     idProtocolo:3
+                },
+                {
+                    id:301,
+                    name:"Epilepsia Mioclónica ",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:302,
+                    name:"EPOC (Enfermedad Pulmonar Obstructiva Crónica) ",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:303,
+                    name:"Esclerosis Nodular Tipo I",
+                    category:"otros",
+                    idProtocolo:9
+                },
+                {
+                    id:304,
+                    name:"Escoliosis",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:305,
+                    name:"Espondilitis",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:306,
+                    name:"Espondilitis Anquilosante ",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:307,
+                    name:"Espondilosis Cervical",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:308,
+                    name:"Estenosis Traqueal (Granulación de Tejido)",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:309,
+                    name:"Estreñimiento Crónico",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:310,
+                    name:"Estrés",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:311,
+                    name:"Eyaculación Dolorosa",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:312,
+                    name:"Fatiga",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:313,
+                    name:"Fibromas",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:314,
+                    name:"Fibromatosis Agresiva (Tumores Desmoides)",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:315,
+                    name:"Fibromialgia",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:316,
+                    name:"Gastritis",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:317,
+                    name:"Gastritis (Helicobacter Pylori)",
+                    category:"otros",
+                    idProtocolo:9
+                },
+                {
+                    id:318,
+                    name:"Gastritis Erosiva",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:319,
+                    name:"Glomeruloesclerosis Focal y Segmentaria",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:320,
+                    name:"Gota",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:321,
+                    name:"Hemorroides",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:322,
+                    name:"Hepatitis B (inactivo)",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:323,
+                    name:"Hepatitis B Crónica",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:324,
+                    name:"Hepatitis Crónica Autoinmune",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:325,
+                    name:"Hernia Discal",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:326,
+                    name:"Herpes",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:327,
+                    name:"Herpes Genital Numero 2",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:328,
+                    name:"Hidradenitis Supurativa",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:329,
+                    name:"Higado Graso",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:330,
+                    name:"Hipercolesterolemia",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:331,
+                    name:"Hipercolesterolemia Familiar",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:332,
+                    name:"Hiperinsulinismo",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:333,
+                    name:"Hiperplasia Endometrial Compleja",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:334,
+                    name:"Hipertensión Arterial",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:335,
+                    name:"Hipertensión Arterial, Ansiedad, Menopausia",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:336,
+                    name:"Hipertensión Pulmonar",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:337,
+                    name:"Hipertrigliceridemia",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:338,
+                    name:"Hiperuricemia",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:339,
+                    name:"Hipotiroidismo",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:340,
+                    name:"Histerectomía",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:341,
+                    name:"Histiocitosis de las células de Langerhans (LCH)",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:342,
+                    name:"Implantes Cervicales",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:343,
+                    name:"Incontinencia Urinaria",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:344,
+                    name:"Infección de Orina Constante",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:345,
+                    name:"Infección en las Vías Urinarias (ITU recurrente)",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:346,
+                    name:"Infecciones en la Vejiga",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:347,
+                    name:"Inflamación en la Próstata",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:348,
+                    name:"Insomnio",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:349,
+                    name:"Insuficiencia Cardiaca",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:350,
+                    name:"Insuficiencia Renal o Falla Renal",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:351,
+                    name:"Insuficiencia Venosa Crónica",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:352,
+                    name:"Intolerancia a la Lactosa",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:353,
+                    name:"Lepra",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:354,
+                    name:"Leucemia Linfática Crónica ",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:355,
+                    name:"Leucemia Linfocítica Aguda",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:356,
+                    name:"Leucemia Mieloides",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:357,
+                    name:"Linfoma Vertebral Metastásico",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:358,
+                    name:"Liomiosarcoma",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:359,
+                    name:"Liquen en Plano",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:360,
+                    name:"Liquen Escleroso",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:361,
+                    name:"Litiasis Renal Coraliforme",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:362,
+                    name:"Lupus",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:363,
+                    name:"Lupus Eritematoso",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:364,
+                    name:"Lupus Eritematosos Sistémico y Vasculitis Cerebrovascular",
+                    category:"otros",
+                    idProtocolo:8
+                },
+                {
+                    id:365,
+                    name:"Malformaciones de Chiari",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:366,
+                    name:"Mareos",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:367,
+                    name:"Mastocitosis",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:368,
+                    name:"Melasma",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:369,
+                    name:"Meningioma Frontal Derecho Benigno",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:370,
+                    name:"Meningitis",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:371,
+                    name:"Metaplasia Intestinal Incompleta",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:372,
+                    name:"Miastenia Gravis",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:373,
+                    name:"Miastenia Gravis Refractaria",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:374,
+                    name:"Mieloma Múltiple",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:375,
+                    name:"Migraña",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:376,
+                    name:"Miomatosis Uterina",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:377,
+                    name:"Morfea (Esclerodermia en Placas)",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:378,
+                    name:"Múltiple Mieloma",
+                    category:"otros",
+                    idProtocolo:9
+                },
+                {
+                    id:379,
+                    name:"Nauseas",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:380,
+                    name:"Nefrectomía Parcial",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:381,
+                    name:"Nefropatía",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:382,
+                    name:"Nefropatía IgA",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:383,
+                    name:"Nervios Alterados",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:384,
+                    name:"Neuropatía",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:385,
+                    name:"Neuropatía Aguda",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:386,
+                    name:"Neuropatía Periférica",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:387,
+                    name:"Nódulos de Tiroides",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:388,
+                    name:"Obesidad",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:389,
+                    name:"Obesidad Mórbida y Linfedema",
+                    category:"otros",
+                    idProtocolo:9
+                },
+                {
+                    id:390,
+                    name:"Onicomicosis",
+                    category:"otros",
+                    idProtocolo:5
+                },
+                {
+                    id:391,
+                    name:"Operada de la Columna",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:392,
+                    name:"Operada de Tiroides",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:393,
+                    name:"Osteoartritis",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:394,
+                    name:"Osteoartritis Progresiva",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:395,
+                    name:"Osteonecrosis",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:396,
+                    name:"Osteoporosis",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:397,
+                    name:"Ovario Poliquístico",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:398,
+                    name:"Parálisis Cerebral",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:399,
+                    name:"Paraplejia nivel t4 t5",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:400,
+                    name:"Parkinson",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:401,
+                    name:"Parkinson Plus",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:402,
+                    name:"Pénfigo Foliáceo",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:403,
+                    name:"Pénfigo Vulgar",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:404,
+                    name:"Perdida del Deseo Sexual",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:405,
+                    name:"Piedras en los Riñones y Retención de Líquidos",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:406,
+                    name:"Plaquetas Altas jak2",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:407,
+                    name:"Policitemia Vera",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:408,
+                    name:"Polidermatomiositis",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:409,
+                    name:"Polineuropatía Desmielinizante",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:410,
+                    name:"Poliquistosis Renal sin Diálisis",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:411,
+                    name:"Prediabetes",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:412,
+                    name:"Premenopausia",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:413,
+                    name:"Principios de Alzheimer",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:414,
+                    name:"Problemas de Memoria",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:415,
+                    name:"Problemas para Dormir",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:416,
+                    name:"Problemas Respiratorios",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:417,
+                    name:"Próstata Inflamada",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:418,
+                    name:"Próstata Inflamada e Infección Urinaria",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:419,
+                    name:"Prostatitis",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:420,
+                    name:"Prostatitis Bacteriana Recurrente",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:421,
+                    name:"Proteinuria",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:422,
+                    name:"Psoriasis Artrítica",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:423,
+                    name:"Purpura Trombocitopénica",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:424,
+                    name:"Quistes en el Ovario",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:425,
+                    name:"Rectocolitis Ulcerosa",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:426,
+                    name:"Refuerzo del Sistema Inmune",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:427,
+                    name:"Regeneración Celular",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:428,
+                    name:"Renal Stage 4",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:429,
+                    name:"Retención de Líquidos",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:430,
+                    name:"Retinitis Pigmentosa",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:431,
+                    name:"Retinopatía de la Prematuridad",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:432,
+                    name:"Retraso Mental Leve",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:433,
+                    name:"Retraso Mental Profundo",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:434,
+                    name:"Rinitis Alérgica",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:435,
+                    name:"Sarcoma de Kaposi y VIH",
+                    category:"otros",
+                    idProtocolo:9
+                },
+                {
+                    id:436,
+                    name:"Secuelas de Guillen Barre",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:437,
+                    name:"Síndrome Antifosfolípido",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:438,
+                    name:"Síndrome Cerebeloso",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:439,
+                    name:"Síndrome de Asperger",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:440,
+                    name:"Síndrome de Churg-Strauss",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:441,
+                    name:"Síndrome de Colon Irritable",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:442,
+                    name:"Síndrome de Dolor Regional Complejo (CRPS)",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:443,
+                    name:"Síndrome de Inestabilidad Lumbar",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:444,
+                    name:"Síndrome de Intestino Irritable",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:445,
+                    name:"Síndrome de Lennox Gastaut",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:446,
+                    name:"Síndrome de Marfan",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:447,
+                    name:"Síndrome de Raynaud",
+                    category:"otros",
+                    idProtocolo:8
+                },
+                {
+                    id:448,
+                    name:"Síndrome de Rett",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:449,
+                    name:"Síndrome de Sjögren",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:450,
+                    name:"Síndrome de Túnel Carpiano",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:451,
+                    name:"Síndrome del Turner",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:452,
+                    name:"Síndrome Mielodisplásico",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:453,
+                    name:"Síndrome Nefrológico",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:454,
+                    name:"Síndrome Nefrótico Corticoresistente",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:455,
+                    name:"Sinusitis Crónica",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:456,
+                    name:"Trastorno Obsesivo Compulsivo",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:457,
+                    name:"Trombocitopenia",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:458,
+                    name:"Tumor en el Pulmón",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:459,
+                    name:"Tumor en la Próstata Gleason 7",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:460,
+                    name:"Tumor Schwannoma",
+                    category:"otros",
+                    idProtocolo:9
+                },
+                {
+                    id:461,
+                    name:"Tumores de Hipófisis",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:462,
+                    name:"Úlceras Gástricas",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:463,
+                    name:"Uveitis",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:464,
+                    name:"Vasculitis",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:465,
+                    name:"Virus de Inmunodeficiencia Humana",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:466,
+                    name:"Virus de Inmunodeficiencia Humana y Psoriasis",
+                    category:"otros",
+                    idProtocolo:8
+                },
+                {
+                    id:467,
+                    name:"Vitíligo ",
+                    category:"otros",
+                    idProtocolo:5
                 }
-
             ],
             protocols:[
                 //Aqui inicia el protocolo completo
