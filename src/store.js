@@ -1835,7 +1835,7 @@ export default new Vuex.Store({
                         duration:'12 meses', //Duracion de la fase
                         //Aqui inician los productos de cada fase
                         p1:{
-                            name:'Biogreencell', //Nombre del producto
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:20, //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
                             price:[1,120.00], //Precio del producto
@@ -1857,7 +1857,7 @@ export default new Vuex.Store({
                         duration:'60 días (mantenimiento)',
                         //Producto 1
                         p1:{
-                            name:'Biogreencell',
+                            name:'IMMUNE BIO GREEN CELL.',
                             bottles:3,
                             dose:'10ml. 2 veces al día',
                             price:[249.00],
@@ -1887,7 +1887,7 @@ export default new Vuex.Store({
                         duration:'120 días', //Duracion de la fase
                         //Aqui inician los productos de cada fase
                         p1:{
-                            name:'Biogreencell', //Nombre del producto
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:6, //Cantidad de botellas
                             dose:'12 ml. 4 veces al día.', //Dosis del producto
                             price:[359.95], //Precio del producto
@@ -1901,13 +1901,101 @@ export default new Vuex.Store({
                         duration:'60 días (mantenimiento)',
                         //Producto 1
                         p1:{
-                            name:'Biogreencell',
+                            name:'IMMUNE BIO GREEN CELL.',
                             bottles:3,
                             dose:'10ml. 2 veces al día',
                             price:[249.00],
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },                        
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1-fase2/'//Se agrego debido a que el combo se compra por fase
+
+                    }
+                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                },//Aqui finaliza el protocolo
+                {
+                    id:3, //ID del protocolo
+                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
+                    category:'categoria 3', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'180 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
+                            bottles:6, //Cantidad de botellas
+                            dose:'20 ml. 4 veces al día.', //Dosis del producto
+                            price:[560.95], //Precio del producto
+                            link:"https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase1" //Link del producto individual, para comprar individuales por producto
+                        },                                               
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase1'//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'Fase 2',
+                        duration:'180 días',
+                        //Producto 1
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.',
+                            bottles:3,
+                            dose:'10ml. 2 veces al día',
+                            price:[249.00],
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
+                        },                        
+                        linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase2'//Se agrego debido a que el combo se compra por fase
+
+                    }
+                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                },//Aqui finaliza el protocolo
+                {
+                    id:4, //ID del protocolo
+                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
+                    category:'categoria 2', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'120 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
+                            bottles:10, //Cantidad de botellas
+                            dose:'20ml. 4 veces al día', //Dosis del producto
+                            price:[560.95], //Precio del producto
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2/" //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-1'//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'Fase 2',
+                        duration:'60 días (mantenimiento)',
+                        //Producto 1
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.',
+                            bottles:3,
+                            dose:'10ml. 2 veces al día',
+                            price:[249.00],
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
+                        },
+                        //Producto 2
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop 2 veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-2'//Se agrego debido a que el combo se compra por fase
 
                     }
                    // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
@@ -1923,7 +2011,7 @@ export default new Vuex.Store({
                         duration:'120 días', //Duracion de la fase
                         //Aqui inician los productos de cada fase
                         p1:{
-                            name:'Biogreencell', //Nombre del producto
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:10, //Cantidad de botellas
                             dose:'20ml. 4 veces al día', //Dosis del producto
                             price:[560.95], //Precio del producto
@@ -1952,7 +2040,7 @@ export default new Vuex.Store({
                         duration:'90 días', //Duracion de la fase
                         //Aqui inician los productos de cada fase
                         p1:{
-                            name:'Biogreencell', //Nombre del producto
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:3, //Cantidad de botellas
                             dose:'10ml. 2 veces al día', //Dosis del producto
                             price:[249.00], //Precio del producto
@@ -1976,7 +2064,241 @@ export default new Vuex.Store({
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-2-2/'//Finaliza el producto 2
                     },
                    // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
-                }//Aqui finaliza el protocolo
+                },//Aqui finaliza el protocolo
+                {
+                    id:6, //ID del protocolo
+                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
+                    category:'categoria 3', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'180 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
+                            bottles:16, //Cantidad de botellas
+                            dose:'32ml. 4 veces al día', //Dosis del producto
+                            price:[896.95], //Precio del producto
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3/" //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase1'//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'Fase 2',
+                        duration:'180 días',
+                        //Producto 1
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.',
+                            bottles:5,
+                            dose:'20ml. 2 veces al día',
+                            price:[359.95],
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1"
+                        },
+                        //Producto 2
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase2'//Se agrego debido a que el combo se compra por fase
+
+                    }
+                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                },//Aqui finaliza el protocolo
+                {
+                    id:7, //ID del protocolo
+                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
+                    category:'categoria 3', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'180 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
+                            bottles:20, //Cantidad de botellas
+                            dose:'32 ml. 4 veces al día.', //Dosis del producto
+                            price:[1,120.00], //Precio del producto
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
+                        },                                               
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase1-2'//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'Fase 2',
+                        duration:'180 días',
+                        //Producto 1
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.',
+                            bottles:3,
+                            dose:'10ml. 2 veces al día',
+                            price:[249.00],
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
+                        },                        
+                        linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase2-2/'//Se agrego debido a que el combo se compra por fase
+
+                    }
+                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                },//Aqui finaliza el protocolo
+                {
+                    id:8, //ID del protocolo
+                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
+                    category:'categoria 3', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'180 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
+                            bottles:20, //Cantidad de botellas
+                            dose:'40 ml. 4 veces al día.', //Dosis del producto
+                            price:[1,120.00], //Precio del producto
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
+                        },                                               
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase1-2/'//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'Fase 2',
+                        duration:'180 días',
+                        //Producto 1
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.',
+                            bottles:5,
+                            dose:'20ml. 2 veces al día',
+                            price:[359.95],
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/"
+                        },                        
+                        linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase2-2/'//Se agrego debido a que el combo se compra por fase
+
+                    }
+                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                },//Aqui finaliza el protocolo
+                {
+                    id:9, //ID del protocolo
+                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
+                    category:'categoria 3', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'180 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
+                            bottles:20, //Cantidad de botellas
+                            dose:'40ml. 4 veces al día', //Dosis del producto
+                            price:[1,120.00], //Precio del producto
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase1-3/'//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'Fase 2',
+                        duration:'180 días',
+                        //Producto 1
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.',
+                            bottles:5,
+                            dose:'20ml. 2 veces al día',
+                            price:[359.95],
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1"
+                        },
+                        //Producto 2
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase2-3'//Se agrego debido a que el combo se compra por fase
+
+                    }
+                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                },//Aqui finaliza el protocolo
+                {
+                    id:10, //ID del protocolo
+                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
+                    category:'categoria 4', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'180 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
+                            bottles:20, //Cantidad de botellas
+                            dose:'40ml. 4 veces al día', //Dosis del producto
+                            price:[1,120.00], //Precio del producto
+                            link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/' //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop cuatro veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'WOUND FIXER (Spray – 4oz.)',
+                            bottles:1,
+                            dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
+                            price:[44.95],
+                            link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
+                        },
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase-1/'//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'Fase 2', //Nombre de la fase
+                        duration:'180 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
+                            bottles:5, //Cantidad de botellas
+                            dose:'20ml. 2 veces al día', //Dosis del producto
+                            price:[359.95], //Precio del producto
+                            link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/' //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'Acido Ascorbico',
+                            bottles:1,
+                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            price:[54.95],
+                            link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },                        
+                        linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase-2/'//Finaliza el producto 2
+                    },
+                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
+                },//Aqui finaliza el protocolo
             ],
         },
         mutations:{
