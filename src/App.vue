@@ -1,18 +1,20 @@
 <template class="bg-gray-300 w-full h-full">
   <div id="app">
-    <Lista></Lista>
+    <router-view>
+      <condiciones></condiciones>
+    </router-view>
   </div>
 </template>
 
 <script>
-import Lista from './components/Lista.vue'
+import Condiciones from "./views/Condiciones.vue";
 //Axios
 //const baseURL = "http://localhost:3000/conditions";
 
 export default {
   name: 'app',
   components:{
-    Lista
+    Condiciones
   },
   
   //Axios

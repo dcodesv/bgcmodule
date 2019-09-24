@@ -2875,7 +2875,6 @@ export default new Vuex.Store({
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase2'//Se agrego debido a que el combo se compra por fase
 
                     }
-                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
                 },//Aqui finaliza el protocolo
                 {
                     id:2, //ID del protocolo

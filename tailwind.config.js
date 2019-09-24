@@ -1,5 +1,24 @@
 module.exports = {
     theme: {
+      extend:{
+        colors:{
+          greenbgc: {
+            900: '#7CB342',
+            800: '#96C267',
+            700: '#A3C97A',
+            600: '#B0D18D',
+            500: '#BDD9A0',
+            400: '#CAE1B3',
+            300: '#D7E8C6',
+            200: '#E5F0D9',
+            100: '#F2F7EB'
+          },
+          graybgc:'#EFF0F3'
+        }
+      },
+      fontFamily: {
+        roboto:'Roboto'
+      },
       transitionProperty: { // defaults to these values
         'none': 'none',
         'all': 'all',
@@ -54,4 +73,4 @@ module.exports = {
     plugins: [
       require('tailwindcss-transitions')(),
     ],
-  }
+  };
