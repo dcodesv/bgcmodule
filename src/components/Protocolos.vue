@@ -24,7 +24,7 @@
                     <a href="google.com" class="font-roboto font-normal text-xs bg-graybgc hover:bg-black hover:text-white px-4 py-2 ml-auto transition-all rounded-lg">Comprar</a>
                 </div>
 
-                <div class="flex flex-row items-center justify-start w-full border-t-4 pt-4">
+                <div class="flex flex-row items-center justify-start w-full border-t-2 pt-4">
                     <img src="https://biogreencell.com/wp-content/uploads/2018/09/AscorbicAcid_Polvo-1.jpg" class="w-20"/>
                     <div class="mr-5">
                         <h1 class="font-roboto font-medium text-base">Acido Ascorbico</h1>
@@ -53,7 +53,7 @@
                     <a href="google.com" class="font-roboto font-normal text-xs bg-graybgc hover:bg-black hover:text-white px-4 py-2 ml-auto transition-all rounded-lg focus:outline-none">Comprar</a>
                 </div>
 
-                <div class="flex flex-row items-center justify-start w-full border-t-4 pt-4">
+                <div class="flex flex-row items-center justify-start w-full border-t-2 pt-4">
                     <img src="https://biogreencell.com/wp-content/uploads/2018/09/AscorbicAcid_Polvo-1.jpg" class="w-20"/>
                     <div class="mr-5">
                         <h1 class="font-roboto font-medium text-base">Acido Ascorbico</h1>

@@ -7,7 +7,7 @@ import Protocolos from '@/views/Protocolos.vue'
 Vue.use(VueRouter);
 
 export default new VueRouter({
-    mode: 'history',
+    mode: 'hash',
     base: process.env.BABEL_URl,
     routes:[
         {
