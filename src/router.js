@@ -16,7 +16,7 @@ export default new VueRouter({
             component: Condiciones
         },
         {
-            path: '/protocolos',
+            path: '/protocolos/:id',
             name: 'protocolos',
             component: Protocolos
         }

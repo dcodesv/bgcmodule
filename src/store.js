@@ -2839,7 +2839,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:20, //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
-                            price:[1,120.00], //Precio del producto
+                            price: 1120.00, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -2847,8 +2847,15 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop 3 veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price: 54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase1'//Finaliza el producto 2
                     },
@@ -2861,7 +2868,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:3,
                             dose:'10ml. 2 veces al día',
-                            price:[249.00],
+                            price:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },
                         //Producto 2
@@ -2869,8 +2876,15 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop 2 veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase2'//Se agrego debido a que el combo se compra por fase
 
@@ -2890,9 +2904,23 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:6, //Cantidad de botellas
                             dose:'12 ml. 4 veces al día.', //Dosis del producto
-                            price:[359.95], //Precio del producto
+                            price:359.95, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/" //Link del producto individual, para comprar individuales por producto
-                        },                                               
+                        },
+                        p2:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1-fase1'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
@@ -2904,9 +2932,23 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:3,
                             dose:'10ml. 2 veces al día',
-                            price:[249.00],
+                            price:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
-                        },                        
+                        },
+                        p2:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1-fase2/'//Se agrego debido a que el combo se compra por fase
 
                     }
@@ -2926,9 +2968,23 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:6, //Cantidad de botellas
                             dose:'20 ml. 4 veces al día.', //Dosis del producto
-                            price:[560.95], //Precio del producto
+                            price:560.95, //Precio del producto
                             link:"https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase1" //Link del producto individual, para comprar individuales por producto
-                        },                                               
+                        },
+                        p2:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase1'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
@@ -2940,9 +2996,23 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:3,
                             dose:'10ml. 2 veces al día',
-                            price:[249.00],
+                            price:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
-                        },                        
+                        },
+                        p2:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase2'//Se agrego debido a que el combo se compra por fase
 
                     }
@@ -2962,7 +3032,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:10, //Cantidad de botellas
                             dose:'20ml. 4 veces al día', //Dosis del producto
-                            price:[560.95], //Precio del producto
+                            price:560.95, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -2970,8 +3040,15 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-1'//Finaliza el producto 2
                     },
@@ -2984,7 +3061,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:3,
                             dose:'10ml. 2 veces al día',
-                            price:[249.00],
+                            price:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },
                         //Producto 2
@@ -2992,8 +3069,15 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop 2 veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-2'//Se agrego debido a que el combo se compra por fase
 
@@ -3014,7 +3098,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:10, //Cantidad de botellas
                             dose:'20ml. 4 veces al día', //Dosis del producto
-                            price:[560.95], //Precio del producto
+                            price:560.95, //Precio del producto
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3022,14 +3106,14 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'WOUND FIXER (Spray – 4oz.)',
                             bottles:1,
                             dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
-                            price:[44.95],
+                            price:44.95,
                             link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-1-2'//Finaliza el producto 2
@@ -3043,7 +3127,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:3, //Cantidad de botellas
                             dose:'10ml. 2 veces al día', //Dosis del producto
-                            price:[249.00], //Precio del producto
+                            price:249.00, //Precio del producto
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3051,14 +3135,14 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'WOUND FIXER (Spray – 4oz.)',
                             bottles:1,
                             dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
-                            price:[44.95],
+                            price:44.95,
                             link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-2-2/'//Finaliza el producto 2
@@ -3079,7 +3163,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:16, //Cantidad de botellas
                             dose:'32ml. 4 veces al día', //Dosis del producto
-                            price:[896.95], //Precio del producto
+                            price:896.95, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3087,8 +3171,15 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase1'//Finaliza el producto 2
                     },
@@ -3101,7 +3192,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:5,
                             dose:'20ml. 2 veces al día',
-                            price:[359.95],
+                            price:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1"
                         },
                         //Producto 2
@@ -3109,8 +3200,15 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase2'//Se agrego debido a que el combo se compra por fase
 
@@ -3131,9 +3229,23 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:20, //Cantidad de botellas
                             dose:'32 ml. 4 veces al día.', //Dosis del producto
-                            price:[1,120.00], //Precio del producto
+                            price:1120.00, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
-                        },                                               
+                        },
+                        p2:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase1-2'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
@@ -3145,9 +3257,23 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:3,
                             dose:'10ml. 2 veces al día',
-                            price:[249.00],
+                            price:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
-                        },                        
+                        },
+                        p2:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase2-2/'//Se agrego debido a que el combo se compra por fase
 
                     }
@@ -3167,9 +3293,23 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:20, //Cantidad de botellas
                             dose:'40 ml. 4 veces al día.', //Dosis del producto
-                            price:[1,120.00], //Precio del producto
+                            price:1120.00, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
-                        },                                               
+                        },
+                        p2:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase1-2/'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
@@ -3181,9 +3321,23 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:5,
                             dose:'20ml. 2 veces al día',
-                            price:[359.95],
+                            price:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/"
-                        },                        
+                        },
+                        p2:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase2-2/'//Se agrego debido a que el combo se compra por fase
 
                     }
@@ -3203,7 +3357,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:20, //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
-                            price:[1,120.00], //Precio del producto
+                            price:1120.00, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3211,8 +3365,15 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase1-3/'//Finaliza el producto 2
                     },
@@ -3225,7 +3386,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:5,
                             dose:'20ml. 2 veces al día',
-                            price:[359.95],
+                            price:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1"
                         },
                         //Producto 2
@@ -3233,8 +3394,15 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase2-3'//Se agrego debido a que el combo se compra por fase
 
@@ -3255,7 +3423,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:20, //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
-                            price:[1,120.00], //Precio del producto
+                            price:1120.00, //Precio del producto
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3263,14 +3431,14 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop cuatro veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'WOUND FIXER (Spray – 4oz.)',
                             bottles:1,
                             dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
-                            price:[44.95],
+                            price:44.95,
                             link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase-1/'//Finaliza el producto 2
@@ -3284,7 +3452,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:5, //Cantidad de botellas
                             dose:'20ml. 2 veces al día', //Dosis del producto
-                            price:[359.95], //Precio del producto
+                            price:359.95, //Precio del producto
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3292,9 +3460,16 @@ export default new Vuex.Store({
                             name:'Acido Ascorbico',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:[54.95],
+                            price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
-                        },                        
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:'', //Precio del producto
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase-2/'//Finaliza el producto 2
                     },
                    // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
