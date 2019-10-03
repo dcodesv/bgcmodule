@@ -2626,7 +2626,7 @@ export default new Vuex.Store({
                 },
                 {
                     id:435,
-                    name:"Sarcoma de Kaposi y VIH",
+                    name:"Sarcoma de Kaposi y Virus de Inmunodeficiencia Humana",
                     category:"otros",
                     idProtocolo:9
                 },
@@ -2837,16 +2837,16 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:20, //Cantidad de botellas
+                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
                             price: 1120.00, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Acido Ascorbico',
-                            bottles:1,
-                            dose:'Un scoop 3 veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
+                            bottles:'1 botella',
+                            dose:'Un scoop tres veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price: 54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
@@ -2866,16 +2866,16 @@ export default new Vuex.Store({
                         //Producto 1
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.',
-                            bottles:3,
+                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'10ml. 2 veces al día',
                             price:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },
                         //Producto 2
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
-                            dose:'Un scoop 2 veces al día mezclado con jugo de frutas sin azucar o agua.',
+                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
@@ -2902,7 +2902,7 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:6, //Cantidad de botellas
+                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox', //Cantidad de botellas
                             dose:'12 ml. 4 veces al día.', //Dosis del producto
                             price:359.95, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/" //Link del producto individual, para comprar individuales por producto
@@ -2930,7 +2930,7 @@ export default new Vuex.Store({
                         //Producto 1
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.',
-                            bottles:3,
+                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox',
                             dose:'10ml. 2 veces al día',
                             price:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
@@ -2966,7 +2966,7 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:6, //Cantidad de botellas
+                            bottles:'10 botellas de 240 ml. c/u. 30 días de duración aprox', //Cantidad de botellas
                             dose:'20 ml. 4 veces al día.', //Dosis del producto
                             price:560.95, //Precio del producto
                             link:"https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase1" //Link del producto individual, para comprar individuales por producto
@@ -2994,7 +2994,7 @@ export default new Vuex.Store({
                         //Producto 1
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.',
-                            bottles:3,
+                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox',
                             dose:'10ml. 2 veces al día',
                             price:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
@@ -3030,14 +3030,14 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:10, //Cantidad de botellas
+                            bottles:'10 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'20ml. 4 veces al día', //Dosis del producto
                             price:560.95, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
@@ -3059,14 +3059,14 @@ export default new Vuex.Store({
                         //Producto 1
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.',
-                            bottles:3,
+                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'10ml. 2 veces al día',
                             price:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },
                         //Producto 2
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
                             dose:'Un scoop 2 veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
@@ -3096,14 +3096,14 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:10, //Cantidad de botellas
+                            bottles:'10 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'20ml. 4 veces al día', //Dosis del producto
                             price:560.95, //Precio del producto
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
@@ -3125,14 +3125,14 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:3, //Cantidad de botellas
+                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'10ml. 2 veces al día', //Dosis del producto
                             price:249.00, //Precio del producto
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
@@ -3161,14 +3161,14 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:16, //Cantidad de botellas
+                            bottles:'16 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'32ml. 4 veces al día', //Dosis del producto
                             price:896.95, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
@@ -3190,14 +3190,14 @@ export default new Vuex.Store({
                         //Producto 1
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.',
-                            bottles:5,
+                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'20ml. 2 veces al día',
                             price:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1"
                         },
                         //Producto 2
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
@@ -3227,7 +3227,7 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:20, //Cantidad de botellas
+                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'32 ml. 4 veces al día.', //Dosis del producto
                             price:1120.00, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
@@ -3255,7 +3255,7 @@ export default new Vuex.Store({
                         //Producto 1
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.',
-                            bottles:3,
+                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'10ml. 2 veces al día',
                             price:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
@@ -3291,7 +3291,7 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:20, //Cantidad de botellas
+                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'40 ml. 4 veces al día.', //Dosis del producto
                             price:1120.00, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
@@ -3319,7 +3319,7 @@ export default new Vuex.Store({
                         //Producto 1
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.',
-                            bottles:5,
+                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'20ml. 2 veces al día',
                             price:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/"
@@ -3355,14 +3355,14 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:20, //Cantidad de botellas
+                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
                             price:1120.00, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
@@ -3384,14 +3384,14 @@ export default new Vuex.Store({
                         //Producto 1
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.',
-                            bottles:5,
+                            bottles:'5 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'20ml. 2 veces al día',
                             price:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1"
                         },
                         //Producto 2
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
@@ -3421,14 +3421,14 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:20, //Cantidad de botellas
+                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
                             price:1120.00, //Precio del producto
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
                             dose:'Un scoop cuatro veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
@@ -3450,14 +3450,14 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:5, //Cantidad de botellas
+                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'20ml. 2 veces al día', //Dosis del producto
                             price:359.95, //Precio del producto
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Acido Ascorbico',
+                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
                             bottles:1,
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
