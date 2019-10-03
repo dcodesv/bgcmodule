@@ -2844,8 +2844,9 @@ export default new Vuex.Store({
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:'1 botella',
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop tres veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price: 54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
@@ -2873,8 +2874,9 @@ export default new Vuex.Store({
                         },
                         //Producto 2
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
@@ -3037,8 +3039,9 @@ export default new Vuex.Store({
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
@@ -3066,8 +3069,9 @@ export default new Vuex.Store({
                         },
                         //Producto 2
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop 2 veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
@@ -3103,15 +3107,16 @@ export default new Vuex.Store({
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
-                            name:'WOUND FIXER (Spray – 4oz.)',
-                            bottles:1,
+                            name:'WOUND FIXER',
+                            bottles:'1 botella (Spray – 4oz.)',
                             dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
                             price:44.95,
                             link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
@@ -3132,15 +3137,16 @@ export default new Vuex.Store({
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
-                            name:'WOUND FIXER (Spray – 4oz.)',
-                            bottles:1,
+                            name:'WOUND FIXER',
+                            bottles:'1 botella (Spray – 4oz.)',
                             dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
                             price:44.95,
                             link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
@@ -3168,8 +3174,9 @@ export default new Vuex.Store({
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
@@ -3197,8 +3204,9 @@ export default new Vuex.Store({
                         },
                         //Producto 2
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
@@ -3362,8 +3370,9 @@ export default new Vuex.Store({
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
@@ -3384,15 +3393,16 @@ export default new Vuex.Store({
                         //Producto 1
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.',
-                            bottles:'5 botellas de 240 ml. c/u. 30 días de duración aprox.',
+                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'20ml. 2 veces al día',
                             price:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1"
                         },
                         //Producto 2
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
@@ -3428,15 +3438,16 @@ export default new Vuex.Store({
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop cuatro veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
-                            name:'WOUND FIXER (Spray – 4oz.)',
-                            bottles:1,
+                            name:'WOUND FIXER',
+                            bottles:'1 botella (Spray – 4oz.)',
                             dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
                             price:44.95,
                             link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
@@ -3457,8 +3468,9 @@ export default new Vuex.Store({
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C /Acido Ascorbico (*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento)',
-                            bottles:1,
+                            name:'Vitamina C (Acido Ascorbico)',
+                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
