@@ -2226,7 +2226,7 @@ export default new Vuex.Store({
                     id:368,
                     name:"Melasma",
                     category:"otros",
-                    idProtocolo:3
+                    idProtocolo:5
                 },
                 {
                     id:369,
@@ -2959,7 +2959,7 @@ export default new Vuex.Store({
                 {
                     id:3, //ID del protocolo
                     name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 3', //Categoria del protocolo
+                    category:'categoria 2', //Categoria del protocolo
                     
                     //Aqui inician las fases del protocolo
                     phase1:{
@@ -3235,7 +3235,7 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
+                            bottles:'16 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'32 ml. 4 veces al día.', //Dosis del producto
                             price:1120.00, //Precio del producto
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
@@ -3290,7 +3290,7 @@ export default new Vuex.Store({
                 {
                     id:8, //ID del protocolo
                     name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 3', //Categoria del protocolo
+                    category:'categoria 4', //Categoria del protocolo
                     
                     //Aqui inician las fases del protocolo
                     phase1:{
@@ -3354,7 +3354,7 @@ export default new Vuex.Store({
                 {
                     id:9, //ID del protocolo
                     name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 3', //Categoria del protocolo
+                    category:'categoria 4', //Categoria del protocolo
                     
                     //Aqui inician las fases del protocolo
                     phase1:{
