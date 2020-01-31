@@ -158,12 +158,12 @@ export default new Vuex.Store({
                     category:"Estadio 3 y 4",
                     idProtocolo:10
                 },
-                {
+                /*{
                     id:25,
                     name:"Condición Progresiva del Sistema Inmune Hodgkin ",
                     category:"Estadio 1 y 2",
                     idProtocolo:6 
-                },
+                },*/
                 {
                     id:26,
                     name:"Condición Progresiva del Sistema Inmune Hodgkin. Estadio 3 y 4 ",
@@ -222,7 +222,7 @@ export default new Vuex.Store({
                     id:35,
                     name:"Condición Progresiva del sistema Inmune de Papilar de Tiroides. Estadio 1 y 2 ",
                     category:"Estadio 1 y 2",
-                    idProtocolo:6 
+                    idProtocolo:7 
                 },
                 {
                     id:36,
@@ -264,25 +264,25 @@ export default new Vuex.Store({
                     id:42,
                     name:"Condición Progresiva del sistema Inmune de Pulmones. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
-                    idProtocolo:6
+                    idProtocolo:10
                 },
                 {
                     id:43,
                     name:"Condición Progresiva del sistema Inmune de Riñones. Estadio 1 y 2 ",
                     category:"Estadio 1 y 2",
-                    idProtocolo:6 
+                    idProtocolo:7 
                 },
                 {
                     id:44,
                     name:"Condición Progresiva del sistema Inmune de Riñones. Estadio 3 y 4 ",
                     category:"Estadio 3 y 4",
-                    idProtocolo:6
+                    idProtocolo:8
                 },
                 {
                     id:45,
-                    name:"Condición Progresiva del sistema Inmune de Rostro (Célula Basal). Estadio 1 y 2", //consultar este
+                    name:"Condición Progresiva del sistema Inmune de Rostro (Célula Basal). Estadio 1 y 2", 
                     category:"Estadio 1 y 2",
-                    idProtocolo:6 
+                    idProtocolo:5 
                 },
                 {
                     id:46,
@@ -460,13 +460,13 @@ export default new Vuex.Store({
                 },
                 {  
                     id:75,
-                    name:"Cistitis Insterticial. Etapa inicial ",
+                    name:"Cistitis Intersticial. Etapa inicial ",
                     category:"Etapa Inicial",
                     idProtocolo:3 
                 },
                 {
                     id:76,
-                    name:"Cistitis Insterticial. Etapa avanzada",
+                    name:"Cistitis Intersticial. Etapa avanzada",
                     category:"Etapa Avanzada",
                     idProtocolo:8
                 },
@@ -532,13 +532,13 @@ export default new Vuex.Store({
                 },
                 {  
                     id:87,
-                    name:"Dermatósis Ampollar. Etapa inicial",
+                    name:"Dermatosis Ampollar. Etapa inicial",
                     category:"Etapa Inicial",
                     idProtocolo:4 
                 },
                 {
                     id:88,
-                    name:"Dermatósis Ampollar. Etapa avanzada",
+                    name:"Dermatosis Ampollar. Etapa avanzada",
                     category:"Etapa Avanzada",
                     idProtocolo:7
                 },
@@ -760,13 +760,13 @@ export default new Vuex.Store({
                 },
                 {  
                     id:125,
-                    name:"Lupus Eritematos Sistémico. Etapa inicial",
+                    name:"Lupus Eritematoso Sistémico. Etapa inicial",
                     category:"Etapa Inicial",
                     idProtocolo:3 
                 },
                 {
                     id:126,
-                    name:"Lupus Eritematos Sistémico. Etapa avanzada ",
+                    name:"Lupus Eritematoso Sistémico. Etapa avanzada ",
                     category:"Etapa Avanzada",
                     idProtocolo:8
                 },
@@ -796,13 +796,13 @@ export default new Vuex.Store({
                 },
                 {  
                     id:131,
-                    name:"Neurutis. Etapa inicial",
+                    name:"Neuritis. Etapa inicial",
                     category:"Etapa Inicial",
                     idProtocolo:3 
                 },
                 {
                     id:132,
-                    name:"Neurutis. Etapa avanzada",
+                    name:"Neuritis. Etapa avanzada",
                     category:"Etapa Avanzada",
                     idProtocolo:8
                 },
@@ -1273,211 +1273,211 @@ export default new Vuex.Store({
                     name:"Artritis Reumatoidea, Fibromialgia, Síndrome de Sjögren",
                     category:"otros",
                     idProtocolo:7
-                },                
+                },    
                 {
-                    id:211,
+                    id:211,//nueva enumeracion
+                    name:"Artritis Reumatoidea, Hipertensión, Síndrome de Sjögren",
+                    category:"otros",
+                    idProtocolo:7
+                },             
+                {
+                    id:212,
                     name:"Artritis Reumatoidea, Hipertrófica Ventricular",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:212,
+                    id:213,
                     name:"Artritis Severa",
                     category:"otros",
                     idProtocolo:8
                 },
                 {
-                    id:213,
+                    id:214,
                     name:"Artritis, Diabetes, Fibromialgia, Lung Fibrosis, Psoriasis",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:214,
+                    id:215,
                     name:"Artritis, Diabetes, Hipertensión, Problemas en el Riñón (Avanzado) ",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:215,
+                    id:216,
                     name:"Artritis, Enfermedad Degenerativa de Disco, Estenosis Artritis Severa",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:216,
+                    id:217,
                     name:"Artritis, Hipercolesterolemia, Hipertensión Arterial, Nefritis ",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:217,
+                    id:218,
                     name:"Artritis, Hipotiroidismo, Hipertensión Arterial ",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:218,
+                    id:219,
                     name:"Artritis, Psoriasis, Hipertensión",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:219,
+                    id:220,
                     name:"Artrosis",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:220,
+                    id:221,
                     name:"Artrosis, Cálculos en los Riñones, Dermatitis Rosácea",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:221,
+                    id:222,
                     name:"Ascitis, Cirrosis Hepática, Hígado Graso ",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:222,
+                    id:223,
                     name:"Asma Crónica",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:223,
+                    id:224,
                     name:"Asma Crónica, COPD, Apnea del Sueño, Sinusitis aguda y Bronquitis",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:224,
+                    id:225,
                     name:"Asma, Cefalea, Baja Energía, Insomnio ",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:225,
+                    id:226,
                     name:"Asma, Diabetes, Hipertensión, Migraña",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:226,
+                    id:227,
                     name:"Ataques epilépticos, Malformación Cerebral",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:227,
+                    id:228,
                     name:"Atrofia Cerebral",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:228,
+                    id:229,
                     name:"Autismo",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:229,
+                    id:230,
                     name:"Autismo Moderado, Hernia Hiatal, Reflujo Gastroesofágico y Alergias",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:230,
+                    id:231,
                     name:"Bacteria en el Sistema Urinario",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:231,
+                    id:232,
                     name:"Bipolaridad",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:232,
+                    id:233,
                     name:"BRCA 1",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:233,
+                    id:234,
                     name:"Cálculos Biliares",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:234,
+                    id:235,
                     name:"Cálculos en la Vesícula, Nódulos Mamarios, Rectificación en la Cervical",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:235,
+                    id:236,
                     name:"Candidiasis Vaginal Recurrente ",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:236,
+                    id:237,
                     name:"CAP 4.62 (Ductus Arterioso Persistente) ",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
-                    id:237,
+                    id:238,
                     name:"Carcinoma Escamocelular",
                     category:"otros",
                     idProtocolo:9
                 },
                 {
-                    id:238,
+                    id:239,
                     name:"Cardiopatía, Hipertensión Arterial Artritis Severa",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:239,
+                    id:240,
                     name:"Celiaquía",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:240,
+                    id:241,
                     name:"Celiaquía (Intolerancia al Gluten)",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:241,
+                    id:242,
                     name:"Charcot Mery Tood",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:242,
+                    id:243,
                     name:"Circulación Crónica Grado 2",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:243,
+                    id:244,
                     name:"Cirrosis Hepática",
                     category:"otros",
                     idProtocolo:3
-                },
-                {
-                    id:244,
-                    name:"Cistitis Intersticial ",
-                    category:"otros",
-                    idProtocolo:3
-                },
+                },                
                 {
                     id:245,
                     name:"Colitis",
@@ -1588,1236 +1588,1314 @@ export default new Vuex.Store({
                 },
                 {
                     id:263,
+                    name:"Derrame Cerebral",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:264,
                     name:"Derrame Cerebral y Diabetes",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:264,
+                    id:265,
                     name:"Desgaste de Meniscos de Rodillas y Desviación de Cervical",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:265,
+                    id:266,
                     name:"Desgaste Físico producido por Edad Avanzada",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:265,
+                    id:267,
                     name:"Desgaste Rotular Severo",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:266,
+                    id:268,
                     name:"Desintoxicar el Hígado",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:267,
+                    id:269,
                     name:"Diabetes e Hígado Graso ",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:268,
+                    id:270,
                     name:"Diabetes Mellitus, Osteocondritis",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:269,
+                    id:271,
                     name:"Diabetes Tipo 1 y 2",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:270,
+                    id:272,
+                    name:'Diabetes tipo 2 nivel de glucosa EN AYUNAS entre 90 a 130 mg/dl',
+                    category:'otros',
+                    idProtocolo:11
+                },
+                {
+                    id:273,
+                    name:'Diabetes tipo 2 nivel de glucosa EN AYUNAS entre 131 a 240 mg/dl',
+                    category:'otros',
+                    idProtocolo:12
+                },
+                {
+                    id:274,
+                    name:'Diabetes tipo 2 nivel de glucosa EN AYUNAS superior a 241 mg/dl',
+                    category:'otros',
+                    idProtocolo:2
+                },
+                {
+                    id:275,
                     name:"Diabetes Tipo 2 y Malformación Chiari",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:271,
+                    id:276,
                     name:"Diabetes Tipo 2, Epilepsia (controlado), Gastritis",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:272,
+                    id:277,
                     name:"Diabetes Tipo 2, Fibromialgia, Tiroiditis de Hashimoto",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:273,
+                    id:278,
                     name:"Diabetes Tipo 2, retinopatía diabética, arterioesclerosis, Falla cardiaca y renal",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:274,
+                    id:279,
                     name:"Diabetes, Hipertensión, Pancitopenia, Insuficiencia Venosa",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:275,
+                    id:280,
                     name:"Difusión Eréctil",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:276,
+                    id:281,
                     name:"Displacía de Cuello de Útero (Nic 1)",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:277,
+                    id:282,
                     name:"Distrofia Muscular",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:278,
+                    id:283,
                     name:"Diverticulitis",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:279,
+                    id:284,
                     name:"Dolor Crónico",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:280,
+                    id:285,
                     name:"Dolor de Cabeza",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:281,
+                    id:286,
                     name:"Dolor de Coyunturas",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:282,
+                    id:287,
                     name:"Dolor de Espalda y Manos",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:283,
+                    id:288,
                     name:"Dolor de Huesos",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:284,
+                    id:289,
                     name:"Dolor de Oídos",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:285,
+                    id:290,
                     name:"Dolor de Rodillas Agudo",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:286,
+                    id:291,
                     name:"Dolor en la Cervical",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:287,
+                    id:292,
                     name:"Dolor en las Articulaciones",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:288,
-                    name:"Dolor en los Huesos",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:289,
-                    name:"Dolor Lumbar",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:290,
-                    name:"Dolor Muscular",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:291,
-                    name:"Dolor Nervio Ciático",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:292,
-                    name:"Dolor Pélvico",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
                     id:293,
-                    name:"Dolores en el Pecho",
+                    name:"Dolor en los Huesos y Debilidad General",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:294,
-                    name:"Encefalitis Viral",
+                    name:"Dolor Lumbar",
                     category:"otros",
-                    idProtocolo:4
+                    idProtocolo:3
                 },
                 {
                     id:295,
-                    name:"Enfermedad Crioglobulinemia",
+                    name:"Dolor Muscular",
                     category:"otros",
-                    idProtocolo:7
+                    idProtocolo:3
                 },
                 {
                     id:296,
-                    name:"Enfermedad de Chagas",
+                    name:"Dolor Nervio Ciático",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:297,
+                    name:"Dolor Pélvico",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:298,
+                    name:"Dolores en el Pecho",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:299,
+                    name:"Dolores Musculares, Hipertensión, Taquicardia, Gastritis",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:300,
+                    name:"Encefalitis Viral",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:301,
+                    name:"Enfermedad Crioglobulinemia",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:302,
+                    name:"Enfermedad de Chagas",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:303,
                     name:"Enfermedad de Gaucher",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:298,
+                    id:304,
                     name:"Enfermedad de Lyme",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
-                    id:299,
+                    id:305,
                     name:"Enfermedad Drepanocítica",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:300,
+                    id:306,
                     name:"Enfermedad Mixta del Tejido Conectivo",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:301,
+                    id:307,
                     name:"Epilepsia Mioclónica ",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:302,
+                    id:308,
                     name:"EPOC (Enfermedad Pulmonar Obstructiva Crónica) ",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
-                    id:303,
+                    id:309,
                     name:"Esclerosis Nodular Tipo I",
                     category:"otros",
                     idProtocolo:9
                 },
                 {
-                    id:304,
+                    id:310,
                     name:"Escoliosis",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:305,
+                    id:311,
                     name:"Espondilitis",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:306,
+                    id:312,
+                    name:"Espondilosis",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:313,//sigue cuenta aqui
                     name:"Espondilitis Anquilosante ",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:307,
+                    id:314,
                     name:"Espondilosis Cervical",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
-                    id:308,
+                    id:315,
                     name:"Estenosis Traqueal (Granulación de Tejido)",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:309,
+                    id:316,
                     name:"Estreñimiento Crónico",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:310,
+                    id:317,
                     name:"Estrés",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:311,
+                    id:318,
                     name:"Eyaculación Dolorosa",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
-                    id:312,
+                    id:319,
                     name:"Fatiga",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:313,
+                    id:320,
+                    name:"Fatigas, inflamación en articulaciones, Síndrome de Inmunodeficiencia Celular",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:321,
                     name:"Fibromas",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:314,
+                    id:322,
                     name:"Fibromatosis Agresiva (Tumores Desmoides)",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:315,
+                    id:323,
                     name:"Fibromialgia",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:316,
+                    id:324,
+                    name:"Fibromialgia, Artritis, Fatiga Crónica",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:325,
+                    name:"Fibromialgia, Hipotiroidismo, Resistencia Insulínica",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:326,
+                    name:"Fibromialgia y Lupus SL",
+                    category:"otros",
+                    idProtocolo:8
+                },
+                {
+                    id:327,
                     name:"Gastritis",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:317,
+                    id:328,
                     name:"Gastritis (Helicobacter Pylori)",
                     category:"otros",
                     idProtocolo:9
                 },
                 {
-                    id:318,
+                    id:329,
                     name:"Gastritis Erosiva",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:319,
+                    id:330,
                     name:"Glomeruloesclerosis Focal y Segmentaria",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:320,
+                    id:331,
                     name:"Gota",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:321,
+                    id:332,
                     name:"Hemorroides",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:322,
+                    id:333,
                     name:"Hepatitis B (inactivo)",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:323,
+                    id:334,
                     name:"Hepatitis B Crónica",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
-                    id:324,
+                    id:335,
                     name:"Hepatitis Crónica Autoinmune",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:325,
+                    id:336,
                     name:"Hernia Discal",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:326,
+                    id:337,
                     name:"Herpes",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
-                    id:327,
+                    id:338,
                     name:"Herpes Genital Numero 2",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:328,
+                    id:339,
                     name:"Hidradenitis Supurativa",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:329,
+                    id:340,
                     name:"Higado Graso",
                     category:"otros",
-                    idProtocolo:7
+                    idProtocolo:2
                 },
                 {
-                    id:330,
+                    id:341,
                     name:"Hipercolesterolemia",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:331,
+                    id:342,
                     name:"Hipercolesterolemia Familiar",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
-                    id:332,
+                    id:343,
                     name:"Hiperinsulinismo",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:333,
+                    id:344,
                     name:"Hiperplasia Endometrial Compleja",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:334,
+                    id:345,
                     name:"Hipertensión Arterial",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:335,
+                    id:346,
                     name:"Hipertensión Arterial, Ansiedad, Menopausia",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:336,
+                    id:347,
                     name:"Hipertensión Pulmonar",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:337,
+                    id:348,
                     name:"Hipertrigliceridemia",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:338,
+                    id:349,
                     name:"Hiperuricemia",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:339,
+                    id:350,
                     name:"Hipotiroidismo",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:340,
+                    id:351,
                     name:"Histerectomía",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:341,
+                    id:352,
                     name:"Histiocitosis de las células de Langerhans (LCH)",
                     category:"otros",
                     idProtocolo:1
                 },
                 {
-                    id:342,
+                    id:353,
                     name:"Implantes Cervicales",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:343,
+                    id:354,
                     name:"Incontinencia Urinaria",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:344,
+                    id:355,
                     name:"Infección de Orina Constante",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:345,
+                    id:356,
                     name:"Infección en las Vías Urinarias (ITU recurrente)",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:346,
+                    id:357,
                     name:"Infecciones en la Vejiga",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:347,
+                    id:358,
                     name:"Inflamación en la Próstata",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:348,
+                    id:359,
                     name:"Insomnio",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:349,
+                    id:360,
                     name:"Insuficiencia Cardiaca",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:350,
+                    id:361,
                     name:"Insuficiencia Renal o Falla Renal",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:351,
+                    id:362,
                     name:"Insuficiencia Venosa Crónica",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:352,
+                    id:363,
                     name:"Intolerancia a la Lactosa",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:353,
+                    id:364,
                     name:"Lepra",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:354,
+                    id:365,
                     name:"Leucemia Linfática Crónica ",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:355,
+                    id:366,
                     name:"Leucemia Linfocítica Aguda",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:356,
+                    id:367,
                     name:"Leucemia Mieloides",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:357,
+                    id:368,
                     name:"Linfoma Vertebral Metastásico",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:358,
+                    id:369,
                     name:"Liomiosarcoma",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:359,
+                    id:370,
                     name:"Liquen en Plano",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:360,
+                    id:371,
                     name:"Liquen Escleroso",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:361,
+                    id:372,
                     name:"Litiasis Renal Coraliforme",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:362,
+                    id:373,
                     name:"Lupus",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:363,
+                    id:374,
                     name:"Lupus Eritematoso",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:364,
+                    id:375,
                     name:"Lupus Eritematosos Sistémico y Vasculitis Cerebrovascular",
                     category:"otros",
                     idProtocolo:8
                 },
                 {
-                    id:365,
+                    id:376,
                     name:"Malformaciones de Chiari",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:366,
+                    id:377,
                     name:"Mareos",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:367,
+                    id:378,
                     name:"Mastocitosis",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:368,
+                    id:379,
                     name:"Melasma",
                     category:"otros",
-                    idProtocolo:3
+                    idProtocolo:5
                 },
                 {
-                    id:369,
+                    id:380,
                     name:"Meningioma Frontal Derecho Benigno",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:370,
+                    id:381,
                     name:"Meningitis",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:371,
+                    id:382,
                     name:"Metaplasia Intestinal Incompleta",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:372,
+                    id:383,
                     name:"Miastenia Gravis",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:373,
+                    id:384,
                     name:"Miastenia Gravis Refractaria",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
-                    id:374,
+                    id:385,
                     name:"Mieloma Múltiple",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:375,
+                    id:386,
                     name:"Migraña",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:376,
+                    id:387,
                     name:"Miomatosis Uterina",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:377,
+                    id:388,
                     name:"Morfea (Esclerodermia en Placas)",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:378,
+                    id:389,
                     name:"Múltiple Mieloma",
                     category:"otros",
                     idProtocolo:9
                 },
                 {
-                    id:379,
+                    id:390,
                     name:"Nauseas",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:380,
+                    id:391,
                     name:"Nefrectomía Parcial",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:381,
+                    id:392,
                     name:"Nefropatía",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:382,
+                    id:393,
                     name:"Nefropatía IgA",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:383,
+                    id:394,
                     name:"Nervios Alterados",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:384,
+                    id:395,
                     name:"Neuropatía",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:385,
+                    id:396,
                     name:"Neuropatía Aguda",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:386,
+                    id:397,
                     name:"Neuropatía Periférica",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:387,
+                    id:398,
                     name:"Nódulos de Tiroides",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:388,
+                    id:399,
                     name:"Obesidad",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:389,
+                    id:400,
                     name:"Obesidad Mórbida y Linfedema",
                     category:"otros",
                     idProtocolo:9
                 },
                 {
-                    id:390,
+                    id:401,
                     name:"Onicomicosis",
                     category:"otros",
                     idProtocolo:5
                 },
                 {
-                    id:391,
-                    name:"Operada de la Columna",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:392,
-                    name:"Operada de Tiroides",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:393,
-                    name:"Osteoartritis",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:394,
-                    name:"Osteoartritis Progresiva",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:395,
-                    name:"Osteonecrosis",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:396,
-                    name:"Osteoporosis",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:397,
-                    name:"Ovario Poliquístico",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:398,
-                    name:"Parálisis Cerebral",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:399,
-                    name:"Paraplejia nivel t4 t5",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:400,
-                    name:"Parkinson",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:401,
-                    name:"Parkinson Plus",
-                    category:"otros",
-                    idProtocolo:7
-                },
-                {
                     id:402,
-                    name:"Pénfigo Foliáceo",
+                    name:"Operado de la Columna",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:403,
-                    name:"Pénfigo Vulgar",
+                    name:"Operado de Tiroides",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:404,
-                    name:"Perdida del Deseo Sexual",
+                    name:"Osteoartritis",
                     category:"otros",
-                    idProtocolo:4
+                    idProtocolo:3
                 },
                 {
                     id:405,
-                    name:"Piedras en los Riñones y Retención de Líquidos",
+                    name:"Osteoartritis Progresiva",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:406,
-                    name:"Plaquetas Altas jak2",
+                    name:"Osteoartritis y Dermatitis",
                     category:"otros",
-                    idProtocolo:2
+                    idProtocolo:3
                 },
                 {
                     id:407,
-                    name:"Policitemia Vera",
+                    name:"Osteonecrosis",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:408,
-                    name:"Polidermatomiositis",
+                    name:"Osteoporosis",
                     category:"otros",
-                    idProtocolo:7
+                    idProtocolo:3
                 },
                 {
                     id:409,
-                    name:"Polineuropatía Desmielinizante",
+                    name:"Ovario Poliquístico",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:410,
-                    name:"Poliquistosis Renal sin Diálisis",
+                    name:"Parálisis Cerebral",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:411,
-                    name:"Prediabetes",
+                    name:"Paraplejia nivel t4 t5",
                     category:"otros",
-                    idProtocolo:3
+                    idProtocolo:2
                 },
                 {
                     id:412,
-                    name:"Premenopausia",
+                    name:"Parkinson",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:413,
-                    name:"Principios de Alzheimer",
+                    name:"Parkinson Plus",
                     category:"otros",
-                    idProtocolo:3
+                    idProtocolo:7
                 },
                 {
                     id:414,
-                    name:"Problemas de Memoria",
+                    name:"Pénfigo Foliáceo",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:415,
-                    name:"Problemas para Dormir",
+                    name:"Pénfigo Foliáceo, Hipotiroidismo y Depresión",
                     category:"otros",
-                    idProtocolo:2
+                    idProtocolo:4
                 },
                 {
                     id:416,
-                    name:"Problemas Respiratorios",
+                    name:"Pénfigo Vulgar",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:417,
-                    name:"Próstata Inflamada",
+                    name:"Perdida del Deseo Sexual",
                     category:"otros",
-                    idProtocolo:3
+                    idProtocolo:4
                 },
                 {
                     id:418,
-                    name:"Próstata Inflamada e Infección Urinaria",
+                    name:"Piedras en los Riñones y Retención de Líquidos",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:419,
-                    name:"Prostatitis",
+                    name:"Plaquetas Altas jak2",
                     category:"otros",
-                    idProtocolo:7
+                    idProtocolo:2
                 },
                 {
                     id:420,
-                    name:"Prostatitis Bacteriana Recurrente",
+                    name:"Policitemia Vera",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:421,
-                    name:"Proteinuria",
+                    name:"Polidermatomiositis",
                     category:"otros",
-                    idProtocolo:3
+                    idProtocolo:7
                 },
                 {
                     id:422,
-                    name:"Psoriasis Artrítica",
+                    name:"Polineuropatía Desmielinizante",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:423,
-                    name:"Purpura Trombocitopénica",
+                    name:"Poliquistosis Renal sin Diálisis",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:424,
-                    name:"Quistes en el Ovario",
+                    name:"Prediabetes",
                     category:"otros",
-                    idProtocolo:4
+                    idProtocolo:3
                 },
                 {
                     id:425,
-                    name:"Rectocolitis Ulcerosa",
+                    name:"Premenopausia",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:426,
-                    name:"Refuerzo del Sistema Inmune",
+                    name:"Premenopausia, Hígado graso, Dolor Muscular, Ansiedad y Depresión",
                     category:"otros",
-                    idProtocolo:2
+                    idProtocolo:3
                 },
                 {
                     id:427,
-                    name:"Regeneración Celular",
+                    name:"Principios de Alzheimer",
                     category:"otros",
-                    idProtocolo:2
+                    idProtocolo:3
                 },
                 {
                     id:428,
-                    name:"Renal Stage 4",
+                    name:"Problemas de Memoria",
                     category:"otros",
-                    idProtocolo:7
+                    idProtocolo:3
                 },
                 {
                     id:429,
-                    name:"Retención de Líquidos",
+                    name:"Problemas para Dormir",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
                     id:430,
-                    name:"Retinitis Pigmentosa",
+                    name:"Problemas Respiratorios",
                     category:"otros",
-                    idProtocolo:2
+                    idProtocolo:3
                 },
                 {
                     id:431,
-                    name:"Retinopatía de la Prematuridad",
+                    name:"Próstata Inflamada",
                     category:"otros",
-                    idProtocolo:7
+                    idProtocolo:3
                 },
                 {
                     id:432,
-                    name:"Retraso Mental Leve",
+                    name:"Próstata Inflamada e Infección Urinaria",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:433,
-                    name:"Retraso Mental Profundo",
+                    name:"Prostatitis",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
                     id:434,
-                    name:"Rinitis Alérgica",
+                    name:"Prostatitis Bacteriana Recurrente",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:435,
-                    name:"Sarcoma de Kaposi y Virus de Inmunodeficiencia Humana",
+                    name:"Proteinuria",
                     category:"otros",
-                    idProtocolo:9
+                    idProtocolo:3
                 },
                 {
                     id:436,
-                    name:"Secuelas de Guillen Barre",
+                    name:"Psoriasis Artrítica",
                     category:"otros",
-                    idProtocolo:4
+                    idProtocolo:3
                 },
                 {
                     id:437,
-                    name:"Síndrome Antifosfolípido",
+                    name:"Purpura Trombocitopénica",
                     category:"otros",
-                    idProtocolo:6
+                    idProtocolo:3
                 },
                 {
                     id:438,
-                    name:"Síndrome Cerebeloso",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:439,
-                    name:"Síndrome de Asperger",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:440,
-                    name:"Síndrome de Churg-Strauss",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:441,
-                    name:"Síndrome de Colon Irritable",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:442,
-                    name:"Síndrome de Dolor Regional Complejo (CRPS)",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:443,
-                    name:"Síndrome de Inestabilidad Lumbar",
+                    name:"Quistes en el Ovario",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
-                    id:444,
-                    name:"Síndrome de Intestino Irritable",
+                    id:439,
+                    name:"Rectocolitis Ulcerosa",
                     category:"otros",
                     idProtocolo:3
+                },
+                {
+                    id:440,
+                    name:"Refuerzo del Sistema Inmune",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:441,
+                    name:"Regeneración Celular",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:442,
+                    name:"Renal Stage 4",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:443,
+                    name:"Retención de Líquidos",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:444,
+                    name:"Retinitis Pigmentosa",
+                    category:"otros",
+                    idProtocolo:2
                 },
                 {
                     id:445,
-                    name:"Síndrome de Lennox Gastaut",
+                    name:"Retinopatía de la Prematuridad",
                     category:"otros",
-                    idProtocolo:3
+                    idProtocolo:7
                 },
                 {
                     id:446,
-                    name:"Síndrome de Marfan",
+                    name:"Retraso Mental Leve",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:447,
-                    name:"Síndrome de Raynaud",
+                    name:"Retraso Mental Profundo",
                     category:"otros",
-                    idProtocolo:8
+                    idProtocolo:7
                 },
                 {
                     id:448,
-                    name:"Síndrome de Rett",
+                    name:"Rinitis Alérgica",
                     category:"otros",
-                    idProtocolo:2
+                    idProtocolo:3
                 },
                 {
                     id:449,
-                    name:"Síndrome de Sjögren",
+                    name:"Sarcoma de Kaposi y Virus de Inmunodeficiencia Humana",
                     category:"otros",
-                    idProtocolo:7
+                    idProtocolo:9
                 },
                 {
                     id:450,
-                    name:"Síndrome de Túnel Carpiano",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:451,
-                    name:"Síndrome del Turner",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:452,
-                    name:"Síndrome Mielodisplásico",
-                    category:"otros",
-                    idProtocolo:7
-                },
-                {
-                    id:453,
-                    name:"Síndrome Nefrológico",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:454,
-                    name:"Síndrome Nefrótico Corticoresistente",
+                    name:"Secuelas de Guillen Barre",
                     category:"otros",
                     idProtocolo:4
                 },
                 {
+                    id:451,
+                    name:"Síndrome Antifosfolípido",
+                    category:"otros",
+                    idProtocolo:6
+                },
+                {
+                    id:452,
+                    name:"Síndrome Cerebeloso",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:453,
+                    name:"Síndrome de Asperger",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:454,
+                    name:"Síndrome de Churg-Strauss",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
                     id:455,
-                    name:"Sinusitis Crónica",
+                    name:"Síndrome de Colon Irritable",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
                     id:456,
+                    name:"Síndrome de Dolor Regional Complejo (CRPS)",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:457,
+                    name:"Síndrome de Inestabilidad Lumbar",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:458,
+                    name:"Síndrome de Intestino Irritable",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:459,
+                    name:"Síndrome de Lennox Gastaut",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:460,
+                    name:"Síndrome de Marfan",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:461,
+                    name:"Síndrome de Raynaud",
+                    category:"otros",
+                    idProtocolo:8
+                },
+                {
+                    id:462,
+                    name:"Síndrome de Rett",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:463,
+                    name:"Síndrome de Sjögren",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:464,
+                    name:"Síndrome de Túnel Carpiano",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:465,
+                    name:"Síndrome del Turner",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:466,
+                    name:"Síndrome Mielodisplásico",
+                    category:"otros",
+                    idProtocolo:7
+                },
+                {
+                    id:467,
+                    name:"Síndrome Nefrológico",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:468,
+                    name:"Síndrome Nefrótico Corticoresistente",
+                    category:"otros",
+                    idProtocolo:4
+                },
+                {
+                    id:469,
+                    name:"Sinusitis Crónica",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:470,
                     name:"Trastorno Obsesivo Compulsivo",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:457,
+                    id:471,
                     name:"Trombocitopenia",
                     category:"otros",
                     idProtocolo:7
                 },
                 {
-                    id:458,
+                    id:472,
                     name:"Tumor en el Pulmón",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:459,
+                    id:473,
                     name:"Tumor en la Próstata Gleason 7",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:460,
+                    id:474,
                     name:"Tumor Schwannoma",
                     category:"otros",
                     idProtocolo:9
                 },
                 {
-                    id:461,
+                    id:475,
                     name:"Tumores de Hipófisis",
                     category:"otros",
                     idProtocolo:6
                 },
                 {
-                    id:462,
+                    id:476,
                     name:"Úlceras Gástricas",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:463,
+                    id:477,
                     name:"Uveitis",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:464,
+                    id:478,
                     name:"Vasculitis",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:465,
+                    id:479,
                     name:"Virus de Inmunodeficiencia Humana",
                     category:"otros",
                     idProtocolo:1
                 },
                 {
-                    id:466,
+                    id:480,
                     name:"Virus de Inmunodeficiencia Humana y Psoriasis",
                     category:"otros",
                     idProtocolo:8
                 },
                 {
-                    id:467,
+                    id:481,
                     name:"Vitíligo ",
                     category:"otros",
                     idProtocolo:5
@@ -2839,7 +2917,8 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
-                            price: 1120.00, //Precio del producto
+                            price: 1245.00,//Precio del producto
+                            offer: 1120.00,//Precio oferta
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -2849,13 +2928,15 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop tres veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price: 54.95,
+                            offer: 0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase1'//Finaliza el producto 2
@@ -2870,6 +2951,7 @@ export default new Vuex.Store({
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'10ml. 2 veces al día',
                             price:249.00,
+                            offer:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },
                         //Producto 2
@@ -2879,13 +2961,15 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:54.95,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase2'//Se agrego debido a que el combo se compra por fase
@@ -2905,22 +2989,25 @@ export default new Vuex.Store({
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox', //Cantidad de botellas
-                            dose:'12 ml. 4 veces al día.', //Dosis del producto
-                            price:359.95, //Precio del producto
+                            dose:'12 ml. 4 veces al día', //Dosis del producto
+                            price:373.50, //Precio del producto
+                            offer:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/" //Link del producto individual, para comprar individuales por producto
                         },
                         p2:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1-fase1'//Finaliza el producto 2
@@ -2935,20 +3022,23 @@ export default new Vuex.Store({
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox',
                             dose:'10ml. 2 veces al día',
                             price:249.00,
+                            offer:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },
                         p2:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1-fase2/'//Se agrego debido a que el combo se compra por fase
@@ -2959,7 +3049,7 @@ export default new Vuex.Store({
                 {
                     id:3, //ID del protocolo
                     name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 3', //Categoria del protocolo
+                    category:'categoria 2', //Categoria del protocolo
                     
                     //Aqui inician las fases del protocolo
                     phase1:{
@@ -2969,22 +3059,25 @@ export default new Vuex.Store({
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'10 botellas de 240 ml. c/u. 30 días de duración aprox', //Cantidad de botellas
-                            dose:'20 ml. 4 veces al día.', //Dosis del producto
-                            price:560.95, //Precio del producto
+                            dose:'20 ml. 4 veces al día', //Dosis del producto
+                            price:622.50, //Precio del producto
+                            offer:560.95,
                             link:"https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase1" //Link del producto individual, para comprar individuales por producto
                         },
                         p2:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase1'//Finaliza el producto 2
@@ -2999,20 +3092,23 @@ export default new Vuex.Store({
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox',
                             dose:'10ml. 2 veces al día',
                             price:249.00,
+                            offer:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },
                         p2:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase2'//Se agrego debido a que el combo se compra por fase
@@ -3034,7 +3130,8 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'10 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'20ml. 4 veces al día', //Dosis del producto
-                            price:560.95, //Precio del producto
+                            price:622.50, //Precio del producto
+                            offer:560.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3044,13 +3141,15 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0,
+                            offer:0, //Precio del producto
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-1'//Finaliza el producto 2
@@ -3065,6 +3164,7 @@ export default new Vuex.Store({
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'10ml. 2 veces al día',
                             price:249.00,
+                            offer:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },
                         //Producto 2
@@ -3074,13 +3174,15 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop 2 veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-2'//Se agrego debido a que el combo se compra por fase
@@ -3102,7 +3204,8 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'10 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'20ml. 4 veces al día', //Dosis del producto
-                            price:560.95, //Precio del producto
+                            price:622.50, //Precio del producto
+                            offer:560.95,
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3112,6 +3215,7 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
@@ -3119,6 +3223,7 @@ export default new Vuex.Store({
                             bottles:'1 botella (Spray – 4oz.)',
                             dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
                             price:44.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-1-2'//Finaliza el producto 2
@@ -3133,6 +3238,7 @@ export default new Vuex.Store({
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'10ml. 2 veces al día', //Dosis del producto
                             price:249.00, //Precio del producto
+                            offer:249.00,
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3142,6 +3248,7 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
@@ -3149,6 +3256,7 @@ export default new Vuex.Store({
                             bottles:'1 botella (Spray – 4oz.)',
                             dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
                             price:44.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-2-fase-2-2/'//Finaliza el producto 2
@@ -3169,7 +3277,8 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'16 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'32ml. 4 veces al día', //Dosis del producto
-                            price:896.95, //Precio del producto
+                            price:996.00, //Precio del producto
+                            offer:896.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3179,13 +3288,15 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase1'//Finaliza el producto 2
@@ -3199,7 +3310,8 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'20ml. 2 veces al día',
-                            price:359.95,
+                            price:373.50,
+                            offer:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1"
                         },
                         //Producto 2
@@ -3209,13 +3321,15 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase2'//Se agrego debido a que el combo se compra por fase
@@ -3235,23 +3349,26 @@ export default new Vuex.Store({
                         //Aqui inician los productos de cada fase
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'32 ml. 4 veces al día.', //Dosis del producto
-                            price:1120.00, //Precio del producto
-                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
+                            bottles:'16 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
+                            dose:'32 ml. 4 veces al día', //Dosis del producto
+                            price:996.00, //Precio del producto
+                            offer:896.95,
+                            link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3/" //Link del producto individual, para comprar individuales por producto
                         },
                         p2:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase1-2'//Finaliza el producto 2
@@ -3266,20 +3383,23 @@ export default new Vuex.Store({
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'10ml. 2 veces al día',
                             price:249.00,
+                            offer:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },
                         p2:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-3-fase2-2/'//Se agrego debido a que el combo se compra por fase
@@ -3290,7 +3410,7 @@ export default new Vuex.Store({
                 {
                     id:8, //ID del protocolo
                     name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 3', //Categoria del protocolo
+                    category:'categoria 4', //Categoria del protocolo
                     
                     //Aqui inician las fases del protocolo
                     phase1:{
@@ -3300,22 +3420,25 @@ export default new Vuex.Store({
                         p1:{
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'40 ml. 4 veces al día.', //Dosis del producto
-                            price:1120.00, //Precio del producto
+                            dose:'40 ml. 4 veces al día', //Dosis del producto
+                            price:1245.00, //Precio del producto
+                            offer:1120.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
                         },
                         p2:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase1-2/'//Finaliza el producto 2
@@ -3329,21 +3452,24 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'20ml. 2 veces al día',
-                            price:359.95,
+                            price:373.50,
+                            offer:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/"
                         },
                         p2:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase2-2/'//Se agrego debido a que el combo se compra por fase
@@ -3354,7 +3480,7 @@ export default new Vuex.Store({
                 {
                     id:9, //ID del protocolo
                     name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 3', //Categoria del protocolo
+                    category:'categoria 4', //Categoria del protocolo
                     
                     //Aqui inician las fases del protocolo
                     phase1:{
@@ -3366,6 +3492,7 @@ export default new Vuex.Store({
                             bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
                             price:1120.00, //Precio del producto
+                            offer:1120.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/" //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3375,13 +3502,15 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase1-3/'//Finaliza el producto 2
@@ -3396,6 +3525,7 @@ export default new Vuex.Store({
                             bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'20ml. 2 veces al día',
                             price:359.95,
+                            offer:359.95,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1"
                         },
                         //Producto 2
@@ -3405,13 +3535,15 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase2:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase2-3'//Se agrego debido a que el combo se compra por fase
@@ -3434,6 +3566,7 @@ export default new Vuex.Store({
                             bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
                             price:1120.00, //Precio del producto
+                            offer:1120.00,
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3443,6 +3576,7 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop cuatro veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
@@ -3450,6 +3584,7 @@ export default new Vuex.Store({
                             bottles:'1 botella (Spray – 4oz.)',
                             dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
                             price:44.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/wound-fixer-spray-4oz/'
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase-1/'//Finaliza el producto 2
@@ -3464,6 +3599,7 @@ export default new Vuex.Store({
                             bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'20ml. 2 veces al día', //Dosis del producto
                             price:359.95, //Precio del producto
+                            offer:359.95,
                             link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-de-alta-complejidad-categoria-1/' //Link del producto individual, para comprar individuales por producto
                         },
                         //Aqui inicia el segundo producto
@@ -3473,19 +3609,171 @@ export default new Vuex.Store({
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
                             price:54.95,
+                            offer:0,
                             link:'https://biogreencell.com/product/acido-ascorbico/'
                         },
                         p3:{
                             name:'',
                             bottles:'', //Cantidad de botellas
                             dose:'', //Dosis del producto
-                            price:'', //Precio del producto
+                            price:0, //Precio del producto
+                            offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
                         linkPhase1:'https://biogreencell.com/product/procotolo-integrativo-para-condiciones-de-alta-complejidad-categoria-4-fase-2/'//Finaliza el producto 2
                     },
                    // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
                 },//Aqui finaliza el protocolo
+
+                //Aqui inicia el nuevo protocolo
+                {
+                    id:11, //ID del protocolo
+                    name:'Protocolo de prevención', //Nombre del protocolo
+                    category:'', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'180 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
+                            bottles:'2 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
+                            dose:'4ml. 4 veces al día', //Dosis del producto
+                            price:0, //Precio del producto
+                            offer:124.50,
+                            link:'https://biogreencell.com/product/protocolo-integrativo-para-prevencion/' //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'',
+                            bottles:'',
+                            disclaimer:'',
+                            dose:'',
+                            price:0,
+                            offer:0,
+                            link:''
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'',
+                            dose:'',
+                            price:0,
+                            offer:0,
+                            link:''
+                        },
+                        linkPhase1:'https://biogreencell.com/product/protocolo-integrativo-para-prevencion/'//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'', //Nombre de la fase
+                        duration:'', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'', //Nombre del producto
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:0, //Precio del producto
+                            offer:0,
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'',
+                            bottles:'',
+                            disclaimer:'',
+                            dose:'',
+                            price:0,
+                            offer:0,
+                            link:''
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:0, //Precio del producto
+                            offer:0,
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        linkPhase2:''//Finaliza el producto 2
+                    },
+
+                },
+
+                //Aqui inicia el nuevo protocolo
+                {
+                    id:12, //ID del protocolo
+                    name:'Protocolo para prevención', //Nombre del protocolo
+                    category:'', //Categoria del protocolo
+                    
+                    //Aqui inician las fases del protocolo
+                    phase1:{
+                        name:'Fase 1', //Nombre de la fase
+                        duration:'180 días', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
+                            bottles:'4 botellas de 240 ml. c/u. 48 días de duración aprox.', //Cantidad de botellas
+                            dose:'5ml. 4 veces al día', //Dosis del producto
+                            price:0, //Precio del producto
+                            offer:249.00,
+                            link:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/' //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'',
+                            bottles:'',
+                            disclaimer:'',
+                            dose:'',
+                            price:0,
+                            offer:0,
+                            link:''
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'',
+                            dose:'',
+                            price:0,
+                            offer:0,
+                            link:''
+                        },
+                        linkPhase1:'https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/'//Finaliza el producto 2
+                    },
+                    //Aqui inicia la fase 2 del protocolo
+                    phase2:{
+                        name:'', //Nombre de la fase
+                        duration:'', //Duracion de la fase
+                        //Aqui inician los productos de cada fase
+                        p1:{
+                            name:'', //Nombre del producto
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:0, //Precio del producto
+                            offer:0,
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        //Aqui inicia el segundo producto
+                        p2:{
+                            name:'',
+                            bottles:'',
+                            disclaimer:'',
+                            dose:'',
+                            price:0,
+                            offer:0,
+                            link:''
+                        },
+                        p3:{
+                            name:'',
+                            bottles:'', //Cantidad de botellas
+                            dose:'', //Dosis del producto
+                            price:0, //Precio del producto
+                            offer:0,
+                            link:'' //Link del producto individual, para comprar individuales por producto
+                        },
+                        linkPhase2:''//Finaliza el producto 2
+                    },
+
+                },
             ],
         },
         mutations:{
@@ -3494,4 +3782,4 @@ export default new Vuex.Store({
         actions:{
 
         }
-    }) 
+    }); 

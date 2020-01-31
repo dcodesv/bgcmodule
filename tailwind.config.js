@@ -13,7 +13,7 @@ module.exports = {
             200: '#E5F0D9',
             100: '#F2F7EB'
           },
-          graybgc:'#EFF0F3'
+          graybgc:'#EDEFF0'
         }
       },
       fontFamily: {
