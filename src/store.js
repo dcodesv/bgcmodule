@@ -3703,7 +3703,7 @@ export default new Vuex.Store({
                 //Aqui inicia el nuevo protocolo
                 {
                     id:12, //ID del protocolo
-                    name:'Protocolo para prevención', //Nombre del protocolo
+                    name:'Protocolo de prevención', //Nombre del protocolo
                     category:'', //Categoria del protocolo
                     
                     //Aqui inician las fases del protocolo
