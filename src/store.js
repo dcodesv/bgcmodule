@@ -3382,7 +3382,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'10ml. 2 veces al día',
-                            price:249.00,
+                            price:0,
                             offer:249.00,
                             link:"https://biogreencell.com/product/protocolo-integrativo-para-condiciones-moderadas/"
                         },

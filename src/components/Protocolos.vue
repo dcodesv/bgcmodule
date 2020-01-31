@@ -81,7 +81,7 @@
                             <p class="font-normal text-base text-gray-900">Cantidad: <span class="font-bold text-black">{{protocolos.phase2.p1.bottles}}</span></p>
                             <p class="font-normal text-base text-gray-900 leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase2.p1.dose}}.</span> 15 minutos antes de cada comida, mantener debajo de la lengua por 30 segundos y luego ingerir.</p>
                             <p class="flex flex-wrap items-center font-black text-3xl text-greenbgc-900 py-2">
-                                <span class="font-bold mr-2 line-through text-base text-black">${{protocolos.phase2.p1.price}}</span> 
+                                <span class="font-bold mr-2 line-through text-base text-black"><span>{{protocolos.phase2.p1.price > 0 ? "$ "+protocolos.phase2.p1.price : ""}}</span></span> 
                                 ${{protocolos.phase2.p1.offer}}
                                 <span class="leading-none pt-1 text-lg text-red-600 font-black uppercase ml-2">Oferta!</span>
                             </p>
