@@ -13,7 +13,9 @@ module.exports = {
             200: '#E5F0D9',
             100: '#F2F7EB'
           },
-          graybgc:'#EDEFF0'
+          graybgc:'#EDEFF0',
+          graybgcmedium: "#BDBFC0",
+          graybgcdark: '#9D9FA0'
         }
       },
       fontFamily: {

@@ -1,59 +1,65 @@
 <template>
-  <div class="flex justify-center align-center flex-col bg-graybgc relative">
-    <div class="absolute top-0 w-full flex flex-col pb-5 px-4 lg:px-0 bg-graybgc z-10">
-      <h1 class="py-1 text-center text-2xl text-gray-900 font-black">Encuentre aquí su protocolo</h1>
-      <p class="pb-4 text-center font-medium text-base text-gray-800 font-roboto">Escriba el nombre de su condición y luego haga click para ver el protocolo sugerido</p>
-      <input autocomplete="off" id="text_box" class="w-full lg:w-2/4 font-bold self-center text-xl bg-white py-4 px-5 block focus:outline-none focus:shadow-xl border rounded-lg appearance-none leading-normal transition-all" type="text" v-model="name"/>
+  <div class="flex justify-center align-center flex-col bg-graybgc relative w-full">
+    <div class="top-0 w-full flex flex-col pb-10 px-4 lg:px-0 z-10 bg-white">
+      <h1 class="py-1 text-center text-2xl text-black font-bold">Encuentre aquí su protocolo ImmuneBioGreenCell</h1>
+      <p class="pb-8 text-center font-normal text-lg text-black">Escriba el nombre de su condición y luego haga click para ver el protocolo sugerido</p>
+
+      <div class="flex flex-row justify-start items-center w-full lg:w-2/4 self-center text-center bg-white py-1 px-8 block focus:shadow-xl border border-graybgcdark transition-all rounded-full">
+        <i class="ri-search-line text-graybgcdark text-2xl mr-4"></i>
+        <input autocomplete="off" id="text_box" class="focus:outline-none appearance-none leading-normal placeholder-graybgcmedium text-lg w-full py-3" type="text" v-model="name" placeholder="Escribe tu condición..."/>
+      </div>
     </div>
 
-    <div class="mt-56 lg:mt-40 self-center items-center lg:w-2/4 w-full">
+    <div class="mt-4 lg:mt-12 self-center items-center lg:w-2/4 w-full">
       <!--<p>Ignore this text: {{this.name}}</p>-->
-      <ul class='flex flex-col content-center mx-auto lg:w-full md:w-full '>
+      <ul class='flex flex-col content-center mx-auto lg:w-full md:w-full'>
         <div class="transition-all flex flex-col align-stretch justify-center" v-if="filterConditions == false">
-          <li class="font-roboto text-center text-xl pt-8 text-gray-800 font-medium"> No se encontraron resultados </li>
-          <i class="ri-emotion-unhappy-line text-6xl text-greenbgc-900 self-center"></i>
+          <li class="text-center text-xl pt-8 text-graybgcdark font-medium"> No se encontraron resultados </li>
+          <i class="ri-emotion-unhappy-line text-6xl text-graybgcdark self-center"></i>
           <div class="flex flex-row flex-wrap justify-center mt-4">
-            <p class="font-roboto text-center font-medium text-gray-800 text-base w-full">No encuentras tu condición</p>
-            <button id="btnClear" class="hover:bg-black font-roboto focus:outline-none self-center py-3 px-5 mt-3 bg-greenbgc-900 w-auto rounded-full text-sm text-white hover:shadow-lg transition-all">Intenta buscar en la lista completa</button>
+            <button id="btnClear" @click="clearsearch()" class="flex flex-row justify-center items-center hover:text-black focus:outline-none self-center py-3 px-5 mt-3 w-auto text-lg text-graybgcdark transition-all">Intenta buscar en la lista completa <i class="ri-search-line ml-2"></i></button>
           </div>
         </div>
 
         <div v-else class="w-11/12 sm:w-full self-center transition-all">
-          <h1 v-show="cpsi" class="text-center font-bold text-black text-xl">Condiciones progresivas del sistema inmune</h1>
-          <li class="transition-all hover:shadow-xl flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-3 mx-auto bg-white items-center md:justify-center border rounded-lg w-full" 
-              v-for="condition in cpsi" :key="condition.index">
-              <div class="flex flex-col lg:flex-row w-full lg:w-3/4 flex-wrap justify-center lg:justify-start items-center">
-                <p class="font-roboto w-full text-center lg:text-left text-base font-normal text-black">{{condition.name}}</p>
-              </div>
-              <div class="flex md:justify-center lg:justify-end md:w-full lg:w-1/4 h-full">
-                <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="font-roboto focus:outline-none relative bg-greenbgc-900 hover:bg-black text-white box-sizing font-normal py-2 px-3 rounded text-sm self-end transition-all flex flex-row justify-center items-center">ver protocolo <i class="ri-arrow-right-line ml-2 text-base"></i></router-link>
-              </div>
+          <h1 v-show="cpsi" class="text-left font-normal text-black text-xl">Condiciones progresivas del sistema inmune</h1>
+          <li v-for="condition in cpsi" :key="condition.index">
+              <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="transition-all hover:shadow-lg flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-6 mx-auto bg-white items-center md:justify-center border rounded-lg w-full">
+                <div class="flex flex-col lg:flex-row w-full lg:w-3/4 flex-wrap justify-center lg:justify-start items-center">
+                  <p class="w-full text-center lg:text-left text-base font-normal text-black">{{condition.name}}</p>
+                </div>
+                <div class="flex md:justify-center lg:justify-end md:w-full lg:w-1/4 h-full">
+                  <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="focus:outline-none relative hover:text-white hover:bg-greenbgc-900 text-black box-sizing font-normal py-2 px-4 rounded-full text-sm self-end transition-all flex flex-row justify-center items-center">Ver protocolo<i class="ri-arrow-right-s-line ml-2 text-base"></i></router-link>
+                </div>
+              </router-link>
           </li>
-          <li v-if="cpsi == false" class="transition-all flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-3 mx-auto items-center md:justify-center rounded-lg w-full">No se encuentran resultados para esta categoría</li>
+          <li v-if="cpsi == false" class="text-graybgcdark transition-all flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-3 mx-auto items-center md:justify-center rounded-lg w-full">No se encuentran resultados para esta categoría</li>
 
-          <h1 class="text-center font-bold text-black text-xl" >Condiciones en etapa inicial y etapa avanzada</h1>
-          <li class="transition-all hover:shadow-xl flex flex-wrap flex-row py-4 px-6 my-5 mx-2 bg-white items-center border rounded-lg" 
-              v-for="condition in etapas" :key="condition.index">
-            <div class="flex flex-row w-3/4 flex-wrap content-flex-start">
-              <p class="font-roboto w-full text-normal font-medium text-black">{{condition.name}}</p>
-            </div>
-            <div class="flex justify-end w-1/4 h-full">
-              <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="font-roboto focus:outline-none relative bg-greenbgc-900 hover:bg-black text-white box-sizing font-normal py-2 px-4 rounded text-sm self-end transition-all flex flex-row justify-center items-center">ver protocolo <i class="ri-arrow-right-line ml-2 text-base"></i></router-link>
-            </div>
+          <h1 class="text-left font-normal text-black text-xl" >Condiciones en etapa inicial y etapa avanzada</h1>
+          <li v-for="condition in etapas" :key="condition.index">
+              <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="transition-all hover:shadow-lg flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-6 mx-auto bg-white items-center md:justify-center border rounded-lg w-full">
+                <div class="flex flex-col lg:flex-row w-full lg:w-3/4 flex-wrap justify-center lg:justify-start items-center">
+                  <p class="w-full text-center lg:text-left text-base font-normal text-black">{{condition.name}}</p>
+                </div>
+                <div class="flex md:justify-center lg:justify-end md:w-full lg:w-1/4 h-full">
+                  <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="focus:outline-none relative hover:text-white hover:bg-greenbgc-900 text-black box-sizing font-normal py-2 px-4 rounded-full text-sm self-end transition-all flex flex-row justify-center items-center">Ver protocolo<i class="ri-arrow-right-s-line ml-2 text-base"></i></router-link>
+                </div>
+              </router-link>
           </li>
-          <li v-if="etapas == false" class="transition-all flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-3 mx-auto items-center md:justify-center rounded-lg w-full">No se encuentran resultados para esta categoría</li>
+          <li v-if="etapas == false" class="text-graybgcdark transition-all flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-3 mx-auto items-center md:justify-center rounded-lg w-full">No se encuentran resultados para esta categoría</li>
 
-          <h1 class="text-center font-bold text-black text-xl">Otras condiciones</h1>
-          <li class="transition-all hover:shadow-xl flex flex-wrap flex-row py-4 px-6 my-5 mx-2 bg-white items-center border rounded-lg" 
-              v-for="condition in others" :key="condition.index">
-            <div class="flex flex-row w-3/4 flex-wrap content-flex-start">
-              <p class="font-roboto w-full text-normal font-medium text-black">{{condition.name}}</p>
-            </div>
-            <div class="flex justify-end w-1/4 h-full">
-              <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="font-roboto focus:outline-none relative bg-greenbgc-900 hover:bg-black text-white box-sizing font-normal py-2 px-4 rounded text-sm self-end transition-all flex flex-row justify-center items-center">ver protocolo <i class="ri-arrow-right-line ml-2 text-base"></i></router-link>
-            </div>
+          <h1 class="text-left font-normal text-black text-xl">Otras condiciones</h1>
+          <li v-for="condition in others" :key="condition.index">
+              <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="transition-all hover:shadow-lg flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-6 mx-auto bg-white items-center md:justify-center border rounded-lg w-full">
+                <div class="flex flex-col lg:flex-row w-full lg:w-3/4 flex-wrap justify-center lg:justify-start items-center">
+                  <p class="w-full text-center lg:text-left text-base font-normal text-black">{{condition.name}}</p>
+                </div>
+                <div class="flex md:justify-center lg:justify-end md:w-full lg:w-1/4 h-full">
+                  <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="focus:outline-none relative hover:text-white hover:bg-greenbgc-900 text-black box-sizing font-normal py-2 px-4 rounded-full text-sm self-end transition-all flex flex-row justify-center items-center">Ver protocolo<i class="ri-arrow-right-s-line ml-2 text-base"></i></router-link>
+                </div>
+              </router-link>
           </li>
-          <li v-if="others == false" class="transition-all flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-3 mx-auto items-center md:justify-center rounded-lg w-full">No se encuentran resultados para esta categoría</li>
+          <li v-if="others == false" class="text-graybgcdark transition-all flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-3 mx-auto items-center md:justify-center rounded-lg w-full">No se encuentran resultados para esta categoría</li>
 
 
         </div>
@@ -95,6 +101,9 @@ export default {
           }
 
           return ret.join('');
+        },
+        clearsearch(){
+          this.name = ""
         }
     },  
     computed:{

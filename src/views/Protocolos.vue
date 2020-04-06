@@ -1,12 +1,16 @@
 <template>
-    <protocolos-component></protocolos-component>
+    <div>
+        <Header></Header>
+        <protocolos-component></protocolos-component>
+    </div>
 </template>
 
 <script>
     import ProtocolosComponent from "../components/Protocolos";
+    import Header from "@/components/Header.vue";
     export default {
         name: "Protocolos",
-        components: {ProtocolosComponent},
+        components: {ProtocolosComponent, Header},
     }
 </script>
 

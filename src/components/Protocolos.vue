@@ -1,21 +1,21 @@
 <template>
     <div class="flex flex-col justify-center items-center" >
         <div v-for="protocolos in protocols" v-bind:key="protocolos.id" v-show="protocolos.id == $route.params.id">
-        <div class="flex flex-col justify-center items-center">
-            <h1 class="text-center mt-5 text-xl lg:text-2xl font-black">{{protocolos.name}}</h1>
+        <div class="flex flex-col justify-center items-center bg-white">
+            <h1 class="text-center mt-1 text-xl lg:text-2xl font-black">{{protocolos.name}}</h1>
             <p class="text-base lg:text-2xl uppercase text-greenbgc-900 font-black">{{protocolos.category}}</p>
+            <router-link to="/" class="mt-4 mb-4 text-sm rounded hover:bg-graybgc hover:text-black px-4 py-2 text-graybgcdark flex flex-row justify-center items-center"><i class="ri-arrow-left-line mr-2"></i> Regresar a la lista</router-link>
         </div>
-
-        <div class="flex flex-col lg:flex-row justify-center items-center mt-5 mb-12">
+        <div class="flex flex-col lg:flex-row justify-center items-center mt-8 mb-12 mx-6">
             <!--Aqui inicia la fase 1-->
-            <div class="flex flex-col justify-around items-start bg-white py-2 px-5 rounded-lg mx-3 mt-5">
+            <div class="flex flex-col justify-around items-start bg-white py-2 px-8 rounded-lg mx-6 mt-5">
                 <div class="w-full flex flex-row items-center justify-start py-2 my-3">
                     <h1 class="font-black text-xl lg:text-xl">{{protocolos.phase1.name}}</h1>
                 </div>
 
-                <div class="flex flex-col justify-center items-center">
+               <div class="flex flex-col justify-center items-center">
                     <div class="flex flex-col lg:flex-row items-center justify-start w-full">
-                        <img src="https://i2.wp.com/biogreencell.com/wp-content/uploads/2019/03/BOTELLAS-4.png?resize=400%2C400&ssl=1" class="w-24 mr-2"/>
+                        <img src="../assets/biogreencell.jpeg" class="w-24 mr-2"/>
                         <div class="mr-3">
                             <h1 class="font-black text-lg uppercase mb-1">{{protocolos.phase1.p1.name}} <span class="text-red-600 text-xs">(*Leer abajo)</span></h1>
                             <p class="font-normal text-base text-gray-900">Cantidad: <span class="font-bold text-black">{{protocolos.phase1.p1.bottles}}</span></p>
@@ -33,14 +33,16 @@
 
                 <!--Producto 2 es variable, a veces esta y otras no-->
                 <!--Por eso se va a evaluar si existe un producto 2 o no, y en caso no exista no se muestra el elemento-->
-                <div class="flex flex-col justify-center items-center border-t-2 pt-4" v-show="protocolos.phase1.p2.name.length > 0">
+                <div class="flex flex-col justify-center items-center border-t-2 pt-4 w-full" v-show="protocolos.phase1.p2.name.length > 0">
                     <div class="flex flex-col lg:flex-row items-center justify-start w-full">
-                        <img src="https://biogreencell.com/wp-content/uploads/2018/09/AscorbicAcid_Polvo-1.jpg" class="w-24 mr-2"/>
+                        <img src="../assets/acido-ascorbico.jpeg" class="w-24 mr-2"/>
                         <div class="mr-5">
                             <h1 class="font-black text-base uppercase">{{protocolos.phase1.p2.name}}</h1>
                             <ul class="mt-1 mb-2 flex flex-col justify-center items-start list-none text-xs font-medium text-red-600">
+                                <li class="leading-normal">Se recomienda que no utilice más de 2mg diarios.</li>
+                                <li class="leading-normal">No usar en niños menores de 12 años.</li>
                                 <li class="leading-normal">No use este producto si tiene problemas con los riñones.</li>
-                                <li class="leading-none">No puede ingerir Vitamina B17 con el uso de este suplemento.</li>
+                                <li class="leading-normal">No puede ingerir Vitamina B17 con el uso de este suplemento.</li>
                             </ul>
                             <p class="font-normal text-sm text-gray-700 max-w-xs leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase1.p2.dose}}</span></p>
                             <p class="font-black text-2xl text-black pb-0 pt-1">${{protocolos.phase1.p2.price}}</p>
@@ -54,7 +56,7 @@
                 <!--Por eso se va a evaluar si existe un producto 3 o no, y en caso no exista no se muestra el elemento-->
                     <div class="flex flex-col justify-center items-center border-t-2 pt-4" v-show="protocolos.phase1.p3.name.length > 0">
                         <div class="flex flex-col lg:flex-row items-center justify-start w-full">
-                            <img src="https://biogreencell.com/wp-content/uploads/2019/07/spray.png" class="w-24 mr-2"/>
+                            <img src="../assets/wound-fixer.jpeg" class="w-24 mr-2"/>
                             <div class="mr-5">
                                 <h1 class="font-black text-base uppercase">{{protocolos.phase1.p3.name}}</h1>
                                 <p class="font-normal text-sm text-gray-700 max-w-xs leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase1.p3.dose}}</span></p>
@@ -75,7 +77,7 @@
 
                 <div class="flex flex-col justify-center items-center">
                     <div class="flex flex-col lg:flex-row items-center justify-start w-full">
-                        <img src="https://i2.wp.com/biogreencell.com/wp-content/uploads/2019/03/BOTELLAS-4.png?resize=400%2C400&ssl=1" class="w-24 mr-2"/>
+                        <img src="../assets/biogreencell.jpeg" class="w-24 mr-2"/>
                         <div class="mr-3">
                             <h1 class="font-black text-lg uppercase mb-1">{{protocolos.phase2.p1.name}} <span class="text-red-600 text-xs">(*Leer abajo)</span></h1>
                             <p class="font-normal text-base text-gray-900">Cantidad: <span class="font-bold text-black">{{protocolos.phase2.p1.bottles}}</span></p>
@@ -93,14 +95,16 @@
 
                 <!--Producto 2 es variable, a veces esta y otras no-->
                 <!--Por eso se va a evaluar si existe un producto 2 o no, y en caso no exista no se muestra el elemento-->
-                <div class="flex flex-col justify-center items-center border-t-2 pt-4" v-show="protocolos.phase2.p2.name.length > 0">
+                <div class="flex flex-col justify-center items-center border-t-2 pt-4 w-full" v-show="protocolos.phase2.p2.name.length > 0">
                     <div class="flex flex-col lg:flex-row items-center justify-start w-full">
-                        <img src="https://biogreencell.com/wp-content/uploads/2018/09/AscorbicAcid_Polvo-1.jpg" class="w-24 mr-2"/>
+                        <img src="../assets/acido-ascorbico.jpeg" class="w-24 mr-2"/>
                         <div class="mr-5">
                             <h1 class="font-black text-base uppercase">{{protocolos.phase2.p2.name}}</h1>
                             <ul class="mt-1 mb-2 flex flex-col justify-center items-start list-none text-xs font-medium text-red-600">
+                                <li class="leading-normal">Se recomienda que no utilice más de 2mg diarios.</li>
+                                <li class="leading-normal">No usar en niños menores de 12 años.</li>
                                 <li class="leading-normal">No use este producto si tiene problemas con los riñones.</li>
-                                <li class="leading-none">No puede ingerir Vitamina B17 con el uso de este suplemento.</li>
+                                <li class="leading-normal">No puede ingerir Vitamina B17 con el uso de este suplemento.</li>
                             </ul>
                             <p class="font-normal text-sm text-gray-700 max-w-xs leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase2.p2.dose}}</span></p>
                             <p class="font-black text-2xl text-black pb-0 pt-1">${{protocolos.phase2.p2.price}}</p>
@@ -112,9 +116,9 @@
 
                 <!--Producto 3 es variable, a veces esta y otras no-->
                 <!--Por eso se va a evaluar si existe un producto 3 o no, y en caso no exista no se muestra el elemento-->
-                    <div class="flex flex-col justify-center items-center border-t-2 pt-4" v-show="protocolos.phase2.p3.name.length > 0">
+                    <div class="flex flex-col justify-center items-center border-t-2 pt-4 w-full" v-show="protocolos.phase2.p3.name.length > 0">
                         <div class="flex flex-col lg:flex-row items-center justify-start w-full">
-                            <img src="https://biogreencell.com/wp-content/uploads/2019/07/spray.png" class="w-24 mr-2"/>
+                            <img src="../assets/wound-fixer.jpeg" class="w-24 mr-2"/>
                             <div class="mr-5">
                                 <h1 class="font-black text-base uppercase">{{protocolos.phase2.p3.name}}</h1>
                                 <p class="font-normal text-sm text-gray-700 max-w-xs leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase2.p3.dose}}</span></p>
@@ -124,7 +128,7 @@
                         </div>
                         <p class="w-full lg:w-4/5 text-sm mb-3 text-black mt-2 leading-tight"><span class="font-black">Importante:</span> Esta compra cubrirá un período de 30 días dentro de los {{protocolos.phase2.duration}} sugeridos para este protocolo.</p>
                     </div>
-                <a :href="protocolos.phase2.linkPhase1" class="flex flex-row flex-wrap justify-center items-center bg-red-600 w-full lg:w-4/5 mx-auto text-white py-4 rounded-lg mb-5 mt-5 hover:shadow-lg hover:bg-black transition-all font-normal text-xl focus:outline-none"><i class="ri-shopping-cart-2-fill mr-3 text-xl lg:text-2xl"></i>Comprar protocolo completo<span class="ml-2 font-bold text-2xl text-center lg:text-lg lg:text-left w-full lg:w-auto lg:text-lg">${{price2()}}</span></a>
+                <a :href="protocolos.phase2.linkPhase2" class="flex flex-row flex-wrap justify-center items-center bg-red-600 w-full lg:w-4/5 mx-auto text-white py-4 rounded-lg mb-5 mt-5 hover:shadow-lg hover:bg-black transition-all font-normal text-xl focus:outline-none"><i class="ri-shopping-cart-2-fill mr-3 text-xl lg:text-2xl"></i>Comprar protocolo completo<span class="ml-2 font-bold text-2xl text-center lg:text-lg lg:text-left w-full lg:w-auto lg:text-lg">${{price2()}}</span></a>
             </div>
             <!--Aqui finaliza la fase 2-->
         </div>

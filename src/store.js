@@ -2981,7 +2981,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'10ml. 2 veces al día',
-                            price:249.00,
+                            price:0,
                             offer:249.00,
                             link:"https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm"
                         },
@@ -3052,7 +3052,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox',
                             dose:'10ml. 2 veces al día',
-                            price:249.00,
+                            price:0,
                             offer:249.00,
                             link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C2pac02"
                         },
@@ -3122,7 +3122,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox',
                             dose:'10ml. 2 veces al día',
-                            price:249.00,
+                            price:0,
                             offer:249.00,
                             link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C3pac02"
                         },
@@ -3194,7 +3194,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'10ml. 2 veces al día',
-                            price:249.00,
+                            price:0,
                             offer:249.00,
                             link:"https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm"
                         },
@@ -3268,7 +3268,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'10ml. 2 veces al día', //Dosis del producto
-                            price:249.00, //Precio del producto
+                            price:0, //Precio del producto
                             offer:249.00,
                             link:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm' //Link del producto individual, para comprar individuales por producto
                         },
@@ -3290,7 +3290,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:'https://www.immunebiogreencell.com/product-p/woundfixer-condicionespiel.htm'
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C5pac02'//Finaliza el producto 2
+                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C5pac02'//Finaliza el producto 2
                     },
                    // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
                 },//Aqui finaliza el protocolo
@@ -3522,7 +3522,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
-                            price:1120.00, //Precio del producto
+                            price:0, //Precio del producto
                             offer:1120.00,
                             link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-20botellas.htm" //Link del producto individual, para comprar individuales por producto
                         },
@@ -3555,7 +3555,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.',
                             bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.',
                             dose:'20ml. 2 veces al día',
-                            price:359.95,
+                            price:0,
                             offer:359.95,
                             link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm"
                         },
@@ -3596,7 +3596,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'40ml. 4 veces al día', //Dosis del producto
-                            price:1120.00, //Precio del producto
+                            price:0, //Precio del producto
                             offer:1120.00,
                             link:'https://www.immunebiogreencell.com/product-p/altacomplejidad-20botellas.htm' //Link del producto individual, para comprar individuales por producto
                         },
@@ -3629,7 +3629,7 @@ export default new Vuex.Store({
                             name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
                             bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
                             dose:'20ml. 2 veces al día', //Dosis del producto
-                            price:359.95, //Precio del producto
+                            price:0, //Precio del producto
                             offer:359.95,
                             link:'https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm' //Link del producto individual, para comprar individuales por producto
                         },
@@ -3651,7 +3651,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C10pac02'//Finaliza el producto 2
+                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C10pac02'//Finaliza el producto 2
                     },
                    // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
                 },//Aqui finaliza el protocolo

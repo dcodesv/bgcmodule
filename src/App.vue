@@ -1,4 +1,4 @@
-<template class="bg-gray-300 w-full h-full">
+<template class="bg-graybgc w-full h-full">
   <div id="app">
     <router-view>
       <condiciones></condiciones>
@@ -30,8 +30,12 @@ export default {
 }
 </script>
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  @font-face {
+    font-family: ProximaNova-Regular;
+    src: url(assets/ProximaNova-Regular.otf);
+  }
   *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'ProximaNova-Regular', sans-serif;
+    letter-spacing: 0.5px;
   }
 </style>
