@@ -3023,7 +3023,7 @@ export default new Vuex.Store({
                             dose:'12 ml. 4 veces al día', //Dosis del producto
                             price:373.50, //Precio del producto
                             offer:359.95,
-                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C2pac01" //Link del producto individual, para comprar individuales por producto
+                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm" //Link del producto individual, para comprar individuales por producto
                         },
                         p2:{
                             name:'',
@@ -3041,7 +3041,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C2pac01'//Finaliza el producto 2
+                        linkPhase1:'https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
                     phase2:{
@@ -3054,7 +3054,7 @@ export default new Vuex.Store({
                             dose:'10ml. 2 veces al día',
                             price:0,
                             offer:249.00,
-                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C2pac02"
+                            link:"https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm"
                         },
                         p2:{
                             name:'',
@@ -3072,7 +3072,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C2pac02'//Se agrego debido a que el combo se compra por fase
+                        linkPhase2:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm'//Se agrego debido a que el combo se compra por fase
 
                     }
                    // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
@@ -3093,7 +3093,7 @@ export default new Vuex.Store({
                             dose:'20 ml. 4 veces al día', //Dosis del producto
                             price:622.50, //Precio del producto
                             offer:560.95,
-                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C3pac01" //Link del producto individual, para comprar individuales por producto
+                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-10botellas.htm" //Link del producto individual, para comprar individuales por producto
                         },
                         p2:{
                             name:'',
@@ -3111,7 +3111,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C3pac01'//Finaliza el producto 2
+                        linkPhase1:'https://www.immunebiogreencell.com/product-p/altacomplejidad-10botellas.htm'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
                     phase2:{
@@ -3124,7 +3124,7 @@ export default new Vuex.Store({
                             dose:'10ml. 2 veces al día',
                             price:0,
                             offer:249.00,
-                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C3pac02"
+                            link:"https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm"
                         },
                         p2:{
                             name:'',
@@ -3142,7 +3142,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C3pac02'//Se agrego debido a que el combo se compra por fase
+                        linkPhase2:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm'//Se agrego debido a que el combo se compra por fase
 
                     }
                    // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
@@ -3402,7 +3402,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C7pac01'//Finaliza el producto 2
+                        linkPhase1:'https://www.immunebiogreencell.com/product-p/altacomplejidad-16botellas.htm'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
                     phase2:{
@@ -3433,7 +3433,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C7pac02'//Se agrego debido a que el combo se compra por fase
+                        linkPhase2:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm'//Se agrego debido a que el combo se compra por fase
 
                     }
                    // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
@@ -3472,7 +3472,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C8pac01'//Finaliza el producto 2
+                        linkPhase1:'https://www.immunebiogreencell.com/product-p/altacomplejidad-20botellas.htm'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
                     phase2:{
@@ -3503,7 +3503,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C8pac02'//Se agrego debido a que el combo se compra por fase
+                        linkPhase2:'https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm'//Se agrego debido a que el combo se compra por fase
 
                     }
                    // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
@@ -3693,7 +3693,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:''
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C11pac01'//Finaliza el producto 2
+                        linkPhase1:'https://www.immunebiogreencell.com/product-p/prevencion-2botellas.htm'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
                     phase2:{
@@ -3768,7 +3768,7 @@ export default new Vuex.Store({
                             offer:0,
                             link:''
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C12pac01'//Finaliza el producto 2
+                        linkPhase1:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm'//Finaliza el producto 2
                     },
                     //Aqui inicia la fase 2 del protocolo
                     phase2:{
