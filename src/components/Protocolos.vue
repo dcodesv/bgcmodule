@@ -15,7 +15,7 @@
 
                <div class="flex flex-col justify-center items-center w-full">
                     <div class="flex flex-col lg:flex-row items-center justify-start w-full">
-                        <img src="../assets/biogreencell.jpeg" class="w-24 mr-2"/>
+                        <img :src="protocolos.phase1.p1.imglink" class="w-24 mr-2"/>
                         <div class="mr-3">
                             <h1 class="font-black text-lg uppercase mb-1">{{protocolos.phase1.p1.name}} <span class="text-red-600 text-xs">(*Leer abajo)</span></h1>
                             <p class="font-normal text-base text-gray-900">Cantidad: <span class="font-bold text-black">{{protocolos.phase1.p1.bottles}}</span></p>
@@ -82,7 +82,7 @@
 
                 <div class="flex flex-col justify-center items-center w-full">
                     <div class="flex flex-col lg:flex-row items-center justify-start w-full">
-                        <img src="../assets/biogreencell.jpeg" class="w-24 mr-2"/>
+                        <img :src="protocolos.phase2.p1.imglink" class="w-24 mr-2"/>
                         <div class="mr-3">
                             <h1 class="font-black text-lg uppercase mb-1">{{protocolos.phase2.p1.name}} <span class="text-red-600 text-xs">(*Leer abajo)</span></h1>
                             <p class="font-normal text-base text-gray-900">Cantidad: <span class="font-bold text-black">{{protocolos.phase2.p1.bottles}}</span></p>
