@@ -2958,10 +2958,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop tres veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer: 0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'',
@@ -2992,10 +2992,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'',
@@ -3177,10 +3177,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'',
@@ -3211,10 +3211,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop 2 veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'',
@@ -3253,10 +3253,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'WOUND FIXER',
@@ -3287,10 +3287,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'WOUND FIXER',
@@ -3328,10 +3328,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'',
@@ -3362,10 +3362,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'',
@@ -3548,10 +3548,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'',
@@ -3582,10 +3582,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'',
@@ -3625,9 +3625,9 @@ export default new Vuex.Store({
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'Un scoop cuatro veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'WOUND FIXER',
@@ -3658,10 +3658,10 @@ export default new Vuex.Store({
                             name:'Vitamina C (Acido Ascorbico)',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop dos veces al día mezclado con jugo de frutas sin azucar o agua.',
-                            price:54.95,
+                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            price:29.95,
                             offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac-5000-mg.htm'
+                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
                         },
                         p3:{
                             name:'',
