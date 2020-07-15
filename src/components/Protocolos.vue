@@ -47,7 +47,7 @@
                             </ul>
                             <p class="font-normal text-base text-gray-700 leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase1.p2.dose}}</span></p>
                             <!--<p class="font-black text-2xl text-graybgcdark pb-0 pt-1">NO DISPONIBLE</p>-->
-                            <p class="font-black text-3xl text-black pb-0 pt-1">${{protocolos.phase1.p2.price}}</p>
+                            <p class="font-black text-3xl text-black pb-0 pt-1">{{protocolos.phase1.p2.price > 0 ? "$"+protocolos.phase1.p2.price : "Gratis" }} <span class="leading-none pt-1 text-lg text-red-600 font-black ml-2 uppercase">Oferta!</span></p>
                         </div>
                         <!--<p class="flex flex-row lg:flex-row justify-center items-center font-normal text-sm bg-graybgcdark text-white border hover:text-white px-0 py-2 lg:px-2 lg:py-1 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-error-warning-line text-base lg:mr-2 mr-2"></i> No Disponible</p>-->
                         <a :href="protocolos.phase1.p2.link" class="flex flex-row lg:flex-col hover:border-black justify-center items-center font-normal text-base bg-greenbgc-900 text-white border hover:bg-black hover:text-white px-4 py-4 lg:px-4 lg:py-3 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-shopping-cart-2-line text-base lg:mr-0 mr-2"></i> Comprar<span class="lg:ml-0 ml-1">Individual</span></a>
@@ -115,7 +115,7 @@
                             </ul>
                             <p class="font-normal text-base text-gray-700 leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase2.p2.dose}}</span></p>
                             <!--<p class="font-black text-2xl text-graybgcdark pb-0 pt-1">NO DISPONIBLE</p>-->
-                            <p class="font-black text-3xl text-black pb-0 pt-1">${{protocolos.phase2.p2.price}}</p>
+                            <p class="font-black text-3xl text-black pb-0 pt-1">{{protocolos.phase1.p2.price > 0 ? "$"+protocolos.phase1.p2.price : "Gratis" }} <span class="leading-none pt-1 text-lg text-red-600 font-black ml-2 uppercase">Oferta!</span></p>
                         </div>
                         <!--<p class="flex flex-row lg:flex-row justify-center items-center font-normal text-sm bg-graybgcdark text-white border hover:text-white px-0 py-2 lg:px-2 lg:py-1 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-error-warning-line text-base lg:mr-2 mr-2"></i> No Disponible</p>-->
                         <a :href="protocolos.phase2.p2.link" class="flex flex-row lg:flex-col hover:border-black justify-center items-center font-normal text-base bg-greenbgc-900 text-white border hover:bg-black hover:text-white px-3 py-2 lg:px-4 lg:py-3 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-shopping-cart-2-line text-base lg:mr-0 mr-2"></i> Comprar<span class="lg:ml-0 ml-1">Individual</span></a>
