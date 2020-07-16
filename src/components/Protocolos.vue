@@ -21,8 +21,8 @@
                             <p class="font-normal text-base text-gray-900">Cantidad: <span class="font-bold text-black">{{protocolos.phase1.p1.bottles}}</span></p>
                             <p class="font-normal text-base text-gray-900 leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase1.p1.dose}}.</span> 15 minutos antes de cada comida, mantener debajo de la lengua por 30 segundos y luego ingerir.</p>
                             <p class="flex flex-wrap items-center font-black text-3xl text-greenbgc-900 py-2">
-                                <span class="font-bold mr-2 line-through text-base text-black"><span>{{protocolos.phase1.p1.price > 0 ? "$ "+protocolos.phase1.p1.price : ""}}</span></span> 
-                                ${{protocolos.phase1.p1.offer}}
+                                <span class="font-bold mr-2 line-through text-base text-black"><span>{{protocolos.phase1.p1.price > 0 ? "$ "+protocolos.phase1.p1.price.toFixed(2) : ""}}</span></span> 
+                                ${{protocolos.phase1.p1.offer.toFixed(2)}}
                                 <span class="leading-none pt-1 text-lg text-red-600 font-black ml-2 uppercase">Oferta!</span>
                             </p>
                         </div>
@@ -47,7 +47,7 @@
                             </ul>
                             <p class="font-normal text-base text-gray-700 leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase1.p2.dose}}</span></p>
                             <!--<p class="font-black text-2xl text-graybgcdark pb-0 pt-1">NO DISPONIBLE</p>-->
-                            <p class="font-black text-3xl text-black pb-0 pt-1">{{protocolos.phase1.p2.price > 0 ? "$"+protocolos.phase1.p2.price : "Gratis" }} <span class="leading-none pt-1 text-lg text-red-600 font-black ml-2 uppercase">Oferta!</span></p>
+                            <p class="leading-none font-black text-3xl text-black pb-0 pt-0 mt-3">{{protocolos.phase1.p2.price > 0 ? "$"+protocolos.phase1.p2.price.toFixed(2) : "$29.95" }} <br> <span class="leading-none pt-0 text-sm text-red-600 font-black ml-0 uppercase">**Obtengala Gratis con la compra del protocolo completo!</span></p>
                         </div>
                         <!--<p class="flex flex-row lg:flex-row justify-center items-center font-normal text-sm bg-graybgcdark text-white border hover:text-white px-0 py-2 lg:px-2 lg:py-1 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-error-warning-line text-base lg:mr-2 mr-2"></i> No Disponible</p>-->
                         <a :href="protocolos.phase1.p2.link" class="flex flex-row lg:flex-col hover:border-black justify-center items-center font-normal text-base bg-greenbgc-900 text-white border hover:bg-black hover:text-white px-4 py-4 lg:px-4 lg:py-3 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-shopping-cart-2-line text-base lg:mr-0 mr-2"></i> Comprar<span class="lg:ml-0 ml-1">Individual</span></a>
@@ -64,7 +64,7 @@
                                 <h1 class="font-black text-base uppercase">{{protocolos.phase1.p3.name}}</h1>
                                 <p class="font-normal text-base text-gray-700 leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase1.p3.dose}}</span></p>
                                 <!--<p class="font-black text-2xl text-graybgcdark pb-0 pt-1">NO DISPONIBLE</p>-->
-                                <p class="font-black text-3xl text-black pb-0 pt-1">${{protocolos.phase1.p3.price}}</p>
+                                <p class="leading-none font-black text-3xl text-black pb-0 pt-0 mt-3">${{protocolos.phase1.p3.price.toFixed(2)}} <br> <span class="leading-none pt-0 text-sm text-red-600 font-black ml-0 uppercase">**Compre uno y obtenga el otro gratis!</span></p>
                             </div>
                             <!--<p class="flex flex-row lg:flex-row justify-center items-center font-normal text-sm bg-graybgcdark text-white border hover:text-white px-0 py-2 lg:px-2 lg:py-1 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-error-warning-line text-base lg:mr-2 mr-2"></i> No Disponible</p>-->
                             <a :href="protocolos.phase1.p3.link" class="flex flex-row lg:flex-col hover:border-black justify-center items-center font-normal text-base bg-greenbgc-900 text-white border hover:bg-black hover:text-white px-4 py-4 lg:px-4 lg:py-3 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-shopping-cart-2-line text-base lg:mr-0 mr-2"></i> Comprar<span class="lg:ml-0 ml-1">Individual</span></a>
@@ -89,8 +89,8 @@
                             <p class="font-normal text-base text-gray-900">Cantidad: <span class="font-bold text-black">{{protocolos.phase2.p1.bottles}}</span></p>
                             <p class="font-normal text-base text-gray-900 leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase2.p1.dose}}.</span> 15 minutos antes de cada comida, mantener debajo de la lengua por 30 segundos y luego ingerir.</p>
                             <p class="flex flex-wrap items-center font-black text-3xl text-greenbgc-900 py-2">
-                                <span class="font-bold mr-2 line-through text-base text-black"><span>{{protocolos.phase2.p1.price > 0 ? "$ "+protocolos.phase2.p1.price : ""}}</span></span> 
-                                ${{protocolos.phase2.p1.offer}}
+                                <span class="font-bold mr-2 line-through text-base text-black"><span>{{protocolos.phase2.p1.price > 0 ? "$ "+protocolos.phase2.p1.price.toFixed(2) : ""}}</span></span> 
+                                ${{protocolos.phase2.p1.offer.toFixed(2)}}
                                 <span class="leading-none pt-1 text-lg text-red-600 font-black uppercase ml-2">Oferta!</span>
                             </p>
                         </div>
@@ -115,7 +115,7 @@
                             </ul>
                             <p class="font-normal text-base text-gray-700 leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase2.p2.dose}}</span></p>
                             <!--<p class="font-black text-2xl text-graybgcdark pb-0 pt-1">NO DISPONIBLE</p>-->
-                            <p class="font-black text-3xl text-black pb-0 pt-1">{{protocolos.phase1.p2.price > 0 ? "$"+protocolos.phase1.p2.price : "Gratis" }} <span class="leading-none pt-1 text-lg text-red-600 font-black ml-2 uppercase">Oferta!</span></p>
+                            <p class="leading-none font-black text-3xl text-black pb-0 pt-0 mt-3">{{protocolos.phase2.p2.price > 0 ? "$"+protocolos.phase2.p2.price.toFixed(2) : "$29.95" }} <br> <span class="leading-none pt-0 text-sm text-red-600 font-black ml-0 uppercase">**Obtengala Gratis con la compra del protocolo completo!</span></p>
                         </div>
                         <!--<p class="flex flex-row lg:flex-row justify-center items-center font-normal text-sm bg-graybgcdark text-white border hover:text-white px-0 py-2 lg:px-2 lg:py-1 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-error-warning-line text-base lg:mr-2 mr-2"></i> No Disponible</p>-->
                         <a :href="protocolos.phase2.p2.link" class="flex flex-row lg:flex-col hover:border-black justify-center items-center font-normal text-base bg-greenbgc-900 text-white border hover:bg-black hover:text-white px-3 py-2 lg:px-4 lg:py-3 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-shopping-cart-2-line text-base lg:mr-0 mr-2"></i> Comprar<span class="lg:ml-0 ml-1">Individual</span></a>
@@ -132,7 +132,8 @@
                                 <h1 class="font-black text-base uppercase">{{protocolos.phase2.p3.name}}</h1>
                                 <p class="font-normal text-base text-gray-700 leading-tight">Dosis: <span class="font-bold text-black">{{protocolos.phase2.p3.dose}}</span></p>
                                 <!--<p class="font-black text-2xl text-graybgcdark pb-0 pt-1">NO DISPONIBLE</p>-->
-                                <p class="font-black text-3xl text-black pb-0 pt-1">${{protocolos.phase2.p3.price}}</p>
+                                <p class="leading-none font-black text-3xl text-black pb-0 pt-0 mt-3">${{protocolos.phase2.p3.price.toFixed(2)}} <br> <span class="leading-none pt-0 text-sm text-red-600 font-black ml-0 uppercase">**Compre uno y obtenga el otro gratis!</span></p>
+                                
                             </div>
                             <!--<p class="flex flex-row lg:flex-row justify-center items-center font-normal text-sm bg-graybgcdark text-white border hover:text-white px-0 py-2 lg:px-2 lg:py-1 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-error-warning-line text-base lg:mr-2 mr-2"></i> No Disponible</p>-->
                             <a :href="protocolos.phase2.p3.link" class="flex flex-row lg:flex-col hover:border-black justify-center items-center font-normal text-base bg-greenbgc-900 text-white border hover:bg-black hover:text-white px-3 py-2 lg:px-4 lg:py-3 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-shopping-cart-2-line text-base lg:mr-0 mr-2"></i> Comprar<span class="lg:ml-0 ml-1">Individual</span></a>
@@ -156,6 +157,7 @@
                 <li class="text-base mb-1">• Este producto no está indicado para mujeres embarazadas o lactantes.</li>
                 <li class="text-base mb-1">• Consulte con su médico antes de tomar cualquier suplemento dietético, si padece alguna condición médica o si se produce alguna reacción adversa.</li>
                 <li class="text-base mb-1">• Las declaraciones sobre los suplementos dietéticos no han sido evaluadas por la FDA y no están destinadas a diagnosticar, tratar, curar o prevenir ninguna enfermedad o problema de salud.</li>
+                <li class="text-base mb-1">** Oferta valida por tiempo limitado</li>
                 
             </ul>
         </div>
