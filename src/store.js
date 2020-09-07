@@ -2936,32 +2936,34 @@ export default new Vuex.Store({
                 //Aqui inicia el protocolo completo
                 {
                     id:1, //ID del protocolo
-                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 4', //Categoria del protocolo
+                    name:'2 Frascos 2ml/cc', //Nombre del protocolo
+                    category:'categoria 2', //Categoria del protocolo
                     
                     //Aqui inician las fases del protocolo
                     phase1:{
                         name:'Fase 1', //Nombre de la fase
-                        duration:'12 meses', //Duracion de la fase
+                        duration:'120 días', //Duracion de la fase
+                        coverage:'60 días',
                         //Aqui inician los productos de cada fase
                         p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'40ml. 4 veces al día', //Dosis del producto
-                            price: 1120.00,//Precio del producto
-                            offer: 784.00,//Precio oferta
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-20botellas.htm", //Link del producto individual, para comprar individuales por producto
+                            name:'IMMUNE BIO GREEN CELL', //Nombre del producto
+                            bottles:'2 frascos de 240 ml. c/u.', //Cantidad de botellas
+                            dose:'2 ml/cc 4 veces al día', //Dosis del producto
+                            minuse: '120 días',
+                            price: 124.50,//Precio del producto
+                            offer: 94.15,//Precio oferta
+                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=prevencion-2-Bottles-2m", //Link del producto individual, para comprar individuales por producto
                             imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-20-FRASCOS.jpg"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
+                            name:'Vitamina C 2000 MG - 4 meses de duración aprox.',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
+                            dose:'1 scoop diario mezclado con agua.',
+                            price:29.95,
                             offer: 0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
+                            link:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-120-Servings'
                         },
                         p3:{
                             name:'',
@@ -2971,71 +2973,39 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C1pac01'//Finaliza el producto 2
+                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C2pac02-2M'//Finaliza el producto 2
                     },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'Fase 2',
-                        duration:'60 días (mantenimiento)',
-                        //Producto 1
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.',
-                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
-                            dose:'10ml. 2 veces al día',
-                            price:249.00,
-                            offer:174.30,
-                            link:"https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm",
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-4-FRASCOS.jpg"
-                        },
-                        //Producto 2
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C1pac02'//Se agrego debido a que el combo se compra por fase
-
-                    }
                 },//Aqui finaliza el protocolo
                 {
                     id:2, //ID del protocolo
-                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 1', //Categoria del protocolo
+                    name:'2 Frascos 4ml/cc', //Nombre del protocolo
+                    category:'categoria 2', //Categoria del protocolo
                     
                     //Aqui inician las fases del protocolo
                     phase1:{
                         name:'Fase 1', //Nombre de la fase
                         duration:'120 días', //Duracion de la fase
+                        coverage:'30 días',
                         //Aqui inician los productos de cada fase
                         p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox', //Cantidad de botellas
-                            dose:'12 ml. 4 veces al día', //Dosis del producto
-                            price:359.95, //Precio del producto
-                            offer:251.97,
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-6-FRASCOS.jpg"
+                            name:'IMMUNE BIO GREEN CELL', //Nombre del producto
+                            bottles:'2 frascos de 240 ml. c/u.', //Cantidad de botellas
+                            dose:'4 ml/cc 4 veces al día', //Dosis del producto
+                            minuse: '120 días',
+                            price: 124.50,//Precio del producto
+                            offer: 94.15,//Precio oferta
+                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=prevencion-2-Bottles", //Link del producto individual, para comprar individuales por producto
+                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-20-FRASCOS.jpg"
                         },
+                        //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
+                            name:'Vitamina C 2000 MG - 4 meses de duración aprox.',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
+                            dose:'1 scoop diario mezclado con agua.',
+                            price:29.95,
+                            offer: 0,
+                            link:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-120-Servings'
                         },
                         p3:{
                             name:'',
@@ -3045,521 +3015,39 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm'//Finaliza el producto 2
+                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C2pac02-4M'//Finaliza el producto 2
                     },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'Fase 2',
-                        duration:'60 días (mantenimiento)',
-                        //Producto 1
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.',
-                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox',
-                            dose:'10ml. 2 veces al día',
-                            price:249.00,
-                            offer:174.30,
-                            link:"https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm",
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-4-FRASCOS.jpg"
-                        },
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm'//Se agrego debido a que el combo se compra por fase
-
-                    }
-                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
                 },//Aqui finaliza el protocolo
                 {
                     id:3, //ID del protocolo
-                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 2', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'Fase 1', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'10 botellas de 240 ml. c/u. 30 días de duración aprox', //Cantidad de botellas
-                            dose:'20 ml. 4 veces al día', //Dosis del producto
-                            price:560.95, //Precio del producto
-                            offer:392.67,
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-10botellas.htm", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-10-FRASCOS.jpg"
-                        },
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/product-p/altacomplejidad-10botellas.htm'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'Fase 2',
-                        duration:'180 días',
-                        //Producto 1
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.',
-                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox',
-                            dose:'10ml. 2 veces al día',
-                            pprice:249.00,
-                            offer:174.30,
-                            link:"https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm",
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-4-FRASCOS.jpg"
-                        },
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm'//Se agrego debido a que el combo se compra por fase
-
-                    }
-                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
-                },//Aqui finaliza el protocolo
-                {
-                    id:4, //ID del protocolo
-                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 2', //Categoria del protocolo
+                    name:'4 Frascos 8ml/cc', //Nombre del protocolo
+                    category:'categoria 4', //Categoria del protocolo
                     
                     //Aqui inician las fases del protocolo
                     phase1:{
                         name:'Fase 1', //Nombre de la fase
                         duration:'120 días', //Duracion de la fase
+                        coverage:'30 días',
                         //Aqui inician los productos de cada fase
                         p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'10 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'20ml. 4 veces al día', //Dosis del producto
-                            price:560.95, //Precio del producto
-                            offer:392.67,
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-10botellas.htm", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-10-FRASCOS.jpg"
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0,
-                            offer:0, //Precio del producto
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C4pac01'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'Fase 2',
-                        duration:'60 días (mantenimiento)',
-                        //Producto 1
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.',
-                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
-                            dose:'10ml. 2 veces al día',
-                            price:249.00,
-                            offer:174.30,
-                            link:"https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm",
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-4-FRASCOS.jpg"
-                        },
-                        //Producto 2
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C4pac02'//Se agrego debido a que el combo se compra por fase
-
-                    }
-                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
-                },//Aqui finaliza el protocolo
-                {
-                    id:5, //ID del protocolo
-                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 2', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'Fase 1', //Nombre de la fase
-                        duration:'120 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'10 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'20ml. 4 veces al día', //Dosis del producto
-                            price:560.95, //Precio del producto
-                            offer:392.67,
-                            link:'https://www.immunebiogreencell.com/product-p/altacomplejidad-10botellas.htm', //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-10-FRASCOS.jpg"
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'WOUND FIXER',
-                            bottles:'1 botella (Spray – 4oz.)',
-                            dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
-                            price:44.95,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/woundfixer-condicionespiel.htm'
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C5pac01'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'Fase 2', //Nombre de la fase
-                        duration:'90 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'10ml. 2 veces al día', //Dosis del producto
-                            price:249.00,
-                            offer:174.30,
-                            link:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm', //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-4-FRASCOS.jpg"
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'WOUND FIXER',
-                            bottles:'1 botella (Spray – 4oz.)',
-                            dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
-                            price:44.95,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/woundfixer-condicionespiel.htm'
-                        },
-                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C5pac02'//Finaliza el producto 2
-                    },
-                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
-                },//Aqui finaliza el protocolo
-                {
-                    id:6, //ID del protocolo
-                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 3', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'Fase 1', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'16 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'32ml. 4 veces al día', //Dosis del producto
-                            price:896.95, //Precio del producto
-                            offer:627.90,
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-16botellas.htm", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-16-FRASCOS.jpg"
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C6pac01'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'Fase 2',
-                        duration:'180 días',
-                        //Producto 1
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.',
-                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.',
-                            dose:'20ml. 2 veces al día',
-                            price:359.95,
-                            offer:251.97,
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm",
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-6-FRASCOS.jpg"
-                        },
-                        //Producto 2
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C6pac02'//Se agrego debido a que el combo se compra por fase
-
-                    }
-                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
-                },//Aqui finaliza el protocolo
-                {
-                    id:7, //ID del protocolo
-                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 3', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'Fase 1', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'16 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'32 ml. 4 veces al día', //Dosis del producto
-                            price:896.95, //Precio del producto
-                            offer:627.90,
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-16botellas.htm", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-16-FRASCOS.jpg"
-                        },
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/product-p/altacomplejidad-16botellas.htm'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'Fase 2',
-                        duration:'180 días',
-                        //Producto 1
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.',
-                            bottles:'4 botellas de 240 ml. c/u. 30 días de duración aprox.',
-                            dose:'10ml. 2 veces al día',
-                            price:249.00,
-                            offer:174.30,
-                            link:"https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm",
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-4-FRASCOS.jpg"
-                        },
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm'//Se agrego debido a que el combo se compra por fase
-
-                    }
-                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
-                },//Aqui finaliza el protocolo
-                {
-                    id:8, //ID del protocolo
-                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 4', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'Fase 1', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'40 ml. 4 veces al día', //Dosis del producto
-                            price: 1120.00,//Precio del producto
-                            offer: 784.00,//Precio oferta
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-20botellas.htm", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-20-FRASCOS.jpg"
-                        },
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/product-p/altacomplejidad-20botellas.htm'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'Fase 2',
-                        duration:'180 días',
-                        //Producto 1
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.',
-                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.',
-                            dose:'20ml. 2 veces al día',
-                            price:359.95,
-                            offer:251.97,
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm",
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-6-FRASCOS.jpg"
-                        },
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:'https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm'//Se agrego debido a que el combo se compra por fase
-
-                    }
-                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
-                },//Aqui finaliza el protocolo
-                {
-                    id:9, //ID del protocolo
-                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 4', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'Fase 1', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'40ml. 4 veces al día', //Dosis del producto
-                            price: 1120.00,//Precio del producto
-                            offer: 784.00,//Precio oferta
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-20botellas.htm", //Link del producto individual, para comprar individuales por producto
+                            name:'IMMUNE BIO GREEN CELL', //Nombre del producto
+                            bottles:'4 frascos de 240 ml. c/u.', //Cantidad de botellas
+                            dose:'8 ml/cc 4 veces al día', //Dosis del producto
+                            minuse: '120 días',
+                            price: 249.00,//Precio del producto
+                            offer: 174.30,//Precio oferta
+                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=moderadas-4-bottless", //Link del producto individual, para comprar individuales por producto
                             imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-20-FRASCOS.jpg"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
+                            name:'Vitamina C 2000 MG - 4 meses de duración aprox.',
                             bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
+                            dose:'1 scoop diario mezclado con agua.',
                             price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
+                            offer: 0,
+                            link:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-120-Servings'
                         },
                         p3:{
                             name:'',
@@ -3569,422 +3057,10 @@ export default new Vuex.Store({
                             offer:0,
                             link:'' //Link del producto individual, para comprar individuales por producto
                         },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C9pac01'//Finaliza el producto 2
+                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=moderadas-4-bottless'//Finaliza el producto 2
                     },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'Fase 2',
-                        duration:'180 días',
-                        //Producto 1
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.',
-                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.',
-                            dose:'20ml. 2 veces al día',
-                            price:359.95,
-                            offer:251.97,
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm",
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-6-FRASCOS.jpg"
-                        },
-                        //Producto 2
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C9pac02'//Se agrego debido a que el combo se compra por fase
-
-                    }
-                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
                 },//Aqui finaliza el protocolo
-                {
-                    id:10, //ID del protocolo
-                    name:'Protocolo integrativo para condiciones de alta complejidad', //Nombre del protocolo
-                    category:'categoria 4', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'Fase 1', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'20 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'40ml. 4 veces al día', //Dosis del producto
-                            price: 1120.00,//Precio del producto
-                            offer: 784.00,//Precio oferta
-                            link:'https://www.immunebiogreencell.com/product-p/altacomplejidad-20botellas.htm', //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-20-FRASCOS.jpg"
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'WOUND FIXER',
-                            bottles:'1 botella (Spray – 4oz.)',
-                            dose:'Aplicar sobre la zona afectada de 2 a 3 veces x día.',
-                            price:44.95,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/woundfixer-condicionespiel.htm'
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C10pac01'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'Fase 2', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'20ml. 2 veces al día', //Dosis del producto
-                            price:359.95,
-                            offer:251.97,
-                            link:'https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm', //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-6-FRASCOS.jpg"
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=C10pac02'//Finaliza el producto 2
-                    },
-                   // linkProtocol:'linkdelprotocolocompleto' //Link para comprar el combo completo
-                },//Aqui finaliza el protocolo
-
-                //Aqui inicia el nuevo protocolo
-                {
-                    id:11, //ID del protocolo
-                    name:'Protocolo de prevención', //Nombre del protocolo
-                    category:'', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'2 botellas de 240 ml. c/u. 30 días de duración aprox.', //Cantidad de botellas
-                            dose:'4ml. 4 veces al día', //Dosis del producto
-                            price:134.50, //Precio del producto
-                            offer:94.15,
-                            link:'https://www.immunebiogreencell.com/product-p/prevencion-2botellas.htm', //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-2-FRASCOS.jpg"
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'',
-                            bottles:'',
-                            disclaimer:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/product-p/prevencion-2botellas.htm'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'', //Nombre de la fase
-                        duration:'', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'', //Nombre del producto
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'',
-                            bottles:'',
-                            disclaimer:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:''//Finaliza el producto 2
-                    },
-
-                },
-
-                //Aqui inicia el nuevo protocolo
-                {
-                    id:12, //ID del protocolo
-                    name:'Protocolo para condiciones moderadas', //Nombre del protocolo
-                    category:'', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'4 botellas de 240 ml. c/u. 48 días de duración aprox.', //Cantidad de botellas
-                            dose:'5ml. 4 veces al día', //Dosis del producto
-                            price:249.00, //Precio del producto
-                            offer:174.30,
-                            link:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm', //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-4-FRASCOS.jpg"
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'Vitamina C (Acido Ascorbico)',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
-                            disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
-                            dose:'Un scoop diario mezclado con jugo de frutas sin azucar o agua.',
-                            price:0,
-                            offer:0,
-                            link:'https://www.immunebiogreencell.com/product-p/vitaminac2000mg-newversion.htm'
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'', //Nombre de la fase
-                        duration:'', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'', //Nombre del producto
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'',
-                            bottles:'',
-                            disclaimer:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:''//Finaliza el producto 2
-                    },
-
-                },
-                //Aqui inicia el nuevo protocolo
-                {
-                    id:13, //ID del protocolo
-                    name:'Protocolo para condiciones moderada', //Nombre del protocolo
-                    category:'', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'4 botellas de 240 ml. c/u. 48 días de duración aprox.', //Cantidad de botellas
-                            dose:'5ml. 4 veces al día', //Dosis del producto
-                            price:249.00, //Precio del producto
-                            offer:174.30,
-                            link:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm', //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-4-FRASCOS.jpg"
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'',
-                            bottles:'',
-                            disclaimer:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/product-p/moderadas-4botellas.htm'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'', //Nombre de la fase
-                        duration:'', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'', //Nombre del producto
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'',
-                            bottles:'',
-                            disclaimer:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:''//Finaliza el producto 2
-                    },
-
-                },
-                //Aqui inicia el nuevo protocolo
-                {
-                    id:14, //ID del protocolo
-                    name:'Protocolo de prevención', //Nombre del protocolo
-                    category:'', //Categoria del protocolo
-                    
-                    //Aqui inician las fases del protocolo
-                    phase1:{
-                        name:'', //Nombre de la fase
-                        duration:'180 días', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'IMMUNE BIO GREEN CELL.', //Nombre del producto
-                            bottles:'6 botellas de 240 ml. c/u. 30 días de duración aprox', //Cantidad de botellas
-                            dose:'12 ml. 4 veces al día', //Dosis del producto
-                            price:359.95, //Precio del producto
-                            offer:251.97,
-                            link:"https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC-6-FRASCOS.jpg"
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'',
-                            bottles:'',
-                            disclaimer:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        linkPhase1:'https://www.immunebiogreencell.com/product-p/altacomplejidad-6botellas.htm'//Finaliza el producto 2
-                    },
-                    //Aqui inicia la fase 2 del protocolo
-                    phase2:{
-                        name:'', //Nombre de la fase
-                        duration:'', //Duracion de la fase
-                        //Aqui inician los productos de cada fase
-                        p1:{
-                            name:'', //Nombre del producto
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        //Aqui inicia el segundo producto
-                        p2:{
-                            name:'',
-                            bottles:'',
-                            disclaimer:'',
-                            dose:'',
-                            price:0,
-                            offer:0,
-                            link:''
-                        },
-                        p3:{
-                            name:'',
-                            bottles:'', //Cantidad de botellas
-                            dose:'', //Dosis del producto
-                            price:0, //Precio del producto
-                            offer:0,
-                            link:'' //Link del producto individual, para comprar individuales por producto
-                        },
-                        linkPhase2:''//Finaliza el producto 2
-                    },
-
-                },
+                
             ],
         },
         mutations:{
