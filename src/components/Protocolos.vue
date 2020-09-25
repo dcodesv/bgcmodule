@@ -1,9 +1,7 @@
 <template>
     <div class="flex flex-col justify-center items-center" >
         <div v-for="protocolos in protocols" v-bind:key="protocolos.id" v-show="protocolos.id == $route.params.id">
-        <div class="flex flex-col justify-center items-center bg-white">
-            <!-- <h1 class="text-center mt-1 text-xl lg:text-2xl font-black">{{protocolos.name}}</h1>  
-            <p class="text-base lg:text-2xl uppercase text-greenbgc-900 font-black">{{protocolos.category}}</p> titulo de seccion reemplazado por pedido 04/08/2020 --> 
+        <div class="flex flex-col justify-center items-center bg-white w-full m-auto">
             <h1 class="text-center mt-1 text-xl lg:text-2xl font-black">Recomendaciones de Uso:</h1>
             <router-link to="/" class="mt-4 mb-4 text-sm rounded hover:bg-graybgc hover:text-black px-4 py-2 text-graybgcdark flex flex-row justify-center items-center"><i class="ri-arrow-left-line mr-2"></i> Regresar a la lista</router-link>
         </div>
@@ -39,7 +37,7 @@
                 <!--Por eso se va a evaluar si existe un producto 2 o no, y en caso no exista no se muestra el elemento-->
                 <div class="flex flex-col justify-center items-center border-t-2 pt-4 w-full" v-show="protocolos.phase1.p2.name.length > 0">
                     <div class="flex flex-col lg:flex-row items-center justify-start w-full">
-                        <img src="../assets/acido-ascorbico.png" class="w-24 mr-8"/>
+                        <img :src="protocolos.phase1.p2.imglink" class="w-24 mr-8"/>
                         <div class="mr-5">
                             <h1 class="font-black text-base uppercase">{{protocolos.phase1.p2.name}}</h1>
                             <p class="font-normal text-base text-gray-700 leading-tight mt-1 mb-3"><span class="font-bold text-black">Recomendación de uso:</span> {{protocolos.phase1.p2.dose}}</p>
@@ -50,8 +48,9 @@
                                 <li class="leading-normal">*Evite la combinacion y/o uso de este producto con Vitamina B17.</li>
                             </ul>
                             <!--<p class="font-black text-2xl text-graybgcdark pb-0 pt-1">NO DISPONIBLE</p>-->
-                            <p class="flex items-center leading-none font-black text-3xl text-black pb-0 pt-0 mt-4">{{protocolos.phase1.p2.price > 0 ? "$"+protocolos.phase1.p2.price.toFixed(2) : "$29.95" }} <span v-show="protocolos.phase1.p2.price <= 0" class="text-base ml-3 leading-snug font-normal"> Obtengala gratis en la compra de este producto</span></p>
-                            <span v-show="protocolos.phase1.p2.price <= 0" class="flex mt-3 text-lg text-red-600 font-black">** Oferta por tiempo limitado.</span>
+                            <p class="flex items-center leading-none font-black text-3xl text-black pb-0 pt-0 mt-4 mb-4">{{protocolos.phase1.p2.price > 0 ? "$"+protocolos.phase1.p2.price.toFixed(2) : "$29.95" }}</p>
+                            <span v-show="protocolos.phase1.p2.price <= 0" class="text-base ml-3 flex leading-snug font-normal"> Obtengala gratis con la compra de 4 o mas frascos de IMMUNE BIO GREEN CELL</span>
+                            <span v-show="protocolos.phase1.p2.price <= 0" class="flex mt-1 mb-4 text-lg text-red-600 font-black">** Oferta válida por tiempo limitado.</span>
                         </div>
                         <!--<p class="flex flex-row lg:flex-row justify-center items-center font-normal text-sm bg-graybgcdark text-white border hover:text-white px-0 py-2 lg:px-2 lg:py-1 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-error-warning-line text-base lg:mr-2 mr-2"></i> No Disponible</p>-->
                         <a :href="protocolos.phase1.p2.link" class="flex flex-row lg:flex-col hover:border-black justify-center items-center font-normal text-base bg-greenbgc-900 text-white border hover:bg-black hover:text-white px-4 py-4 lg:px-4 lg:py-3 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-shopping-cart-2-line text-base lg:mr-0 mr-2"></i> Comprar<span class="lg:ml-0 ml-1">Individual</span></a>
@@ -62,12 +61,18 @@
                 <!--Por eso se va a evaluar si existe un producto 3 o no, y en caso no exista no se muestra el elemento-->
                     <div class="flex flex-col justify-center items-center border-t-2 pt-4 w-full" v-show="protocolos.phase1.p3.name.length > 0">
                         <div class="flex flex-col lg:flex-row items-center justify-start w-full">
-                            <img src="../assets/wound-fixer.jpeg" class="w-24 mr-2"/>
+                            <img :src="protocolos.phase1.p3.imglink" class="w-24 mr-8"/>
                             <div class="mr-5">
                                 <h1 class="font-black text-base uppercase">{{protocolos.phase1.p3.name}}</h1>
-                                <p class="font-normal text-base text-gray-700 leading-tight"><span class="font-bold text-black">Dosis:</span> {{protocolos.phase1.p3.dose}}</p>
+                                <p class="font-normal text-base text-black mt-1 mb-1">Ideal para quemaduras menores, raspaduras, infecciones, úlceras y/o enfermedades en la piel</p>
+                                <p class="font-normal text-base text-black leading-tight max-w-2xl"><span class="font-bold text-black">Uso recomendado:</span> {{protocolos.phase1.p3.dose}}</p>
+                                <ul class="mt-1 mb-2 flex flex-col justify-center items-start list-none text-xs font-medium text-red-600">
+                                    <li class="leading-normal">*Solo para mayores de 12 años.</li>
+                                </ul>
                                 <!--<p class="font-black text-2xl text-graybgcdark pb-0 pt-1">NO DISPONIBLE</p>-->
-                                <p class="leading-none font-black text-3xl text-black pb-0 pt-0 mt-3">${{protocolos.phase1.p3.price.toFixed(2)}} <br> <span class="leading-none pt-0 text-sm text-red-600 font-black ml-0 uppercase">**Compre uno y obtenga el otro gratis!</span></p>
+                                <p class="leading-none font-black text-3xl text-black pb-0 pt-0 mt-3 mb-4">${{protocolos.phase1.p3.price.toFixed(2)}}</p>
+                                <span class="text-base ml-3 flex leading-snug font-normal"> 2x1! Compre uno y reciba el otro gratis.</span>
+                                <span class="flex mt-1 mb-4 text-lg text-red-600 font-black">** Oferta válida por tiempo limitado.</span>
                             </div>
                             <!--<p class="flex flex-row lg:flex-row justify-center items-center font-normal text-sm bg-graybgcdark text-white border hover:text-white px-0 py-2 lg:px-2 lg:py-1 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-error-warning-line text-base lg:mr-2 mr-2"></i> No Disponible</p>-->
                             <a :href="protocolos.phase1.p3.link" class="flex flex-row lg:flex-col hover:border-black justify-center items-center font-normal text-base bg-greenbgc-900 text-white border hover:bg-black hover:text-white px-4 py-4 lg:px-4 lg:py-3 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-shopping-cart-2-line text-base lg:mr-0 mr-2"></i> Comprar<span class="lg:ml-0 ml-1">Individual</span></a>
@@ -86,16 +91,18 @@
             <ul class="ml-5 mt-2">
                 <li class="text-lg mb-1">1. Solo para mayores de 12 años.</li>
                 <li class="text-lg mb-1">2. El color del envase y/o tapa podría variar.</li>
-                <li class="text-lg mb-1">3. Agitar antes de usar.</li>
-                <li class="text-lg mb-1">4. Todo paciente con la condición de diabetes, al comenzar con Immune Bio Green Cell debe monitorear sus niveles de azúcar por lo menos dos veces al día.</li>                
+                <li class="text-lg mb-1">3. Agitar antes de usar. Puede notar residuos vegetales en los bordes del frasco, esto se debe a que es un producto natural.</li>
+                <li class="text-lg mb-1">4. Toda persona con la condición de diabetes, al comenzar con Immune Bio Green Cell debe monitorear sus niveles de azúcar por lo menos dos veces al día.</li>                
                 <li class="text-lg mb-1">5. Los resultados pueden variar de persona a persona.</li>
-                <li class="text-lg mb-1">6. En las personas con condiciones autoinmunes puede suceder que en algunos casos y de persona a persona, se agudice la misma en lo que el sistema immunológico comienza a retomar su conocimiento genético celular. No debe durar más de 30 días para que pudiera comenzar a notar una mejora.</li>
-                <li class="text-lg mb-1">7. Si usted es hipertenso descontrolado no utilice este suplemento.</li>
-                <li class="text-lg mb-1">8. Si usted toma anticoagulante deberá consultar con su medico primario y/o especialista antes de adquirir el suplemento.</li>
-                <li class="text-lg mb-1">9. Si usted ha experimentado el trasplante de algún órgano (s), deberá consultar con su médico primario y/o especialista antes de adquirir el suplemento.</li>
+                <li class="text-lg mb-1">6. En las personas con condiciones autoinmunes puede suceder que en algunos casos y de persona a persona, se agudice la misma en lo que el sistema inmunológico comienza a retomar su reconocimiento genético celular. No debería durar más de 30 días para que la persona pudiera comenzar a notar una mejoría.</li>
+                <li class="text-lg mb-1">7. Si usted es hipertenso recomendamos consultar con su médico primario y/o especialista antes de adquirir el suplemento.</li>
+                <li class="text-lg mb-1">8. Si usted toma anticoagulante recomendamos consultar con su médico primario y/o especialista antes de adquirir el suplemento.</li>
+                <li class="text-lg mb-1">9. Si usted ha experimentado el trasplante de algún órgano (s), recomendamos consultar con su médico primario y/o especialista antes de adquirir el suplemento.</li>
                 <li class="text-lg mb-1">10. No se recomienda la utilización de este suplemento para mujeres embarazadas o lactantes.</li>
                 <li class="text-lg mb-1">11. Consulte con su médico primario y/o especialista antes de tomar cualquier suplemento dietético, si padece alguna condición médica o si se produce alguna reacción adversa.</li>
                 <li class="text-lg mb-1">12. Las declaraciones sobre los suplementos dietéticos no han sido evaluadas por la FDA y no están destinadas a diagnosticar, tratar, curar o prevenir ninguna enfermedad o problema de salud.</li>
+                <li class="text-lg mb-1">13. Sugerimos consumir la cantidad indicada del suplemento de acuerdo a la dosis recomendada, dentro del tiempo sugerido.</li>
+                
             </ul>
             <p class="text-lg mb-1 font-black mt-5">** Oferta válida por tiempo limitado</p>
         </div>

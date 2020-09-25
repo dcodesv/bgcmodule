@@ -35,7 +35,7 @@
           </li>
           <li v-if="cpsi == false" class="text-graybgcdark transition-all flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-3 mx-auto items-center md:justify-center rounded-lg w-full">No se encuentran resultados para esta categoría</li>
 
-          <h1 class="text-left font-normal text-black text-xl" >Condiciones en etapa inicial y etapa avanzada</h1>
+          <!--<h1 class="text-left font-normal text-black text-xl" >Condiciones en etapa inicial y etapa avanzada</h1>
           <li v-for="condition in etapas" :key="condition.index">
               <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="transition-all hover:shadow-lg flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-6 mx-auto bg-white items-center md:justify-center border rounded-lg w-full">
                 <div class="flex flex-col lg:flex-row w-full lg:w-3/4 flex-wrap justify-center lg:justify-start items-center">
@@ -46,7 +46,7 @@
                 </div>
               </router-link>
           </li>
-          <li v-if="etapas == false" class="text-graybgcdark transition-all flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-3 mx-auto items-center md:justify-center rounded-lg w-full">No se encuentran resultados para esta categoría</li>
+          <li v-if="etapas == false" class="text-graybgcdark transition-all flex flex-no-wrap lg:flex-wrap flex-col lg:flex-row py-4 pl-4 pr-3 lg:pl-4 pr-3 my-3 mx-auto items-center md:justify-center rounded-lg w-full">No se encuentran resultados para esta categoría</li>-->
 
           <h1 class="text-left font-normal text-black text-xl">Otras condiciones</h1>
           <li v-for="condition in others" :key="condition.index">
@@ -162,7 +162,7 @@ export default {
         },
 
         cpsi(){
-          return this.filterConditions.filter((conditions) => conditions.category.includes('Estadio'));
+          return this.filterConditions.filter((conditions) => conditions.category.includes('Estado'));
         },
         etapas(){
           return this.filterConditions.filter((conditions) => conditions.category.includes('Etapa'));
