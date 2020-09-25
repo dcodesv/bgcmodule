@@ -65,7 +65,7 @@
                             <div class="mr-5">
                                 <h1 class="font-black text-base uppercase">{{protocolos.phase1.p3.name}}</h1>
                                 <p class="font-normal text-base text-black mt-1 mb-1">Ideal para quemaduras menores, raspaduras, infecciones, úlceras y/o enfermedades en la piel</p>
-                                <p class="font-normal text-base text-black leading-tight max-w-2xl"><span class="font-bold text-black">Uso recomendado:</span> {{protocolos.phase1.p3.dose}}</p>
+                                <p class="font-normal text-base text-black leading-tight max-w-2xl"><span class="font-bold text-black">Recomendación de uso:</span> {{protocolos.phase1.p3.dose}}</p>
                                 <ul class="mt-1 mb-2 flex flex-col justify-center items-start list-none text-xs font-medium text-red-600">
                                     <li class="leading-normal">*Solo para mayores de 12 años.</li>
                                 </ul>
@@ -77,7 +77,6 @@
                             <!--<p class="flex flex-row lg:flex-row justify-center items-center font-normal text-sm bg-graybgcdark text-white border hover:text-white px-0 py-2 lg:px-2 lg:py-1 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-error-warning-line text-base lg:mr-2 mr-2"></i> No Disponible</p>-->
                             <a :href="protocolos.phase1.p3.link" class="flex flex-row lg:flex-col hover:border-black justify-center items-center font-normal text-base bg-greenbgc-900 text-white border hover:bg-black hover:text-white px-4 py-4 lg:px-4 lg:py-3 ml-0 lg:ml-auto transition-all rounded-lg lg:w-auto w-full"><i class="ri-shopping-cart-2-line text-base lg:mr-0 mr-2"></i> Comprar<span class="lg:ml-0 ml-1">Individual</span></a>
                         </div>
-                        <p class="w-full lg:w-4/5 text-sm mb-3 text-black mt-2 leading-tight"><span class="font-black">Importante:</span> Esta compra cubrirá un período de 30 días dentro de los {{protocolos.phase1.duration}} sugeridos.</p>
                     </div>
                     <!--<p class="flex flex-row flex-wrap justify-center items-center text-center bg-red-600 w-full lg:w-4/5 mx-auto text-white py-2 px-2 rounded-lg mb-5 mt-5 hover:shadow-lg transition-all font-normal text-xl focus:outline-none"><i class="ri-error-warning-line mr-3 text-xl lg:text-2xl"></i>Por el momento no esta disponible el protocolo completo, intenta comprar ImmuneBioGreenCell individualmente y recibe un 30% de descuento <br><i class="ri-home-heart-fill mr-3 text-xl lg:text-2xl"></i> #QuedateEnCasa</p>-->
                 <a :href="protocolos.phase1.linkPhase1" class="flex flex-col flex-wrap justify-center items-center bg-red-600 w-full lg:w-4/5 mx-auto text-white py-4 rounded-lg mb-8 mt-12 hover:shadow-lg hover:bg-black transition-all font-normal text-lg focus:outline-none"><span><i class="ri-shopping-cart-2-fill mr-3 text-lg lg:text-xl"></i>Comprar Ahora!<span class="ml-2 font-bold text-3xl text-center lg:text-lg lg:text-left w-full lg:w-auto lg:text-3xl">${{price1()}}</span></span><span class="text-lg text-center">Envío incluido en los Estados Unidos. Aplica a Puerto Rico</span></a>
