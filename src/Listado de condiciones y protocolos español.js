@@ -123,7 +123,7 @@ export default new Vuex.Store({
                     id:18,
                     name:"Condición Progresiva del sistema Inmune de Piel. Estado 1,2,3 y 4",
                     category:"Estado 1,2,3 y 4",
-                    idProtocolo:6 
+                    idProtocolo:3 
                 },
                 {
                     id:19,
@@ -147,7 +147,7 @@ export default new Vuex.Store({
                     id:22,
                     name:"Condición Progresiva del sistema Inmune de Rostro (Célula Basal). Estado 1 y 2", 
                     category:"Estado 1 y 2",
-                    idProtocolo:6 
+                    idProtocolo:3 
                 },
                 {
                     id:23,
@@ -244,7 +244,7 @@ export default new Vuex.Store({
                     id:39,
                     name:"Acné ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {
                     id:40,
@@ -262,7 +262,7 @@ export default new Vuex.Store({
                     id:42,
                     name:"Alopecia",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:43,
@@ -382,7 +382,7 @@ export default new Vuex.Store({
                     id:62,
                     name:"Eczema",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:63,
@@ -520,49 +520,49 @@ export default new Vuex.Store({
                     id:85,
                     name:"Pie de atleta ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:86,
                     name:"Psoriasis ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:87,
                     name:"Psoriasis en Placas ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {
                     id:88,
                     name:"Psoriasis en las uñas",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {  
                     id:89,
                     name:"Psoriasis Guttata o en Gotas ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:3 
                 },
                 {  
                     id:90,
                     name:"Psoriasis Inversa ",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {  
                     id:91,
                     name:"Psoriasis Pustulosa ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:3 
                 },
                 {  
                     id:92,
                     name:"Psoriasis Eritrodérmica ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:3 
                 },
                 {
                     id:93,
@@ -682,7 +682,7 @@ export default new Vuex.Store({
                     id:111,
                     name:"Verrugas",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:112,
@@ -970,84 +970,84 @@ export default new Vuex.Store({
                     id:159,
                     name:"Dermatosis Cenicienta",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:160,
                     name:"Dermatosis Papulosa Nigra",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:161,
                     name:"Dermatosis Ocupacional",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 }, 
                 {
                     id:162,
                     name:"Dermatosis Ampollosa",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:163,
                     name:"Dermatosis Palmoplantar",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:164,
                     name:"Dermatitis por Estasis",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },{
                     id:165,
                     name:"Dermatitis por Contacto Alérgica",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:166,
                     name:"Dermatitis Atópica",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:167,
                     name:"Dermatitis de Contacto Irritante",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:168,
                     name:"Neurodermatitis",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:169,
                     name:"Dermatitis perioral",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:170,
                     name:"Dermatitis Seborreica",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:171,
                     name:"Dermatitis Exfoliativa Generalizada o Eritroderma",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:172,
                     name:"Dermatomiositis",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:173,
@@ -1557,7 +1557,7 @@ export default new Vuex.Store({
                     id:258,
                     name:"Melasma",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:259,
@@ -1977,361 +1977,7 @@ export default new Vuex.Store({
                     id:328,
                     name:"Vitíligo ",
                     category:"otros",
-                    idProtocolo:5
-                },
-                {
-                    id:329,
-                    name:"Alopecia areata",
-                    category:"otros",
-                    idProtocolo:6
-                },
-                {
-                    id:330,
-                    name:"Anemia Aplásica ",
-                    category:"otros",
                     idProtocolo:2
-                },
-                {
-                    id:331,
-                    name:"Anemia drepanocitica  ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:332,
-                    name:"Traumatismo Cerebral. TBI ",
-                    category:"otros",
-                    idProtocolo:1
-                },
-                {
-                    id:4,
-                    name:"Condición Progresiva del sistema Inmune de Cuello Uterino. Estado 1,2,3 y 4  ",
-                    category:"Estado 1,2,3 y 4",
-                    idProtocolo:3 
-                },
-                {
-                    id:4,
-                    name:"Condición Progresiva del sistema Inmune Peritoneal. Estado 1,2,3 y 4  ",
-                    category:"Estado 1,2,3 y 4",
-                    idProtocolo:3 
-                },
-                {
-                    id:333,
-                    name:"Soplo en el corazón ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista", 
-                    idProtocolo:0
-                },
-                {
-                    id:328,
-                    name:"Cardiopatía ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:0
-                },
-                {
-                    id:328,
-                    name:"Alopecia Androgénica ",
-                    category:"otros",
-                    idProtocolo:5
-                },
-                {
-                    id:328,
-                    name:"Isquemia Cerebral  ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:0
-                },
-                {
-                    id:328,
-                    name:"Colesterol Elevado ",
-                    category:"otros",
-                    idProtocolo:1
-                },
-                {
-                    id:328,
-                    name:"Colitis Ulcerosa Aguda ",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:328,
-                    name:"Síndrome de Phelan-McDermid o Deleccion 22q13.3 ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Demencia ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Demencia Mixta ",
-                    category:"otros",
-                    idProtocolo:1
-                },
-                {
-                    id:328,
-                    name:"Dengue ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Desorden Hormonal ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Duodenitis",
-                    category:"otros",
-                    idProtocolo:1
-                },
-                {
-                    id:328,
-                    name:"Encefalitis Viral Aguda ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Esquizofrenia ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Polimialgia Reumatica  ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Fibromialgia - Polimialgia Reumatica  ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Espondilitis aquilosante - Fibromialgia  ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Esquizoencefalia de labios abiertos ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:0
-                },
-                {
-                    id:328,
-                    name:"Fibromialgia - Gastrointeritis  ",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:328,
-                    name:"Hemofilia ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:0
-                },
-                {
-                    id:328,
-                    name:"Hepatomegalia. Higado agrandado ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"hiperplasia prostática benigna (HPB). Prostata agrandada ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Deficiencia Cardiaca ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:0
-                },
-                {
-                    id:328,
-                    name:"Hipoxia Cerebral  ",
-                    category:"otros",
-                    idProtocolo:1
-                },
-                {
-                    id:328,
-                    name:"Inflamación de la glandula Mamaria  ",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:328,
-                    name:"Insuficiencia Arterial y Venosa ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Leptospirosis  ",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:328,
-                    name:"Leucopenia  ",
-                    category:"otros",
-                    idProtocolo:3
-                },
-                {
-                    id:328,
-                    name:"Lisencefalia ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:0
-                },
-                {
-                    id:328,
-                    name:"Microcefalia ",
-                    category:"otros",
-                    idProtocolo:1
-                },
-                {
-                    id:328,
-                    name:"Mielomeningocele (espina bifida) ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:0
-                },
-                {
-                    id:328,
-                    name:"Neurofibromatosis NF1 ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Obesidad ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Obstrucción de arterias  ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Obstrucción de trompas de falopio ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Pemphigus Vulgaris ",
-                    category:"otros",
-                    idProtocolo:5
-                },
-                {
-                    id:328,
-                    name:"Polycythemia vera (PV)  ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Retardo Psicomotor  ",
-                    category:"otros",
-                    idProtocolo:1
-                },
-                {
-                    id:328,
-                    name:"Retinopatia   ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Sarcoidosis ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:4,
-                    name:"Condición Progresiva del sistema Inmune S. de Ewing. Estado 1,2,3 y 4  ",
-                    category:"Estado 1,2,3 y 4",
-                    idProtocolo:3 
-                },
-                {
-                    id:328,
-                    name:"Síndrome Antifosfolípido ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Sindrome Cri Du Chat ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:0
-                },
-                {
-                    id:340,
-                    name:"síndrome de Prader-Willi  ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"síndrome de Tourette ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Sindrome de Down ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:0
-                },
-                {
-                    id:328,
-                    name:"Sindrome Dravet ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"síndrome de McCune-Albright ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Trastorno del sueño ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"Trastorno Disforico Premenstrual  ",
-                    category:"otros",
-                    idProtocolo:2
-                },
-                {
-                    id:328,
-                    name:"síndrome triple X. Trisomía X. 47,XXX ",
-                    category:"otros",
-                    idProtocolo:1
-                },
-                {
-                    id:4,
-                    name:"Condición Progresiva del sistema Inmune Glioblastoma. Estado 1,2,3 y 4  ",
-                    category:"Estado 1,2,3 y 4",
-                    idProtocolo:3 
-                },
-                {
-                    id:328,
-                    name:"ventriculomegalia ",
-                    category:"otros. Si usted desea consulte a su médico primario y/o especialista",
-                    idProtocolo:0       
                 },
 
             ],

@@ -1,6 +1,7 @@
 <template>
-    <div class="flex flex-col justify-center items-center" >
-        <div v-for="protocolos in protocols" v-bind:key="protocolos.id" v-show="protocolos.id == $route.params.id">
+    <div class="flex flex-col justify-center items-center">
+        <div v-if="$route.params.id > 0">
+            <div v-for="protocolos in protocols" v-bind:key="protocolos.id" v-show="protocolos.id == $route.params.id">
         <div class="flex flex-col justify-center items-center bg-white w-full m-auto">
             <h1 class="text-center mt-1 text-xl lg:text-2xl font-black">Recomendaciones de Uso:</h1>
             <router-link to="/" class="mt-4 mb-4 text-sm rounded hover:bg-graybgc hover:text-black px-4 py-2 text-graybgcdark flex flex-row justify-center items-center"><i class="ri-arrow-left-line mr-2"></i> Regresar a la lista</router-link>
@@ -106,6 +107,11 @@
             <p class="text-lg mb-1 font-black mt-5">** Oferta válida por tiempo limitado</p>
         </div>
         </div>
+        </div>
+        <div v-else class="mt-12 justify-center flex items-center flex-col">
+            <h1 class="text-2xl font-black">Si usted desea consulte a su médico primario y/o especialista</h1>
+            <router-link :to="{name:'condiciones'}" class="mt-12 bg-greenbgc-900 px-6 py-3 text-white rounded-lg">Ir al home</router-link>
+        </div>
     </div>
 </template>
 
@@ -130,10 +136,10 @@
                 id -= 1; //porque el indice del arreglo inicia en 0 y el elemento inicia con 1 Ejemplo: 0 == 1, 1 == 2, 2 == 3
                 let total = (this.protocols[id].phase2.p1.offer + this.protocols[id].phase2.p2.price + this.protocols[id].phase2.p3.price);
                 return total.toFixed(2);
-            },
+            }
         },
         computed:{
-            ...mapState(['protocols']),
+            ...mapState(['protocols'])
         }
     }
 </script>

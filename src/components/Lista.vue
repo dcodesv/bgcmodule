@@ -29,7 +29,7 @@
                   <p class="w-full text-center lg:text-left text-base font-normal text-black">{{condition.name}}</p>
                 </div>
                 <div class="flex md:justify-center lg:justify-end md:w-full lg:w-1/4 h-full">
-                  <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="focus:outline-none relative hover:text-white hover:bg-greenbgc-900 text-black box-sizing font-normal py-2 px-4 rounded-full text-sm self-end transition-all flex flex-row justify-center items-center">Ver recomendación<i class="ri-arrow-right-s-line ml-2 text-base"></i></router-link>
+                  <router-link v-if="condition.idProtocolo > 0" :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="focus:outline-none relative hover:text-white hover:bg-greenbgc-900 text-black box-sizing font-normal py-2 px-4 rounded-full text-sm self-end transition-all flex flex-row justify-center items-center">Ver recomendación<i class="ri-arrow-right-s-line ml-2 text-base"></i></router-link>
                 </div>
               </router-link>
           </li>
@@ -55,7 +55,8 @@
                   <p class="w-full text-center lg:text-left text-base font-normal text-black">{{condition.name}}</p>
                 </div>
                 <div class="flex md:justify-center lg:justify-end md:w-full lg:w-1/4 h-full">
-                  <router-link :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="focus:outline-none relative hover:text-white hover:bg-greenbgc-900 text-black box-sizing font-normal py-2 px-4 rounded-full text-sm self-end transition-all flex flex-row justify-center items-center">Ver recomendación<i class="ri-arrow-right-s-line ml-2 text-base"></i></router-link>
+                  <router-link v-if="condition.idProtocolo > 0" :to="{name:'protocolos', params:{id: condition.idProtocolo}}" class="focus:outline-none relative hover:text-white hover:bg-greenbgc-900 text-black box-sizing font-normal py-2 px-4 rounded-full text-sm self-end transition-all flex flex-row justify-center items-center">Ver recomendación<i class="ri-arrow-right-s-line ml-2 text-base"></i></router-link>
+                  <p v-if="condition.idProtocolo == 0" class="focus:outline-none relative text-black box-sizing font-normal py-2 px-1 text-sm self-end transition-all flex flex-row justify-center items-center">Si usted desea consulte a su médico primario y/o especialista.</p>
                 </div>
               </router-link>
           </li>
