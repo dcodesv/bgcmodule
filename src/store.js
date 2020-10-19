@@ -2002,336 +2002,396 @@ export default new Vuex.Store({
                     name:"Traumatismo Cerebral. TBI ",
                     category:"otros",
                     idProtocolo:1
-                },
+                },//inicia id desordenados
                 {
-                    id:4,
+                    id:333,
                     name:"Condición Progresiva del sistema Inmune de Cuello Uterino. Estado 1,2,3 y 4  ",
                     category:"Estado 1,2,3 y 4",
                     idProtocolo:3 
                 },
                 {
-                    id:4,
+                    id:334,
                     name:"Condición Progresiva del sistema Inmune Peritoneal. Estado 1,2,3 y 4  ",
                     category:"Estado 1,2,3 y 4",
                     idProtocolo:3 
                 },
                 {
-                    id:333,
+                    id:335,
                     name:"Soplo en el corazón ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista", 
                     idProtocolo:0
                 },
                 {
-                    id:328,
+                    id:336,
                     name:"Cardiopatía ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:0
                 },
                 {
-                    id:328,
+                    id:337,
                     name:"Alopecia Androgénica ",
                     category:"otros",
                     idProtocolo:5
                 },
                 {
-                    id:328,
+                    id:338,
                     name:"Isquemia Cerebral  ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:0
                 },
                 {
-                    id:328,
+                    id:339,
                     name:"Colesterol Elevado ",
                     category:"otros",
                     idProtocolo:1
                 },
                 {
-                    id:328,
+                    id:340,
                     name:"Colitis Ulcerosa Aguda ",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:328,
+                    id:341,
                     name:"Síndrome de Phelan-McDermid o Deleccion 22q13.3 ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:342,
                     name:"Demencia ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:343,
                     name:"Demencia Mixta ",
                     category:"otros",
                     idProtocolo:1
                 },
                 {
-                    id:328,
+                    id:344,
                     name:"Dengue ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:345,
                     name:"Desorden Hormonal ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:346,
                     name:"Duodenitis",
                     category:"otros",
                     idProtocolo:1
                 },
                 {
-                    id:328,
+                    id:347,
                     name:"Encefalitis Viral Aguda ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:348,
                     name:"Esquizofrenia ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:349,
                     name:"Polimialgia Reumatica  ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:350,
                     name:"Fibromialgia - Polimialgia Reumatica  ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:351,
                     name:"Espondilitis aquilosante - Fibromialgia  ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:352,
                     name:"Esquizoencefalia de labios abiertos ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:0
                 },
                 {
-                    id:328,
+                    id:353,
                     name:"Fibromialgia - Gastrointeritis  ",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:328,
+                    id:354,
                     name:"Hemofilia ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:0
                 },
                 {
-                    id:328,
+                    id:355,
                     name:"Hepatomegalia. Higado agrandado ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:356,
                     name:"hiperplasia prostática benigna (HPB). Prostata agrandada ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:357,
                     name:"Deficiencia Cardiaca ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:0
                 },
                 {
-                    id:328,
+                    id:358,
                     name:"Hipoxia Cerebral  ",
                     category:"otros",
                     idProtocolo:1
                 },
                 {
-                    id:328,
+                    id:359,
                     name:"Inflamación de la glandula Mamaria  ",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:328,
+                    id:360,
                     name:"Insuficiencia Arterial y Venosa ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:361,
                     name:"Leptospirosis  ",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:328,
+                    id:362,
                     name:"Leucopenia  ",
                     category:"otros",
                     idProtocolo:3
                 },
                 {
-                    id:328,
+                    id:363,
                     name:"Lisencefalia ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:0
                 },
                 {
-                    id:328,
+                    id:364,
                     name:"Microcefalia ",
                     category:"otros",
                     idProtocolo:1
                 },
                 {
-                    id:328,
+                    id:365,
                     name:"Mielomeningocele (espina bifida) ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:0
                 },
                 {
-                    id:328,
+                    id:366,
                     name:"Neurofibromatosis NF1 ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:367,
                     name:"Obesidad ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:368,
                     name:"Obstrucción de arterias  ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:369,
                     name:"Obstrucción de trompas de falopio ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:370,
                     name:"Pemphigus Vulgaris ",
                     category:"otros",
                     idProtocolo:5
                 },
                 {
-                    id:328,
+                    id:371,
                     name:"Polycythemia vera (PV)  ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:372,
                     name:"Retardo Psicomotor  ",
                     category:"otros",
                     idProtocolo:1
                 },
                 {
-                    id:328,
+                    id:373,
                     name:"Retinopatia   ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:374,
                     name:"Sarcoidosis ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:4,
+                    id:375,
                     name:"Condición Progresiva del sistema Inmune S. de Ewing. Estado 1,2,3 y 4  ",
                     category:"Estado 1,2,3 y 4",
                     idProtocolo:3 
                 },
                 {
-                    id:328,
+                    id:376,
                     name:"Síndrome Antifosfolípido ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:377,
                     name:"Sindrome Cri Du Chat ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:0
                 },
                 {
-                    id:340,
+                    id:378,
                     name:"síndrome de Prader-Willi  ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:379,
                     name:"síndrome de Tourette ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:380,
                     name:"Sindrome de Down ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:0
                 },
                 {
-                    id:328,
+                    id:381,
                     name:"Sindrome Dravet ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:382,
                     name:"síndrome de McCune-Albright ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:383,
                     name:"Trastorno del sueño ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:384,
                     name:"Trastorno Disforico Premenstrual  ",
                     category:"otros",
                     idProtocolo:2
                 },
                 {
-                    id:328,
+                    id:385,
                     name:"síndrome triple X. Trisomía X. 47,XXX ",
                     category:"otros",
                     idProtocolo:1
                 },
                 {
-                    id:4,
+                    id:386,
                     name:"Condición Progresiva del sistema Inmune Glioblastoma. Estado 1,2,3 y 4  ",
                     category:"Estado 1,2,3 y 4",
                     idProtocolo:3 
                 },
                 {
-                    id:328,
+                    id:387,
                     name:"ventriculomegalia ",
                     category:"otros. Si usted desea consulte a su médico primario y/o especialista",
                     idProtocolo:0       
+                },
+                {  //envio vicky 19/10/2020
+                    id:500,
+                    name:"Ataxia ",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:501,
+                    name:"Ataxia Cerebelosa ",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:502,
+                    name:"Lumbalgia",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:503,
+                    name:"Cervicalgia",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:504,
+                    name:"Sincope Vasovagal",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:505,
+                    name:"Atrofia Multisistemica",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:506,
+                    name:"Atrofia Muscular Espinal",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:507,
+                    name:"Obstruccion Arterial",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:508,
+                    name:"Hidrocefalia",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:509,
+                    name:"Disqueratosis Congenita",
+                    category:"otros",
+                    idProtocolo:1
                 },
 
             ],
