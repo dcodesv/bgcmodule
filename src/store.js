@@ -1751,10 +1751,70 @@ export default new Vuex.Store({
                     category:"otros",
                     idProtocolo:2
                 },
-                //Condiciones moderadas agregadas marzo 2020
+                //Envio vicky 22/10/2020
                 {
                     id:300,
                     name:"Immune system deficiencies",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:500,
+                    name:"Ataxia",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:481,
+                    name:"Cerebellar Ataxia ",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:481,
+                    name:"Lumbalgia",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:481,
+                    name:"Cervicalgia",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:481,
+                    name:"Vasovagal Syncope",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:481,
+                    name:"Multiple System Atrophy",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:481,
+                    name:"Spinal Muscular Atrophy",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:481,
+                    name:"Arterial Occlusion",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:481,
+                    name:" Hydrocephalus",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:481,
+                    name:"Congenital dyskeratosis",
                     category:"otros",
                     idProtocolo:2
                 },
