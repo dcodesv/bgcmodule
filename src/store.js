@@ -183,7 +183,7 @@ export default new Vuex.Store({
                     id:28,
                     name:"Acne",
                     category:"otros",
-                    idProtocolo:2 
+                    idProtocolo:5 
                 },
                 {
                     id:29,
