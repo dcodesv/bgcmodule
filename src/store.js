@@ -2390,7 +2390,73 @@ export default new Vuex.Store({
                 {
                     id:509,
                     name:"Disqueratosis Congenita",
-                    category:"otros",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:510,
+                    name:"Meningoencefalitis Bacteriana",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:511,
+                    name:"Distrofia Miotonica tipo 2",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:512,
+                    name:"Meningitis Bacteriana",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:513,
+                    name:"Condición Progresiva del sistema Inmune en Glandula Parotida. ",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:3
+                },
+                {
+                    id:514,
+                    name:"Lesión Cerebral Anoxica ",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:515,
+                    name:"Enfermedad de Wilson ",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:516,
+                    name:"Adenopatía ",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:517,
+                    name:"Vagotonismo",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:518,
+                    name:"Sindrome Piriforme",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:519,
+                    name:"Bradicardia Sinusal",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:520,
+                    name:"Trasplante de medula osea",
+                    category: "otros",
                     idProtocolo:1
                 },
 
