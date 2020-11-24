@@ -1,11 +1,3 @@
-/*
-
-    LA PALABRA "CondiciónES PROGRESIVAS DEL SISTEMA INMUNE" SE AÑADIRA MEDIANTE CODIGO PARA
-    DISMINUIR EL PESO DE LOS DATOS QUE DEBE CARGAR.
-
-*/
-
-
 import Vue from 'vue';
 import Vuex from 'vuex';
 
@@ -1818,6 +1810,72 @@ export default new Vuex.Store({
                     category:"otros",
                     idProtocolo:2
                 },
+                {
+                    id:482,
+                    name:"Meningitis B",
+                    category:"otros",
+                    idProtocolo:3
+                },
+                {
+                    id:483,
+                    name:"Myotonic dystrophy",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:484,
+                    name:"Anoxic brain injuries",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:485,
+                    name:"Wilson’s disease ",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:486,
+                    name:"Swollen lymph nodes",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:487,
+                    name:"Mediastinal lymphadenopathy",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:488,
+                    name:"Vagotonia",
+                    category:"otros",
+                    idProtocolo:2
+                },
+                {
+                    id:489,
+                    name:"Piriformis syndrome ",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:490,
+                    name:"Sinus Bradycardia ",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:491,
+                    name:"Bone marrow transplant",
+                    category:"otros",
+                    idProtocolo:1
+                },
+                {
+                    id:492,
+                    name:"Progressive Condition of the Immune System. Parotid Gland. Phase 1,2,3 and 4",
+                    category:"Phase 1,2,3 and 4",
+                    idProtocolo:3
+                }
             ],
             protocols:[
                 //Aqui inicia el protocolo completo
