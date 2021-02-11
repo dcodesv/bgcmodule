@@ -91,16 +91,18 @@
                 <li class="text-base mb-1">1. Only for persons aged 12 and older.</li>
                 <li class="text-base mb-1">2. The color of the bottle and/or the lid may vary.</li>
                 <li class="text-base mb-1">3. Shake well before using. You may notice plant residues on the edges of the bottle; this is because this is a plant product.</li>
-                <li class="text-base mb-1">4. People with diabetes need to monitor their blood sugar levels at least twice a day after starting the Immune Bio Green Cell product.</li>
-                <li class="text-base mb-1">5. We suggest consuming the indicated amount of the supplement according to the recommended dosage, within the suggested timeframe.</li>
-                <li class="text-base mb-1">6. Results may vary from person to person.</li>
-                <li class="text-base mb-1">7. In some cases, autoimmune conditions become more acute as the immune system begins the process of its cellular genetic recognition. You could start noticing an improvement within 30 days.</li>
-                <li class="text-base mb-1">8. If you have high blood pressure (hypertension), we recommend that you check with your primary doctor and/or specialist before purchasing the product.</li>
-                <li class="text-base mb-1">9. If you are taking any blood thinner, we recommend that you check with your primary doctor and/or specialist before purchasing this product.</li>
-                <li class="text-base mb-1">10. If you have had an organ transplant, we recommend that you check with your primary doctor and/or specialist before purchasing this product.</li>
-                <li class="text-base mb-1">11. This product is not recommended for pregnant or lactating women.</li>
-                <li class="text-base mb-1">12. Check with your primary doctor and/or specialist before taking any dietary supplement, if you have any medical condition or if there is any adverse reaction.</li>
-                <li class="text-base mb-1">13. These statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.</li>
+                <li class="text-base mb-1">4. It does not contain artificial flavors or colors, as it is an herbal product it preserves its natural flavor.</li>
+                <li class="text-base mb-1">5. Due to the plants’ active ingredients some people may experience an increase in frequent urination.</li>
+                <li class="text-base mb-1">6. People with diabetes need to monitor their blood sugar levels at least twice a day after starting the Immune Bio Green Cell product.</li>
+                <li class="text-base mb-1">7. We suggest consuming the indicated amount of the supplement according to the recommended dosage, within the suggested timeframe.</li>
+                <li class="text-base mb-1">8. Results may vary from person to person.</li>
+                <li class="text-base mb-1">9. In some cases, autoimmune conditions become more acute as the immune system begins the process of its cellular genetic recognition. You could start noticing an improvement within 30 days.</li>
+                <li class="text-base mb-1">10. If you have high blood pressure (hypertension), we recommend that you check with your primary doctor and/or specialist before purchasing the product.</li>
+                <li class="text-base mb-1">11. If you are taking any blood thinner, we recommend that you check with your primary doctor and/or specialist before purchasing this product.</li>
+                <li class="text-base mb-1">12. If you have had an organ transplant, we recommend that you check with your primary doctor and/or specialist before purchasing this product.</li>
+                <li class="text-base mb-1">13. This product is not recommended for pregnant or lactating women.</li>
+                <li class="text-base mb-1">14. Check with your primary doctor and/or specialist before taking any dietary supplement, if you have any medical condition or if there is any adverse reaction.</li>
+                <li class="text-base mb-1">15. These statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.</li>
             </ul>
             <p class="text-lg mb-1 font-black mt-5">** Offer good for a limited time.</p>
         </div>
