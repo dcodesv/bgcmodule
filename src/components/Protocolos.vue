@@ -92,16 +92,18 @@
                 <li class="text-lg mb-1">1. Solo para mayores de 12 años.</li>
                 <li class="text-lg mb-1">2. El color del envase y/o tapa podría variar.</li>
                 <li class="text-lg mb-1">3. Agitar antes de usar. Puede notar residuos vegetales en los bordes del frasco, esto se debe a que es un producto natural.</li>
-                <li class="text-lg mb-1">4. Toda persona con la condición de diabetes, al comenzar con Immune Bio Green Cell debe monitorear sus niveles de azúcar por lo menos dos veces al día.</li>                
-                <li class="text-lg mb-1">5. Los resultados pueden variar de persona a persona.</li>
-                <li class="text-lg mb-1">6. En las personas con condiciones autoinmunes puede suceder que en algunos casos y de persona a persona, se agudice la misma en lo que el sistema inmunológico comienza a retomar su reconocimiento genético celular. No debería durar más de 30 días para que la persona pudiera comenzar a notar una mejoría.</li>
-                <li class="text-lg mb-1">7. Si usted es hipertenso recomendamos consultar con su médico primario y/o especialista antes de adquirir el suplemento.</li>
-                <li class="text-lg mb-1">8. Si usted toma anticoagulante recomendamos consultar con su médico primario y/o especialista antes de adquirir el suplemento.</li>
-                <li class="text-lg mb-1">9. Si usted ha experimentado el trasplante de algún órgano (s), recomendamos consultar con su médico primario y/o especialista antes de adquirir el suplemento.</li>
-                <li class="text-lg mb-1">10. No se recomienda la utilización de este suplemento para mujeres embarazadas o lactantes.</li>
-                <li class="text-lg mb-1">11. Consulte con su médico primario y/o especialista antes de tomar cualquier suplemento dietético, si padece alguna condición médica o si se produce alguna reacción adversa.</li>
-                <li class="text-lg mb-1">12. Las declaraciones sobre los suplementos dietéticos no han sido evaluadas por la FDA y no están destinadas a diagnosticar, tratar, curar o prevenir ninguna enfermedad o problema de salud.</li>
-                <li class="text-lg mb-1">13. Sugerimos consumir la cantidad indicada del suplemento de acuerdo a la dosis recomendada, dentro del tiempo sugerido.</li>
+                <li class="text-lg mb-1">4. No contiene sabores ni colores artificiales, por ser un producto herbal conserva su sabor natural.</li>
+                <li class="text-lg mb-1">5. Debido a los principios activos de las plantas algunas personas podrían experimentar un aumento en micción frecuente. (Frecuencia en orinar).</li>
+                <li class="text-lg mb-1">6. Toda persona con la condición de diabetes, al comenzar con Immune Bio Green Cell debe monitorear sus niveles de azúcar por lo menos dos veces al día.</li>                
+                <li class="text-lg mb-1">7. Los resultados pueden variar de persona a persona.</li>
+                <li class="text-lg mb-1">8. En las personas con condiciones autoinmunes puede suceder que en algunos casos y de persona a persona, se agudice la misma en lo que el sistema inmunológico comienza a retomar su reconocimiento genético celular. No debería durar más de 30 días para que la persona pudiera comenzar a notar una mejoría.</li>
+                <li class="text-lg mb-1">9. Si usted es hipertenso recomendamos consultar con su médico primario y/o especialista antes de adquirir el suplemento.</li>
+                <li class="text-lg mb-1">10. Si usted toma anticoagulante recomendamos consultar con su médico primario y/o especialista antes de adquirir el suplemento.</li>
+                <li class="text-lg mb-1">11. Si usted ha experimentado el trasplante de algún órgano (s), recomendamos consultar con su médico primario y/o especialista antes de adquirir el suplemento.</li>
+                <li class="text-lg mb-1">12. No se recomienda la utilización de este suplemento para mujeres embarazadas o lactantes.</li>
+                <li class="text-lg mb-1">13. Consulte con su médico primario y/o especialista antes de tomar cualquier suplemento dietético, si padece alguna condición médica o si se produce alguna reacción adversa.</li>
+                <li class="text-lg mb-1">14. Las declaraciones sobre los suplementos dietéticos no han sido evaluadas por la FDA y no están destinadas a diagnosticar, tratar, curar o prevenir ninguna enfermedad o problema de salud.</li>
+                <li class="text-lg mb-1">15. Sugerimos consumir la cantidad indicada del suplemento de acuerdo a la dosis recomendada, dentro del tiempo sugerido.</li>
                 
             </ul>
             <p class="text-lg mb-1 font-black mt-5">** Oferta válida por tiempo limitado</p>
