@@ -904,13 +904,13 @@ export default new Vuex.Store({
                     id:148,
                     name:"Convulsiones. 12 a 16 años",
                     category:"otros",
-                    idProtocolo:1
+                    idProtocolo:999
                 },
                 {
                     id:149,
                     name:"Convulsiones. 17 años en adelante",
                     category:"otros",
-                    idProtocolo:2
+                    idProtocolo:999
                 },
                 {
                     id:150,
