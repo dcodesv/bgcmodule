@@ -253,13 +253,13 @@ export default new Vuex.Store({
                     id:41,
                     name:"Epilepsy. 17 years and over",
                     category:"otros",
-                    idProtocolo:2
+                    idProtocolo:999
                 },
                 {  
                     id:42,
                     name:"Epilepsy. 12 to 16 years old",
                     category:"otros",
-                    idProtocolo:1
+                    idProtocolo:999
                 },
                 {
                     id:43,

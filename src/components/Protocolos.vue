@@ -1,5 +1,6 @@
 <template class="w-full">
     <div class="flex flex-col justify-center items-center w-full">
+        <div v-if="$route.params.id > 0 && $route.params.id < 999">
         <div v-for="protocolos in protocols" v-bind:key="protocolos.id" v-show="protocolos.id == $route.params.id">
         <div class="flex flex-col justify-center items-center bg-white">
             <h1 class="text-center mt-1 text-xl lg:text-2xl font-black">Recommended Usage:</h1>
@@ -107,6 +108,11 @@
             <p class="text-lg mb-1 font-black mt-5">** Offer good for a limited time.</p>
         </div>
         </div>
+        </div>
+         <div v-else class="mt-12 justify-center flex items-center flex-col">
+            <p class="text-2xl font-black">{{setTextForSpecialCase}}</p>
+            <router-link :to="{name:'condiciones'}" class="mt-12 bg-greenbgc-900 px-6 py-3 text-white rounded-lg">Ir al home</router-link>
+        </div>
     </div>
 </template>
 
@@ -135,6 +141,15 @@
         },
         computed:{
             ...mapState(['protocols']),
+            setTextForSpecialCase: function(){
+                 var textForSpecialCase
+                if(this.$route.params.id == 0){
+                    textForSpecialCase = "If you wish, consult your primary doctor and / or specialist"
+                }else if(this.$route.params.id == 999){
+                    textForSpecialCase = 'For more information please contact us at +1.352.804.4448, whatsapp +1 321 424.8690 or email us at info@immunebiogreencell.com.'
+                }
+                return textForSpecialCase
+            }
         }
     }
 </script>
