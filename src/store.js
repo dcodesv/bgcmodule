@@ -6,7 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
         state: {
             brand:{
-                logolink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/files/Logos_web_ancho_original-26_180x.png?v=1623345727"
+                logolink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/files/Logo-horizontal_360x.png"
             },
             conditions:[ //Json que contiene las Condiciónes
                 {
