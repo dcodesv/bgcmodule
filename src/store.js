@@ -14,7 +14,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
         state: {
             brand:{
-                logolink:"https://www.immunebiogreencell.com/v/condiciones/img/LogoIBGC.png"
+                logolink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/files/Logo-horizontal_360x.png"
             },
             conditions:[ //Json que contiene las Condiciónes
                 {
@@ -123,7 +123,7 @@ export default new Vuex.Store({
                     id:18,
                     name:"Condición Progresiva del sistema Inmune de Piel. Estado 1,2,3 y 4",
                     category:"Estado 1,2,3 y 4",
-                    idProtocolo:6 
+                    idProtocolo:3 
                 },
                 {
                     id:19,
@@ -147,7 +147,7 @@ export default new Vuex.Store({
                     id:22,
                     name:"Condición Progresiva del sistema Inmune de Rostro (Célula Basal). Estado 1 y 2", 
                     category:"Estado 1 y 2",
-                    idProtocolo:6 
+                    idProtocolo:3 
                 },
                 {
                     id:23,
@@ -244,7 +244,7 @@ export default new Vuex.Store({
                     id:39,
                     name:"Acné ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {
                     id:40,
@@ -262,7 +262,7 @@ export default new Vuex.Store({
                     id:42,
                     name:"Alopecia",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:43,
@@ -382,7 +382,7 @@ export default new Vuex.Store({
                     id:62,
                     name:"Eczema",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:63,
@@ -520,49 +520,49 @@ export default new Vuex.Store({
                     id:85,
                     name:"Pie de atleta ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:86,
                     name:"Psoriasis ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:87,
                     name:"Psoriasis en Placas ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {
                     id:88,
                     name:"Psoriasis en las uñas",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {  
                     id:89,
                     name:"Psoriasis Guttata o en Gotas ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:90,
                     name:"Psoriasis Inversa ",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {  
                     id:91,
                     name:"Psoriasis Pustulosa ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:92,
                     name:"Psoriasis Eritrodérmica ",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {
                     id:93,
@@ -682,7 +682,7 @@ export default new Vuex.Store({
                     id:111,
                     name:"Verrugas",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {  
                     id:112,
@@ -970,84 +970,84 @@ export default new Vuex.Store({
                     id:159,
                     name:"Dermatosis Cenicienta",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:160,
                     name:"Dermatosis Papulosa Nigra",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:161,
                     name:"Dermatosis Ocupacional",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 }, 
                 {
                     id:162,
                     name:"Dermatosis Ampollosa",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:163,
                     name:"Dermatosis Palmoplantar",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:164,
                     name:"Dermatitis por Estasis",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },{
                     id:165,
                     name:"Dermatitis por Contacto Alérgica",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:166,
                     name:"Dermatitis Atópica",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:167,
                     name:"Dermatitis de Contacto Irritante",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:168,
                     name:"Neurodermatitis",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:169,
                     name:"Dermatitis perioral",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:170,
                     name:"Dermatitis Seborreica",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:171,
                     name:"Dermatitis Exfoliativa Generalizada o Eritroderma",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:172,
                     name:"Dermatomiositis",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:173,
@@ -1557,7 +1557,7 @@ export default new Vuex.Store({
                     id:258,
                     name:"Melasma",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:259,
@@ -1977,13 +1977,13 @@ export default new Vuex.Store({
                     id:328,
                     name:"Vitíligo ",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:329,
                     name:"Alopecia areata",
                     category:"otros",
-                    idProtocolo:6
+                    idProtocolo:3
                 },
                 {
                     id:330,
@@ -2031,7 +2031,7 @@ export default new Vuex.Store({
                     id:337,
                     name:"Alopecia Androgénica ",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:338,
@@ -2229,7 +2229,7 @@ export default new Vuex.Store({
                     id:370,
                     name:"Pemphigus Vulgaris ",
                     category:"otros",
-                    idProtocolo:5
+                    idProtocolo:2
                 },
                 {
                     id:371,
@@ -2481,19 +2481,19 @@ export default new Vuex.Store({
                             minuse: '120 días',
                             price: 124.50,//Precio del producto
                             offer: 94.15,//Precio oferta
-                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=IBGC-2MLPERSERVING", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC2FRASCOS.jpeg"
+                            link:"https://immunebiogreencell.com/products/immune-bio-green-cell-immune-system-support-incluye-2-botellas-2ml-per-serving", //Link del producto individual, para comprar individuales por producto
+                            imglink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/products/TiendaPrincipalJunio-2021Espanol_2_1024x1024@2x.jpg?v=1623975655"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
                             name:'Vitamina C 2000 MG - 4 meses de duración aprox.',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            bottles:'1 botella 2000 mg (8.46 OZ / 240 GRS.). 120 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'1 scoop diario mezclado con jugo de frutas o agua.',
                             price:29.95,
                             offer: 0,
-                            link:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-120-Servings',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://immunebiogreencell.com/products/vitamina-c-2-000-mg-120-servicios-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/products/vitaminac2000mg-120-Servings-2_1024x1024@2x.jpg?v=1623455192"
                         },
                         p3:{
                             name:'',
@@ -2524,19 +2524,19 @@ export default new Vuex.Store({
                             minuse: '120 días',
                             price: 124.50,//Precio del producto
                             offer: 94.15,//Precio oferta
-                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=IBGC-4MLPERSERVING", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC2FRASCOS.jpeg"
+                            link:"https://immunebiogreencell.com/products/immune-bio-green-cell-immune-system-support-incluye-2-botellas-4ml-per-serving", //Link del producto individual, para comprar individuales por producto
+                            imglink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/products/TiendaPrincipalJunio-2021Espanol_3_1024x1024@2x.jpg?v=1623975741"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
                             name:'Vitamina C 2000 MG - 4 meses de duración aprox.',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            bottles:'1 botella 2000mg (8.46 OZ / 240 GRS.). 120 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'1 scoop diario mezclado con jugo de frutas o agua.',
                             price:29.95,
                             offer: 0,
-                            link:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-120-Servings',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://immunebiogreencell.com/products/vitamina-c-2-000-mg-120-servicios-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/products/vitaminac2000mg-120-Servings-2_1024x1024@2x.jpg?v=1623455192"
                         },
                         p3:{
                             name:'',
@@ -2567,19 +2567,19 @@ export default new Vuex.Store({
                             minuse: '120 días',
                             price: 249.00,//Precio del producto
                             offer: 174.30,//Precio oferta
-                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=IBGC-8MLPERSERVING", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC4FRASCOS.jpeg"
+                            link:"https://immunebiogreencell.com/products/immune-bio-green-cell-immune-system-support-incluye-4-botellas-8ml-per-serving", //Link del producto individual, para comprar individuales por producto
+                            imglink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/products/TiendaPrincipalJunio-2021Espanol_1_1024x1024@2x.jpg?v=1623975814"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
                             name:'Vitamina C 2000 MG - 4 meses de duración aprox.',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            bottles:'1 botella 2000mg (8.46 OZ / 240 GRS.). 120 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'1 scoop diario mezclado con jugo de frutas o agua.',
                             price:0,
                             offer: 0,
-                            link:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-120-Servings',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://immunebiogreencell.com/products/vitamina-c-2-000-mg-120-servicios-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/products/vitaminac2000mg-120-Servings-2_1024x1024@2x.jpg?v=1623455192"
                         },
                         p3:{
                             name:'',
@@ -2616,13 +2616,13 @@ export default new Vuex.Store({
                         //Aqui inicia el segundo producto
                         p2:{
                             name:'Vitamina C 2000 MG - 4 meses de duración aprox.',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            bottles:'1 botella 2000mg (8.46 OZ / 240 GRS.). 30 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'1 scoop diario mezclado con jugo de frutas o agua.',
                             price:29.95,
                             offer: 0,
-                            link:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-120-Servings',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://immunebiogreencell.com/products/vitamina-c-2-000-mg-120-servicios-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/products/vitaminac2000mg-120-Servings-2_1024x1024@2x.jpg?v=1623455192"
                         },
                         p3:{
                             name:'Wound Fixer – Spray 4oz. Uso tópico – 1400 rociadas aprox',
@@ -2660,13 +2660,13 @@ export default new Vuex.Store({
                         //Aqui inicia el segundo producto
                         p2:{
                             name:'Vitamina C 2000 MG - 4 meses de duración aprox.',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            bottles:'1 botella 2000mg (8.46 OZ / 240 GRS.). 120 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'1 scoop diario mezclado con jugo de frutas o agua.',
                             price:29.95,
                             offer: 0,
-                            link:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-120-Servings',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://immunebiogreencell.com/products/vitamina-c-2-000-mg-120-servicios-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/products/vitaminac2000mg-120-Servings-2_1024x1024@2x.jpg?v=1623455192"
                         },
                         p3:{
                             name:'Wound Fixer – Spray 4oz. Uso tópico – 1400 rociadas aprox',
@@ -2698,19 +2698,19 @@ export default new Vuex.Store({
                             minuse: '120 días',
                             price: 249.00,//Precio del producto
                             offer: 174.30,//Precio oferta
-                            link:"https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=IBGC-8MLPERSERVING", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC4FRASCOS.jpeg"
+                            link:"https://immunebiogreencell.com/products/immune-bio-green-cell-immune-system-support-incluye-4-botellas-8ml-per-serving", //Link del producto individual, para comprar individuales por producto
+                            imglink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/products/TiendaPrincipalJunio-2021Espanol_1_1024x1024@2x.jpg?v=1623975814"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
                             name:'Vitamina C 2000 MG - 4 meses de duración aprox.',
-                            bottles:'1 botella 5000mg (21.16 OZ / 600 GRS.). 30 días de duración aprox.',
+                            bottles:'1 botella 2000mg (8.46 OZ / 240 GRS.). 120 días de duración aprox.',
                             disclaimer:'*No use este producto si tiene problemas con los riñones. No puede ingerir Vitamina B17 con el uso de este suplemento',
                             dose:'1 scoop diario mezclado con jugo de frutas o agua.',
                             price:0,
                             offer: 0,
-                            link:'https://www.immunebiogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-120-Servings',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://immunebiogreencell.com/products/vitamina-c-2-000-mg-120-servicios-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0559/3936/7090/products/vitaminac2000mg-120-Servings-2_1024x1024@2x.jpg?v=1623455192"
                         },
                         p3:{
                             name:'Wound Fixer – Spray 4oz. Uso tópico – 1400 rociadas aprox',

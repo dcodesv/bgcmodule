@@ -4,7 +4,7 @@
       <!-- <h1 class="py-1 text-center text-2xl text-black font-bold">Encuentre aquí su protocolo ImmuneBioGreenCell</h1>
       <p class="pb-8 text-center font-normal text-lg text-black">Escriba el nombre de su condición y luego haga click para ver el protocolo sugerido</p> -->
       <h1 class="py-1 text-center text-2xl text-black font-bold">Recomendaciones de Uso:</h1>
-      <div class="flex flex-row justify-start items-center w-full lg:w-2/4 self-center text-center bg-white py-1 px-8 block focus:shadow-xl border border-graybgcdark transition-all rounded-full">
+      <div class="flex flex-row justify-start items-center w-full lg:w-2/4 self-center text-center bg-white py-1 px-8 focus:shadow-xl border border-graybgcdark transition-all rounded-full">
         <i class="ri-search-line text-graybgcdark text-2xl mr-4"></i>
         <input autocomplete="off" id="text_box" class="focus:outline-none appearance-none leading-normal placeholder-graybgcmedium text-lg w-full py-3" type="text" v-model="name" placeholder="Escriba aqui el nombre de la condición "/>
       </div>
