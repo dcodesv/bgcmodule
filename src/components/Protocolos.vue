@@ -8,7 +8,7 @@
         </div>
         <div class="flex flex-col lg:flex-row justify-center items-center mt-8 mb-12 mx-6">
             <!--Aqui inicia la fase 1-->
-            <div class="flex flex-col justify-around items-start bg-white py-2 px-8 rounded-lg mx-6 mt-5">
+            <div class="flex flex-col justify-around items-start bg-white py-6 px-8 rounded-lg mx-6 mt-5">
                 <div class="w-full flex flex-row items-center justify-start py-2 my-3">
                     
                 </div>
@@ -80,7 +80,7 @@
                         </div>
                     </div>
                     <!--<p class="flex flex-row flex-wrap justify-center items-center text-center bg-red-600 w-full lg:w-4/5 mx-auto text-white py-2 px-2 rounded-lg mb-5 mt-5 hover:shadow-lg transition-all font-normal text-xl focus:outline-none"><i class="ri-error-warning-line mr-3 text-xl lg:text-2xl"></i>At the moment the complete protocol is not available, try to buy ImmuneBioGreenCell individually and receive a 30% discount <br><i class="ri-home-heart-fill mr-3 text-xl lg:text-2xl"></i> #StayAtHome</p>-->
-                <a :href="protocolos.phase1.linkPhase1" class="flex flex-col flex-wrap justify-center items-center bg-red-600 w-full lg:w-4/5 mx-auto text-white py-4 rounded-lg mb-8 mt-12 hover:shadow-lg hover:bg-black transition-all font-normal text-lg focus:outline-none"><span><i class="ri-shopping-cart-2-fill mr-3 text-lg lg:text-xl"></i>Buy Now!<span class="ml-2 font-bold text-3xl text-center lg:text-lg lg:text-left w-full lg:w-auto lg:text-3xl">${{price1()}}</span></span><span class="text-lg text-center">Shipping included in the United States. Applies to Puerto Rico</span></a>
+                <!--<a :href="protocolos.phase1.linkPhase1" class="flex flex-col flex-wrap justify-center items-center bg-red-600 w-full lg:w-4/5 mx-auto text-white py-4 rounded-lg mb-8 mt-12 hover:shadow-lg hover:bg-black transition-all font-normal text-lg focus:outline-none"><span><i class="ri-shopping-cart-2-fill mr-3 text-lg lg:text-xl"></i>Buy Now!<span class="ml-2 font-bold text-3xl text-center lg:text-lg lg:text-left w-full lg:w-auto lg:text-3xl">${{price1()}}</span></span><span class="text-lg text-center">Shipping included in the United States. Applies to Puerto Rico</span></a>-->
             </div>
             <!--Aqui finaliza la fase 1-->
             <!--Aqui finaliza la fase 2-->

@@ -6,7 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
         state: {
             brand:{
-                logolink:"https://www.biogreencell.com/v/conditions/img/LogoIBGC.png"
+                logolink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/files/Logos_web_ancho_original-26_180x.png?v=1623345727"
             },
             conditions:[ //Json que contiene las Condiciónes
                 {
@@ -175,7 +175,7 @@ export default new Vuex.Store({
                     id:28,
                     name:"Acne",
                     category:"otros",
-                    idProtocolo:5 
+                    idProtocolo:2 
                 },
                 {
                     id:29,
@@ -247,7 +247,7 @@ export default new Vuex.Store({
                     id:40,
                     name:"Bronchitis",
                     category:"otros",
-                    idProtocolo:4 
+                    idProtocolo:1 
                 },
                 {
                     id:41,
@@ -331,7 +331,7 @@ export default new Vuex.Store({
                     id:54,
                     name:"Diphtheria",
                     category:"otros",
-                    idProtocolo:4 
+                    idProtocolo:1 
                 },
                 {
                     id:55,
@@ -523,7 +523,7 @@ export default new Vuex.Store({
                     id:86,
                     name:"Rhinosinusitis",
                     category:"otros",
-                    idProtocolo:4 
+                    idProtocolo:1 
                 },
                 {
                     id:87,
@@ -1897,8 +1897,8 @@ export default new Vuex.Store({
                             minuse: '120 days',
                             price: 124.50,//Precio del producto
                             offer: 94.15,//Precio oferta
-                            link:"https://www.biogreencell.com/ProductDetails.asp?ProductCode=IBGC-2MLPERSERVING", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC2FRASCOS.jpeg"
+                            link:"https://www.biogreencell.com/products/immune-bio-green-cell-immune-system-support-2-bottles-2-ml-per-serving",
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/TiendaPrincipalJunio-2021Ingles_2_1024x1024@2x.jpg?v=1623974945"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
@@ -1908,8 +1908,8 @@ export default new Vuex.Store({
                             dose:'1 scoop daily mixed with fruit juices or water',
                             price:29.95,
                             offer: 0,
-                            link:'https://www.biogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-newversion',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://www.biogreencell.com/products/vitamin-c-2000-mg-120-servings-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/vitaminac2000mg-newversion-2_1024x1024@2x.jpg?v=1623189869"
                         },
                         p3:{
                             name:'',
@@ -1940,8 +1940,8 @@ export default new Vuex.Store({
                             minuse: '120 days',
                             price: 124.50,//Precio del producto
                             offer: 94.15,//Precio oferta
-                            link:"https://www.biogreencell.com/ProductDetails.asp?ProductCode=IBGC-4MLPERSERVING", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC2FRASCOS.jpeg"
+                            link:"https://www.biogreencell.com/products/immune-bio-green-cell-immune-system-support-2-bottles-4-ml-per-serving",
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/TiendaPrincipalJunio-2021Ingles_3_1024x1024@2x.jpg?v=1623975108"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
@@ -1951,8 +1951,8 @@ export default new Vuex.Store({
                             dose:'1 scoop daily mixed with fruit juices or water',
                             price:29.95,
                             offer: 0,
-                            link:'https://www.biogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-newversion',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://www.biogreencell.com/products/vitamin-c-2000-mg-120-servings-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/vitaminac2000mg-newversion-2_1024x1024@2x.jpg?v=1623189869"
                         },
                         p3:{
                             name:'',
@@ -1983,8 +1983,8 @@ export default new Vuex.Store({
                             minuse: '120 days',
                             price: 249.00,//Precio del producto
                             offer: 174.30,//Precio oferta
-                            link:"https://www.biogreencell.com/ProductDetails.asp?ProductCode=IBGC-8MLPERSERVING", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC4FRASCOS.jpeg"
+                            link:"https://www.biogreencell.com/products/immune-bio-green-cell-immune-system-support-4-bottles-included-8-ml-per-serving",
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/TiendaPrincipalJunio-2021Ingles_1_1024x1024@2x.jpg?v=1623975133"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
@@ -1994,8 +1994,8 @@ export default new Vuex.Store({
                             dose:'1 scoop daily mixed with fruit juices or water',
                             price:0,
                             offer: 0,
-                            link:'https://www.biogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-newversion',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://www.biogreencell.com/products/vitamin-c-2000-mg-120-servings-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/vitaminac2000mg-newversion-2_1024x1024@2x.jpg?v=1623189869"
                         },
                         p3:{
                             name:'',
@@ -2026,8 +2026,8 @@ export default new Vuex.Store({
                             minuse: '120 days',
                             price: 124.50,//Precio del producto
                             offer: 94.15,//Precio oferta
-                            link:"https://www.biogreencell.com/ProductDetails.asp?ProductCode=IBGC-2MLPERSERVING", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC2FRASCOS.jpeg"
+                            link:"https://www.biogreencell.com/products/immune-bio-green-cell-immune-system-support-2-bottles-2-ml-per-serving", //Link del producto individual, para comprar individuales por producto
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/TiendaPrincipalJunio-2021Ingles_2_1024x1024@2x.jpg?v=1623974945"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
@@ -2037,8 +2037,8 @@ export default new Vuex.Store({
                             dose:'1 scoop daily mixed with fruit juices or water',
                             price:29.95,
                             offer: 0,
-                            link:'https://www.biogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-newversion',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://www.biogreencell.com/products/vitamin-c-2000-mg-120-servings-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/vitaminac2000mg-newversion-2_1024x1024@2x.jpg?v=1623189869"
                         },
                         p3:{
                             name:'WOUND FIXER -SPRAY 4 OZ- OVER 1400 SPRAYS',
@@ -2070,8 +2070,8 @@ export default new Vuex.Store({
                             minuse: '120 days',
                             price: 124.50,//Precio del producto
                             offer: 94.15,//Precio oferta
-                            link:"https://www.biogreencell.com/ProductDetails.asp?ProductCode=IBGC-4MLPERSERVING", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC2FRASCOS.jpeg"
+                            link:"https://www.biogreencell.com/products/immune-bio-green-cell-immune-system-support-2-bottles-4-ml-per-serving", //Link del producto individual, para comprar individuales por producto
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/TiendaPrincipalJunio-2021Ingles_3_1024x1024@2x.jpg?v=1623975108"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
@@ -2081,8 +2081,8 @@ export default new Vuex.Store({
                             dose:'1 scoop daily mixed with fruit juices or water',
                             price:29.95,
                             offer: 0,
-                            link:'https://www.biogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-newversion',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://www.biogreencell.com/products/vitamin-c-2000-mg-120-servings-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/vitaminac2000mg-newversion-2_1024x1024@2x.jpg?v=1623189869"
                         },
                         p3:{
                             name:'WOUND FIXER -SPRAY 4 OZ- OVER 1400 SPRAYS',
@@ -2114,8 +2114,8 @@ export default new Vuex.Store({
                             minuse: '120 days',
                             price: 249.00,//Precio del producto
                             offer: 174.30,//Precio oferta
-                            link:"https://www.biogreencell.com/ProductDetails.asp?ProductCode=IBGC-8MLPERSERVING", //Link del producto individual, para comprar individuales por producto
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/IBGC4FRASCOS.jpeg"
+                            link:"https://www.biogreencell.com/products/immune-bio-green-cell-immune-system-support-4-bottles-included-8-ml-per-serving",
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/TiendaPrincipalJunio-2021Ingles_1_1024x1024@2x.jpg?v=1623975133"
                         },
                         //Aqui inicia el segundo producto
                         p2:{
@@ -2125,8 +2125,8 @@ export default new Vuex.Store({
                             dose:'1 scoop daily mixed with fruit juices or water',
                             price:0,
                             offer: 0,
-                            link:'https://www.biogreencell.com/ProductDetails.asp?ProductCode=vitaminac2000mg-newversion',
-                            imglink:"https://www.immunebiogreencell.com/v/condiciones/img/vitaminac.png"
+                            link:'https://www.biogreencell.com/products/vitamin-c-2000-mg-120-servings-8-46-oz-240-g',
+                            imglink:"https://cdn.shopify.com/s/files/1/0574/3312/9146/products/vitaminac2000mg-newversion-2_1024x1024@2x.jpg?v=1623189869"
                         },
                         p3:{
                             name:'WOUND FIXER -SPRAY 4 OZ- OVER 1400 SPRAYS',
