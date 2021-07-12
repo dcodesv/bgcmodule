@@ -2459,6 +2459,811 @@ export default new Vuex.Store({
                     category: "otros",
                     idProtocolo:1
                 },
+                //adiciones 12/jul/2021
+                {
+                    id:521,
+                    name:"Mielopatia cervical desmienelizante ( hemiparecia izquierda)",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:522,
+                    name:"Neuropatia diabetica de miembro inferior derecho, con necrosis en 3 dedos, arteriosclerosis en arteria femoral, hipertensión, problema renal",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:523,
+                    name:"Operada de mastitis idiopatica aguada",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:524,
+                    name:"siringomielia - problemas renales",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:525,
+                    name:"Hipoplasia medular severa",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:526,
+                    name:"Astrocitoma anaplasico grado III",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:527,
+                    name:"Sindrome mielodisplasico",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:528,
+                    name:"Diabetes tipo I - insulina antes de la comida",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:529,
+                    name:"Sarcodosis - hipertensión - pre diabetes",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:530,
+                    name:"Disfunción erectil - insuficiencia cardiaca",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:531,
+                    name:"Enfermedad renal cronica, dialisis, hipertenso",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:532,
+                    name:"Polycythemia vera (quimioterapia)",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:533,
+                    name:"Prueba de ANA POSITIVO ( ANTICUERPOS NUCLEARES EN SANGRE)",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:534,
+                    name:"Presión alta por glandula adrenal dañada, hipotiroidismo ",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:535,
+                    name:"Lupus (sle) pericarditis- Sindrome de raynaud - covid actualmente  ",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:536,
+                    name:"Tuberculosis , gastritis cronica",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:537,
+                    name:"Leucemia kinfoblastica aguda ",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:538,
+                    name:"Red Chiari, insomnio, artritis",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:539,
+                    name:"Polimiositis",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:540,
+                    name:"Parkinson, problema renal",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:541,
+                    name:"Helicobacter pilory, diabetes tipo 2",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:542,
+                    name:"Sindrome antifosfolipido, sindrome sjogren, hipertensión",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:543,
+                    name:"Sindrome de reiter (artritis reactiva)",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:544,
+                    name:"Disfunción temporomandibular",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:545,
+                    name:"Adicción a las drogas",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:546,
+                    name:"Autismo, diabetes tipo 2",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:547,
+                    name:"Strees",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:548,
+                    name:"Sarna humana",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:549,
+                    name:"Sincope vasovagal",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:550,
+                    name:"Autismo, tuvo un infarto a causa de una rabieta",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:551,
+                    name:"Sindrome del pie caido, dañado el nervio ciatico y peroneo",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:552,
+                    name:"Sindrome takayasu, artritis",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:553,
+                    name:"Trastorno psicopatico, cardiopatia",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:554,
+                    name:"Diabetes tipo 2, presión alta, daño renal, apnea y tiroides ",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:555,
+                    name:"Operada de hernia discal, artritis, problemas de memoria, ulcera, hipertensión ",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:556,
+                    name:"Sindrome de la nariz vacia ",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:557,
+                    name:"Insuficiencia renal,demencia senil  ",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:558,
+                    name:"Operado de hematomas cerebrales, dolores de cabeza, manchas negras en el cerebro",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:559,
+                    name:"Tumor maligno, epilepsia, diabetes, depresión, hipertensión, insuficiencia renal",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:560,
+                    name:"Glicemia alta, osteoporosis, radicolopatia cervical, microlitiasis renal bilateral",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:561,
+                    name:"Condición Progresiva del sistema Inmune en vagina e higado, neuropatia, condición renal",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:1
+                },
+                {
+                    id:562,
+                    name:"Mieloma multiple, trasplante autologo de medula osea",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:563,
+                    name:"Tumor cerebral, tiene activo solo la mitad del cuerpo",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:564,
+                    name:"Epilepsia mioclonica, deficit de atencion, bipolaridad",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:565,
+                    name:"Paraplejia , calculos renales",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:566,
+                    name:"Sarcodosis cutanea, nodulos hipoecoico con  hipervascularidad central y periferica, ritmo cardiaco acelerado",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:567,
+                    name:"Presión del nervio trigemino, trastorno temporomandibular, fuertes dolores de cabeza",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:568,
+                    name:"Vaginitis por trichomonas",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:569,
+                    name:"Absceso periadmidalino constantes",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:570,
+                    name:"Infección Campylobacter con diarreas constantes",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:571,
+                    name:"Paciente renal en dialisis ",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:572,
+                    name:"Nefritis",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:573,
+                    name:"Herida en el cordon espinal, artritis toraxica moderada, quiste benigno en un riñon",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:574,
+                    name:"Menopausia precoz, covid",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:575,
+                    name:"Pemphigus vulgaris, diabetes 1, presión alta",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:576,
+                    name:"Malformacion de chiari",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:577,
+                    name:"Sindrome de plummer",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:578,
+                    name:"neutropenia, leucopenia severa, plaquetas bajas",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:579,
+                    name:"Condición Progresiva del sistema Inmune en mamas, Arritmia cardiaca, diabetes tipo 1, sincopes vasovagales",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:1
+                },
+                {
+                    id:580,
+                    name:"Diabetes tipo 2, presión alta, higado graso, glaucoma, irregularidad mestrual",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:581,
+                    name:"Fibromialgua, cansancio cronico, inflamación de todo el cuerpo ",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:582,
+                    name:"retraso mental moderano, hipotiroidismo, resistencia a la insulina,bipolaridad",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:583,
+                    name:"Esofagitis, colum irritable",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:584,
+                    name:"Leucodistrofia severa de estado degenerativo",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:585,
+                    name:"Depresión endogena, ansieda aguda",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:586,
+                    name:"Fibromialgua, apnea de sueño, hashimoto, nodulos en tiroides, artritis reumatoide, obesidad morbida, migraña",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:587,
+                    name:"Purpura trombocitopenia inmunitaria",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:588,
+                    name:"Esquizofrenia",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:589,
+                    name:"Diabetes, hipertensión, problemas renales",
+                    category: "otros",
+                    idProtocolo:1
+                },
+                {
+                    id:590,
+                    name:"Condición Progresiva del sistema Inmune en piel - melanoma Clark IV",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:2
+                },
+                {
+                    id:591,
+                    name:"Condición Progresiva del sistema Inmune en cuello uterino",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:2
+                },
+                {
+                    id:592,
+                    name:"Mieloma Multiple",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:593,
+                    name:"Tumor de Schwann - Neurilenoma",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:594,
+                    name:"Condición Progresiva del sistema Inmune en Ganglios Supra e Infraclavicular derecho",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:2
+                },
+                {
+                    id:595,
+                    name:"Condición Progresiva del sistema Inmune en endometrio",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:2
+                },
+                {
+                    id:596,
+                    name:"Tricomoniasis",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:597,
+                    name:"Lchthyosis vulgaris (Ictiosis vulgar)",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:598,
+                    name:"Sindrome de good ",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:599,
+                    name:"sensación globo garganta",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:600,
+                    name:"Nefrocalcinosis",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:601,
+                    name:"Melanoma de dedo anular amputado",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:602,
+                    name:"Beta talasemia menor (anemia leve)",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:603,
+                    name:"Neuromielitis optica",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:604,
+                    name:"Fibrosis pulmonar bilaterial",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:605,
+                    name:"Liquen plano ",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:606,
+                    name:"Sobreviviente de Condición Progresiva del sistema Inmune en mamas",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:2
+                },
+                {
+                    id:607,
+                    name:"Adenoma hipofisiario, hiperprolactinemia, hipotiroidismo clinico, intolerancia biguanidas",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:608,
+                    name:"Depresion, falta de concentracion, anemia",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:609,
+                    name:"Aplasia medula severa",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:610,
+                    name:"Hepatomegalia, poliquitosis en higado y pancreas",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:611,
+                    name:"Tumor de seno con metastasi, con radioterapia ",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:612,
+                    name:"Mutación positivo, celulas nk elevadas",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:613,
+                    name:"Elefantitis en pierna derecha",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:614,
+                    name:"Tumor oido derecho, hipotiroidismo",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:615,
+                    name:"Tricotilomania, alopecia",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:616,
+                    name:"Purpura de schonlein - henoch",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:617,
+                    name:"Problemas con la prolactina, cambios de humor, sobre peso, ansiedad, gastritis, dolor en las articulaciones, colum inflamado",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:618,
+                    name:"Ulcera peptica en el estamago",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:619,
+                    name:"Condición Progresiva del sistema Inmune tipo 4 en riñon y pulmones",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:2
+                },
+                {
+                    id:620,
+                    name:"Padecio de covid, neumonia agravada, hizo cuadro de sepsis",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:621,
+                    name:"Sindrome antifosfolipidico, leucopenia, anemia leve, bocio multinodular, resistencia a la insulina, litiasis renal ",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:622,
+                    name:"Siringomelia",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:623,
+                    name:"Aplasia medula osea, hemoglobinuria paroxistica nocturna con esplenectomia",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:624,
+                    name:"Perdida de memoria a causa de una bacteria, esclerosis multiple",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:625,
+                    name:"Tumor cerebral anaplastico grado III",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:626,
+                    name:"Leucemia mieloide cronica",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:627,
+                    name:"Covid 19 siempre esta congestionado",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:628,
+                    name:"Lupus erimatoso, diabetes tipo 2",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:629,
+                    name:"Fibromialgia, osteoartritis, hipotiroidismo, hipoglicemia",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:630,
+                    name:"Culebrilla",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:631,
+                    name:"Anorexia nerviosa, trigliceros altos",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:632,
+                    name:"fibromialgia, migraña, gastritis cronica, hernias cervicales",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:633,
+                    name:"Espondiloartritis anquilosante, dolor de articulaciones",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:634,
+                    name:"Anemia, tuberculosis abdominal, dolores en las articulaciones",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:635,
+                    name:"Hemoglobina baja, fibromialgia",
+                    category: "otros",
+                    idProtocolo:2
+                },
+                {
+                    id:636,
+                    name:"Schwannoma ( Neurilenoma)",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:637,
+                    name:"Condición Progresiva del sistema Inmune en estomago - pulmon ",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:3
+                },
+                {
+                    id:638,
+                    name:"Condición Progresiva del sistema Inmune en esofago y vejiga",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:3
+                },
+                {
+                    id:639,
+                    name:"Nodulos Linfaticos ",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:640,
+                    name:"Gliobastoma",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:641,
+                    name:"leucemia mieloide crónica (LMC)",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:642,
+                    name:"Trasplante de medula osea /Linfoma de hodking - quimioterapia",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:643,
+                    name:"Condición Progresiva del sistema Inmune en Glandula Parotida",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:3
+                },
+                {
+                    id:644,
+                    name:"Tumor de Klastin",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:645,
+                    name:"Covid - manchas en los pulmones",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:646,
+                    name:"Condición Progresiva del sistema Inmune en prostata, recibe quimioterapia (Se extendio a los huesos etapa 4, gota (acumulación de acido urico en las articulaciones)",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:3
+                },
+                {
+                    id:647,
+                    name:"Tumor de comportamiento incierto de la glandula tiroides",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:646,
+                    name:"Condición Progresiva del sistema Inmune en mama, higado  y huesos, sindrome wolf parkinson ",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:3
+                },
+                {
+                    id:647,
+                    name:"Condición Progresiva del sistema Inmune en pancreas con metastasis en pulmones, desnutrición",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:3
+                },
+                {
+                    id:648,
+                    name:"Artritis reumatoide - sindrome sjogrens",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:649,
+                    name:"Condición Progresiva del sistema Inmune grado 4 metastasis en columna y pulmon",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:3
+                },
+                {
+                    id:650,
+                    name:"VIH undetectable, carcinoma pulmon e higado etapa 4",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:651,
+                    name:"Chikungunya",
+                    category: "otros",
+                    idProtocolo:3
+                },
+                {
+                    id:652,
+                    name:"Condición Progresiva del sistema Inmune en pancreas, hipertensión ",
+                    category: "Estado 1,2,3 y 4",
+                    idProtocolo:3
+                },
 
             ],
             protocols:[
