@@ -2544,12 +2544,12 @@ export default new Vuex.Store({
                     category: "otros",
                     idProtocolo:1
                 },
-                {
-                    id:535,
-                    name:"Lupus (sle) pericarditis- Sindrome de raynaud - covid actualmente  ",
-                    category: "otros",
-                    idProtocolo:1
-                },
+                // {
+                //     id:535,
+                //     name:"Lupus (sle) pericarditis- Sindrome de raynaud - covid actualmente  ",
+                //     category: "otros",
+                //     idProtocolo:1
+                // },
                 {
                     id:536,
                     name:"Tuberculosis , gastritis cronica",
@@ -2778,12 +2778,12 @@ export default new Vuex.Store({
                     category: "otros",
                     idProtocolo:1
                 },
-                {
-                    id:574,
-                    name:"Menopausia precoz, covid",
-                    category: "otros",
-                    idProtocolo:1
-                },
+                // {
+                //     id:574,
+                //     name:"Menopausia precoz, covid",
+                //     category: "otros",
+                //     idProtocolo:1
+                // },
                 {
                     id:575,
                     name:"Pemphigus vulgaris, diabetes 1, presión alta",
@@ -3054,12 +3054,12 @@ export default new Vuex.Store({
                     category: "Estado 1,2,3 y 4",
                     idProtocolo:2
                 },
-                {
-                    id:620,
-                    name:"Padecio de covid, neumonia agravada, hizo cuadro de sepsis",
-                    category: "otros",
-                    idProtocolo:2
-                },
+                // {
+                //     id:620,
+                //     name:"Padecio de covid, neumonia agravada, hizo cuadro de sepsis",
+                //     category: "otros",
+                //     idProtocolo:2
+                // },
                 {
                     id:621,
                     name:"Sindrome antifosfolipidico, leucopenia, anemia leve, bocio multinodular, resistencia a la insulina, litiasis renal ",
@@ -3096,12 +3096,12 @@ export default new Vuex.Store({
                     category: "otros",
                     idProtocolo:2
                 },
-                {
-                    id:627,
-                    name:"Covid 19 siempre esta congestionado",
-                    category: "otros",
-                    idProtocolo:2
-                },
+                // {
+                //     id:627,
+                //     name:"Covid 19 siempre esta congestionado",
+                //     category: "otros",
+                //     idProtocolo:2
+                // },
                 {
                     id:628,
                     name:"Lupus erimatoso, diabetes tipo 2",
@@ -3204,12 +3204,12 @@ export default new Vuex.Store({
                     category: "otros",
                     idProtocolo:3
                 },
-                {
-                    id:645,
-                    name:"Covid - manchas en los pulmones",
-                    category: "otros",
-                    idProtocolo:3
-                },
+                // {
+                //     id:645,
+                //     name:"Covid - manchas en los pulmones",
+                //     category: "otros",
+                //     idProtocolo:3
+                // },
                 {
                     id:646,
                     name:"Condición Progresiva del sistema Inmune en prostata, recibe quimioterapia (Se extendio a los huesos etapa 4, gota (acumulación de acido urico en las articulaciones)",
